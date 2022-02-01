@@ -1,0 +1,69 @@
+@import 'src/fonts/font.css';
+
+:root {
+	--main-purple: #6200EE;
+	--main-radius: 6px;
+	--light-purple: #58589C;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  background-color: var(--body-color);
+}
+
+* {transition: 0.3s ease-in-out; font-family: "Montserrat", serif;}
+button:focus {outline: none;}
+input:focus {outline: none;}
+textarea:focus {outline: none;}
+
+::-webkit-scrollbar {background: rgba(255, 255, 255, 0); width: 8px;}
+::-webkit-scrollbar-thumb {background: var(--scrollbar-thumb-color); border-radius: 0px;}
+::-webkit-scrollbar-track-piece {background: transparent;}
+
+#main-block {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	background: transparent;
+	text-align: center;
+	border: 2px solid transparent;
+	width: 80%;
+}
+
+#main-header-block > div:nth-of-type(1) {
+	font-size: 20pt;
+	letter-spacing: 1.5px;
+	color: black;
+}
+
+#main-search-input {
+	background-color: var(--main-purple);
+	color: white;
+	padding: 6px;
+	width: 400px;
+	font-size: 14pt;
+	letter-spacing: 0.5px;
+	border: 2px solid var(--main-purple);
+	border-radius: var(--main-radius);
+}
+
+#main-search-input::placeholder {color: white;}
+
+#main-search-button {
+	background-color: var(--main-purple);
+	color: white;
+	padding: 6px;
+	width: 110px;
+	text-align: center;
+	font-size: 14pt;
+	letter-spacing: 1px;
+	border: 2px solid var(--main-purple);
+	border-radius: var(--main-radius);
+}
+#main-search-input:focus, #main-search-button:active, #main-search-button:hover {
+	background-color: white;
+	color: black;
+}
+
