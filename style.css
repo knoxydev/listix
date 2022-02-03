@@ -23,7 +23,7 @@ ul, li {padding: 0;margin: 0;list-style: none;}
 
 
 ::-webkit-scrollbar {background: rgba(255, 255, 255, 1); width: 7px;}
-::-webkit-scrollbar-thumb {background: transparent; border-radius: 0px;}
+::-webkit-scrollbar-thumb {background: var(--light-purple); border-radius: 0px;}
 ::-webkit-scrollbar-track-piece {background: transparent;}
 
 #main-block {
@@ -79,7 +79,10 @@ ul, li {padding: 0;margin: 0;list-style: none;}
 	margin-top: 70px;
 }
 
-#main-content-block > div {margin-bottom: 60px;}
+#main-content-block > div {
+	margin-bottom: 60px;
+	display: block;
+}
 #main-content-block > div > a {
 	text-decoration: none;
 	font-size: 20pt;

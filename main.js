@@ -1,4 +1,4 @@
-let inpWords = ['code editor', 'analyze', 'generate', 'manage', 'tool'];
+let inpWords = ['code editor', 'analyze', 'generate', 'manage', 'tool', 'background'];
 
 window.onload = () => {
 	randomPlaceholderTxt();
@@ -11,6 +11,7 @@ function randomPlaceholderTxt() {
 }
 
 function createContent() {
+	document.getElementById("main-content-block").innerHTML = "";
 
 	function createList(xItem) {
 		let mainUl = document.createElement('ul');
@@ -45,10 +46,28 @@ function createContent() {
 }
 
 function filterContent() {
-	let input = document.getElementById("main-search-input").value;
+	let inpText = document.getElementById("main-search-input").value.toLowerCase();
+	if (inpText == "") return createContent();
 
-	//let content = document.querySelectorAll("#main-content-block > div > ul > li");
+
+	let postsHave = [];
+	let postsHavent = [];
+
+	for (let item of base) {
+		if (item['type'].includes(inpText) == true) postsHave.push(`post-${item['id']}`);
+		else postsHavent.push(`post-${item['id']}`);
+	}
+
+	for (let item of postsHave) document.getElementById(item).style.display = "block";
+	for (let item of postsHavent) document.getElementById(item).style.display = "none";
 }
 
-document.getElementById("main-search-button").addEventListener("click", (e) => filterContent());
+document.getElementById("main-search-input").addEventListener("input", (e) => filterContent());
 
+// for (let item2 of item.children[2].children) {
+// 			if (inpText == item2.innerHTML) {
+// 				console.log("true")
+// 			} else {
+// 				console.log(item.style.display = "none")
+// 			}
+// 		}

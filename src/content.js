@@ -10,7 +10,7 @@ let base = [
 		"name" : "CSS Gradient",
 		"url" : "https://cssgradient.io/",
 		"description" : "CSS Gradient is a happy little website and free tool that lets you create a gradient background for websites",
-		"type" : ["css", "gradient", "background", "tool"],
+		"type" : ["css", "gradient", "background", "tool", "page"],
 		"id" : "0"
 	},
 	{
