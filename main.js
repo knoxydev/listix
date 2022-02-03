@@ -49,7 +49,6 @@ function filterContent() {
 	let inpText = document.getElementById("main-search-input").value.toLowerCase();
 	if (inpText == "") return createContent();
 
-
 	let postsHave = [];
 	let postsHavent = [];
 
@@ -58,16 +57,20 @@ function filterContent() {
 		else postsHavent.push(`post-${item['id']}`);
 	}
 
-	for (let item of postsHave) document.getElementById(item).style.display = "block";
+	for (let item of postsHave) {
+		let x = document.getElementById(item);
+		document.getElementById(item).style.display = "block";
+
+		for (let item of x.children[2].children) {
+			if (inpText == item.innerHTML) {
+				item.style.backgroundColor = "var(--medium-dark-purple)";
+				item.style.color = "var(--light-purple)";
+				item.style.border = "border: 2px solid var(--medium-dark-purple)";
+			}
+		}
+	}
 	for (let item of postsHavent) document.getElementById(item).style.display = "none";
 }
 
 document.getElementById("main-search-input").addEventListener("input", (e) => filterContent());
 
-// for (let item2 of item.children[2].children) {
-// 			if (inpText == item2.innerHTML) {
-// 				console.log("true")
-// 			} else {
-// 				console.log(item.style.display = "none")
-// 			}
-// 		}
