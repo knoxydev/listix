@@ -22,8 +22,8 @@ textarea:focus {outline: none;}
 ul, li {padding: 0;margin: 0;list-style: none;}
 
 
-::-webkit-scrollbar {background: rgba(255, 255, 255, 0); width: 8px;}
-::-webkit-scrollbar-thumb {background: var(--scrollbar-thumb-color); border-radius: 0px;}
+::-webkit-scrollbar {background: rgba(255, 255, 255, 1); width: 7px;}
+::-webkit-scrollbar-thumb {background: transparent; border-radius: 0px;}
 ::-webkit-scrollbar-track-piece {background: transparent;}
 
 #main-block {
@@ -39,7 +39,8 @@ ul, li {padding: 0;margin: 0;list-style: none;}
 #main-header-block > div:nth-of-type(1) {
 	font-size: 20pt;
 	letter-spacing: 1.5px;
-	color: black;
+	color: var(--medium-dark-purple);
+	font-weight: bold;
 }
 
 #main-search-input {
@@ -83,7 +84,10 @@ ul, li {padding: 0;margin: 0;list-style: none;}
 	text-decoration: none;
 	font-size: 20pt;
 	letter-spacing: 0.5px;
+	color: var(--medium-dark-purple);
+	font-weight: bold;
 }
+#main-content-block > div > a:visited {color: var(--medium-dark-purple)}
 #main-content-block > div > p {
 	font-size: 15pt;
 	color: var(--dark-grey);
