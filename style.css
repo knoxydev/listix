@@ -2,8 +2,10 @@
 
 :root {
 	--main-purple: #6200EE;
+	--medium-dark-purple: #420C88;
+	--dark-grey: #272727;
 	--main-radius: 6px;
-	--light-purple: #58589C;
+	--light-purple: #D0BAEE;
 }
 
 body {
@@ -17,6 +19,8 @@ body {
 button:focus {outline: none;}
 input:focus {outline: none;}
 textarea:focus {outline: none;}
+ul, li {padding: 0;margin: 0;list-style: none;}
+
 
 ::-webkit-scrollbar {background: rgba(255, 255, 255, 0); width: 8px;}
 ::-webkit-scrollbar-thumb {background: var(--scrollbar-thumb-color); border-radius: 0px;}
@@ -39,22 +43,20 @@ textarea:focus {outline: none;}
 }
 
 #main-search-input {
-	background-color: var(--main-purple);
-	color: white;
-	padding: 6px;
+	background-color: white;
+	color: var(--dark-grey);
+	padding: 8px;
 	width: 400px;
 	font-size: 14pt;
-	letter-spacing: 0.5px;
+	letter-spacing: 1px;
 	border: 2px solid var(--main-purple);
 	border-radius: var(--main-radius);
 }
 
-#main-search-input::placeholder {color: white;}
-
 #main-search-button {
 	background-color: var(--main-purple);
 	color: white;
-	padding: 6px;
+	padding: 8px;
 	width: 110px;
 	text-align: center;
 	font-size: 14pt;
@@ -62,8 +64,45 @@ textarea:focus {outline: none;}
 	border: 2px solid var(--main-purple);
 	border-radius: var(--main-radius);
 }
-#main-search-input:focus, #main-search-button:active, #main-search-button:hover {
+#main-search-button:active, #main-search-button:hover {
 	background-color: white;
 	color: black;
+}
+
+#main-content-block {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	padding: 14px;
+	margin-top: 70px;
+}
+
+#main-content-block > div {margin-bottom: 60px;}
+#main-content-block > div > a {
+	text-decoration: none;
+	font-size: 20pt;
+	letter-spacing: 0.5px;
+}
+#main-content-block > div > p {
+	font-size: 15pt;
+	color: var(--dark-grey);
+}
+#main-content-block > div > ul {
+	font-size: 12pt;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+#main-content-block > div > ul > li {
+	border: 2px solid var(--light-purple);
+	padding: 4px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-radius: var(--main-radius);
+	background-color: var(--light-purple);
+	color: var(--medium-dark-purple);
+	letter-spacing: 0.5px;
+	margin-right: 10px;
 }
 
