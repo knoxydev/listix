@@ -21,7 +21,6 @@ input:focus {outline: none;}
 textarea:focus {outline: none;}
 ul, li {padding: 0;margin: 0;list-style: none;}
 
-
 ::-webkit-scrollbar {background: rgba(255, 255, 255, 1); width: 7px;}
 ::-webkit-scrollbar-thumb {background: var(--light-purple); border-radius: 0px;}
 ::-webkit-scrollbar-track-piece {background: transparent;}
@@ -50,7 +49,7 @@ ul, li {padding: 0;margin: 0;list-style: none;}
 	width: 400px;
 	font-size: 14pt;
 	letter-spacing: 1px;
-	border: 2px solid var(--main-purple);
+	border: 2px solid var(--medium-dark-purple);
 	border-radius: var(--main-radius);
 }
 
@@ -60,7 +59,7 @@ ul, li {padding: 0;margin: 0;list-style: none;}
 	margin-right: auto;
 	text-align: left;
 	padding: 14px;
-	margin-top: 70px;
+	margin-top: 60px;
 }
 
 #main-content-block > div {
