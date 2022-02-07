@@ -1,6 +1,9 @@
 @media screen and (max-width: 540px) {
 	#main-header-block > div:nth-of-type(1) {font-size: 18pt;}
-	#main-content-block {padding: 10px;}
+	#main-content-block {
+		padding: 10px;
+		width: 90%;
+	}
 	#main-content-block > div > a {font-size: 18pt;}
 	#main-content-block > div > p {font-size: 13pt;}
 	#main-search-input {
@@ -13,4 +16,5 @@
 		padding-right: 6px;
 		margin-right: 8px;
 	}
+
 }
