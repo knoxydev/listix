@@ -13,7 +13,6 @@ function randomPlaceholderTxt() {
 
 function randomArrPlcHolder() {
 	let arr = [];
-
 	let copyArrElem = (y) => {for (let x of y) arr.push(x);}
 	for (let x of base) copyArrElem(x['type']);
 	arr.sort()
