@@ -82,6 +82,27 @@ let base = [
 		"description" : "Analyzes the speed of your typing on the keyboard",
 		"type" : ["tool", "analyze", "speed"],
 		"id" : "0"
+	},
+	{
+		"name" : "Fluent Design",
+		"url" : "https://www.microsoft.com/design/fluent/#/",
+		"description" : "Fluent is an open-source, cross-platform design system that gives designers and developers the frameworks they need to create engaging product experiences-accessibility, internationalization, and performance included",
+		"type" : ["website", "design", "page"],
+		"id" : "0"
+	},
+	{
+		"name" : "Helix",
+		"url" : "https://helix-editor.com/",
+		"description" : "A post-modern text editor",
+		"type" : ["tool", "code editor", "text editor"],
+		"id" : "0"
+	},
+	{
+		"name" : "Kono Store",
+		"url" : "https://kono.store/",
+		"description" : "Online keyboard store",
+		"type" : ["website", "page", "store", "shop"],
+		"id" : "0"
 	}
 ];
 
