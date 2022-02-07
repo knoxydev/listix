@@ -54,22 +54,6 @@ ul, li {padding: 0;margin: 0;list-style: none;}
 	border-radius: var(--main-radius);
 }
 
-#main-search-button {
-	background-color: var(--main-purple);
-	color: white;
-	padding: 8px;
-	width: 110px;
-	text-align: center;
-	font-size: 14pt;
-	letter-spacing: 1px;
-	border: 2px solid var(--main-purple);
-	border-radius: var(--main-radius);
-}
-#main-search-button:active, #main-search-button:hover {
-	background-color: white;
-	color: black;
-}
-
 #main-content-block {
 	width: 80%;
 	margin-left: auto;
@@ -111,5 +95,6 @@ ul, li {padding: 0;margin: 0;list-style: none;}
 	color: var(--medium-dark-purple);
 	letter-spacing: 0.5px;
 	margin-right: 10px;
+	user-select: none;
 }
 

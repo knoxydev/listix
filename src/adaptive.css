@@ -1,0 +1,26 @@
+@media screen and (max-width: 540px) {
+	#main-header-block > div:nth-of-type(1) {
+		font-size: 18pt;
+	}
+	#main-content-block {
+		padding: 10px;
+	}
+	#main-content-block > div > a {
+		font-size: 18pt;
+	}
+	#main-content-block > div > p {
+		font-size: 13pt;
+	}
+	#main-search-input {
+		padding: 6px;
+		width: 350px;
+	}
+	#main-content-block > div > ul {
+		font-size: 10pt;
+	}
+	#main-content-block > div > ul > li {
+		padding-left: 6px;
+		padding-right: 6px;
+		margin-right: 8px;
+	}
+}

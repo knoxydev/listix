@@ -58,8 +58,22 @@ let base = [
 	{
 		"name" : "Hyper",
 		"url" : "https://hyper.is/",
-		"description" : "Project is to create a beautiful and extensible experience for command-line interface users, built on open web standards.",
+		"description" : "Project is to create a beautiful and extensible experience for command-line interface users, built on open web standards",
 		"type" : ["cmd", "command-line", "terminal", "tool"],
+		"id" : "0"
+	},
+	{
+		"name" : "Modern JavaScript Tutorial",
+		"url" : "https://javascript.info/",
+		"description" : "Here is a tutorial on JavaScript, starting with the basics, which includes many subtleties and features of JavaScript/DOM",
+		"type" : ["tutorial", "js", "javascript", "documentation"],
+		"id" : "0"
+	},
+	{
+		"name" : "Namelix",
+		"url" : "https://namelix.com/",
+		"description" : "Generate a short, brandable business name using artificial intelligence",
+		"type" : ["tool", "generator", "page", "website"],
 		"id" : "0"
 	}
 ];
