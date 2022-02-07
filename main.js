@@ -1,6 +1,7 @@
-let inpWords = ['code editor', 'analyze', 'generate', 'manage', 'tool', 'background'];
+let inpWords = [];
 
 window.onload = () => {
+	randomArrPlcHolder();
 	randomPlaceholderTxt();
 	createContent();
 }
@@ -8,6 +9,15 @@ window.onload = () => {
 function randomPlaceholderTxt() {
 	let word = inpWords[Math.floor(Math.random() * inpWords.length)];
 	document.getElementById("main-search-input").placeholder = `Enter for example: ${word}`;
+}
+
+function randomArrPlcHolder() {
+	let arr = [];
+
+	let copyArrElem = (y) => {for (let x of y) arr.push(x);}
+	for (let x of base) copyArrElem(x['type']);
+	arr.sort()
+	inpWords = arr.filter((item, pos) => arr.indexOf(item) == pos);
 }
 
 function createContent() {
