@@ -40,6 +40,27 @@ let base = [
 		"description" : "Create and share beautiful images of your source code",
 		"type" : ["code", "tool", "design"],
 		"id" : "0"
+	},
+	{
+		"name" : "Glassmorphism CSS Generator",
+		"url" : "https://hype4.academy/tools/glassmorphism-generator",
+		"description" : "Flexible generation of beautiful CSS glassmorphism",
+		"type" : ["tool", "design", "generator", "background", "css"],
+		"id" : "0"
+	},
+	{
+		"name" : "JSON Parser",
+		"url" : "http://json.parser.online.fr/",
+		"description" : "Website for parsing json files",
+		"type" : ["tool", "parser", "character", "file"],
+		"id" : "0"
+	},
+	{
+		"name" : "Hyper",
+		"url" : "https://hyper.is/",
+		"description" : "Project is to create a beautiful and extensible experience for command-line interface users, built on open web standards.",
+		"type" : ["cmd", "command-line", "terminal", "tool"],
+		"id" : "0"
 	}
 ];
 
