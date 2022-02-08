@@ -103,8 +103,16 @@ let base = [
 		"description" : "Online keyboard store",
 		"type" : ["website", "page", "store", "shop"],
 		"id" : "0"
+	},
+	{
+		"name" : "Left",
+		"url" : "https://100r.co/site/left.html",
+		"description" : "Left is graphical plain-text editor written in Uxntal. Left doesn't do much, but packs many useful features in a tiny 13kb rom",
+		"type" : ["tool", "text-editor"],
+		"id" : "0"
 	}
 ];
+
 
 let shuffle = (array) => {
   for (let i = array.length - 1; i > 0; i--) {
