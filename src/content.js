@@ -31,7 +31,7 @@ let base = [
 		"name" : "Code IMG",
 		"url" : "https://codeimg.io/",
 		"description" : "It will make a beautiful picture out of your code fragment",
-		"type" : ["code", "tool", "design"],
+		"type" : ["code", "tool", "design", "programming"],
 		"id" : "0"
 	},
 	{
@@ -45,28 +45,28 @@ let base = [
 		"name" : "JSON Parser",
 		"url" : "http://json.parser.online.fr/",
 		"description" : "Website for parsing json files",
-		"type" : ["tool", "parser", "character", "file"],
+		"type" : ["tool", "parser", "character", "file", "programming"],
 		"id" : "0"
 	},
 	{
 		"name" : "Carbon",
 		"url" : "hhttps://carbon.now.sh/",
 		"description" : "Create and share beautiful images of your source code",
-		"type" : ["code", "tool", "design"],
+		"type" : ["code", "tool", "design", "programming"],
 		"id" : "0"
 	},
 	{
 		"name" : "Hyper",
 		"url" : "https://hyper.is/",
 		"description" : "Project is to create a beautiful and extensible experience for command-line interface users, built on open web standards",
-		"type" : ["cmd", "command-line", "terminal", "tool"],
+		"type" : ["cmd", "command-line", "terminal", "tool", "programming"],
 		"id" : "0"
 	},
 	{
 		"name" : "Modern JavaScript Tutorial",
 		"url" : "https://javascript.info/",
 		"description" : "Here is a tutorial on JavaScript, starting with the basics, which includes many subtleties and features of JavaScript/DOM",
-		"type" : ["tutorial", "js", "javascript", "documentation"],
+		"type" : ["tutorial", "js", "javascript", "documentation", "programming"],
 		"id" : "0"
 	},
 	{
@@ -94,7 +94,7 @@ let base = [
 		"name" : "Helix",
 		"url" : "https://helix-editor.com/",
 		"description" : "A post-modern text editor",
-		"type" : ["tool", "code-editor", "text-editor"],
+		"type" : ["tool", "code-editor", "text-editor", "programming"],
 		"id" : "0"
 	},
 	{
@@ -110,9 +110,22 @@ let base = [
 		"description" : "Left is graphical plain-text editor written in Uxntal. Left doesn't do much, but packs many useful features in a tiny 13kb rom",
 		"type" : ["tool", "text-editor"],
 		"id" : "0"
+	},
+	{
+		"name" : "Zen",
+		"url" : "https://zen.unit.ms/",
+		"description" : "A functional online text editor with a minimalistic design",
+		"type" : ["tool", "text-editor", "website", "markdown"],
+		"id" : "0"
+	},
+	{
+		"name" : "Orca",
+		"url" : "https://100r.co/site/orca.html",
+		"description" : "Orca is a two-dimensional esoteric programming language in which every letter of the alphabet is an operator, where lowercase letters operate on bang, uppercase letters operate each frame",
+		"type" : ["tool", "code", "programming"],
+		"id" : "0"
 	}
 ];
-
 
 let shuffle = (array) => {
   for (let i = array.length - 1; i > 0; i--) {
