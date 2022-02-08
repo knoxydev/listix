@@ -94,7 +94,7 @@ let base = [
 		"name" : "Helix",
 		"url" : "https://helix-editor.com/",
 		"description" : "A post-modern text editor",
-		"type" : ["tool", "code editor", "text editor"],
+		"type" : ["tool", "code-editor", "text-editor"],
 		"id" : "0"
 	},
 	{

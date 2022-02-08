@@ -56,6 +56,11 @@ function createContent() {
 
 function filterContent() {
 	let inpText = document.getElementById("main-search-input").value.toLowerCase();
+
+	if (inpText.charAt(inpText.length - 1) == " ") {
+		inpText = inpText.slice(0, -1);
+		document.getElementById("main-search-input").value = inpText;
+	}
 	if (inpText == "") return createContent();
 
 	let postsHave = [];
