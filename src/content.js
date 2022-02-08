@@ -87,7 +87,7 @@ let base = [
 		"name" : "Fluent Design",
 		"url" : "https://www.microsoft.com/design/fluent/#/",
 		"description" : "Fluent is an open-source, cross-platform design system that gives designers and developers the frameworks they need to create engaging product experiences-accessibility, internationalization, and performance included",
-		"type" : ["website", "design", "page"],
+		"type" : ["website", "design", "page", "tutorial"],
 		"id" : "0"
 	},
 	{
@@ -105,6 +105,14 @@ let base = [
 		"id" : "0"
 	}
 ];
+
+let shuffle = (array) => {
+  for (let i = array.length - 1; i > 0; i--) {
+    let j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+}
+shuffle(base);
 
 let postNumbering = (x = 0) => base.forEach((item) => item['id'] = x += 1);
 postNumbering();
