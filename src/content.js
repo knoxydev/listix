@@ -124,8 +124,30 @@ let base = [
 		"description" : "Orca is a two-dimensional esoteric programming language in which every letter of the alphabet is an operator, where lowercase letters operate on bang, uppercase letters operate each frame",
 		"type" : ["tool", "code", "programming"],
 		"id" : "0"
+	},
+	{
+		"name" : "OpenNetMeter",
+		"url" : "https://github.com/Ashfaaq18/OpenNetMeter",
+		"description" : "A simple program to monitor your network/data usage. Made for the average windows user",
+		"type" : ["windows", "monitor", "network", "internet", "analyze", "tool"],
+		"id" : "0"
+	},
+	{
+		"name" : "DevToys",
+		"url" : "https://devtoys.app/",
+		"description" : "An offline Windows app that helps developers in daily tasks",
+		"type" : ["windows", "tool", "programming", "code", "markdown"],
+		"id" : "0"
+	},
+	{
+		"name" : "Notally",
+		"url" : "https://play.google.com/store/apps/details?id=com.omgodse.notally",
+		"description" : "A beautiful notes app",
+		"type" : ["android", "tool", "notes", "text-editor"],
+		"id" : "0"
 	}
 ];
+
 
 let shuffle = (array) => {
   for (let i = array.length - 1; i > 0; i--) {
