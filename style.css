@@ -99,4 +99,8 @@ ul, li {padding: 0;margin: 0;list-style: none;}
 	user-select: none;
 	white-space: nowrap;
 }
-
+#main-content-block > div > ul > li:hover {
+	border: 2px solid var(--medium-dark-purple);
+	background-color: var(--medium-dark-purple);
+	color: white;
+}

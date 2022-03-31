@@ -145,9 +145,15 @@ let base = [
 		"description" : "A beautiful notes app",
 		"type" : ["android", "tool", "notes", "text-editor"],
 		"id" : "0"
+	},
+	{
+		"name" : "Poet",
+		"url" : "https://poet.so/",
+		"description" : "Create beautiful images of Twitter posts",
+		"type" : ["tool", "website", "design"],
+		"id" : "0"
 	}
 ];
-
 
 let shuffle = (array) => {
   for (let i = array.length - 1; i > 0; i--) {
