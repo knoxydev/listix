@@ -73,7 +73,7 @@ function filterContent() {
 		for (let item of x.children[2].children) {
 			if (inpText == item.innerHTML) {
 				item.style.backgroundColor = "var(--medium-dark-purple)";
-				item.style.color = "var(--light-purple)";
+				item.style.color = "white";
 				item.style.border = "border: 2px solid var(--medium-dark-purple)";
 			}
 		}
