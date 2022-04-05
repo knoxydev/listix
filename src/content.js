@@ -143,7 +143,7 @@ let base = [
 		"name" : "Notally",
 		"url" : "https://play.google.com/store/apps/details?id=com.omgodse.notally",
 		"description" : "A beautiful notes app",
-		"type" : ["android", "tool", "notes", "text-editor"],
+		"type" : ["android", "tool", "notes", "text-editor", "app"],
 		"id" : "0"
 	},
 	{
@@ -151,6 +151,20 @@ let base = [
 		"url" : "https://poet.so/",
 		"description" : "Create beautiful images of Twitter posts",
 		"type" : ["tool", "website", "design"],
+		"id" : "0"
+	},
+	{
+		"name" : "Lite",
+		"url" : "https://github.com/rxi/lite",
+		"description" : "Lite is a lightweight text editor written mostly in Lua — it aims to provide something practical, pretty, small and fast, implemented as simply as possible; easy to modify and extend, or to use without doing either",
+		"type" : ["tool", "code-editor", "code", "programming"],
+		"id" : "0"
+	},
+		{
+		"name" : "Purelist: Minimal To-Do List",
+		"url" : "https://apps.apple.com/us/app/purelist/id1549367431?platform=iphone",
+		"description" : "The most intuitive and easy to use list app for you. All your Tasks, Notes, and Reminders can be done with this app alone. Simple and minimal interface, no need to learn how to use it",
+		"type" : ["app", "to-do", "ios"],
 		"id" : "0"
 	}
 ];
