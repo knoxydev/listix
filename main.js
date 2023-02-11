@@ -22,7 +22,8 @@ function randomArrPlcHolder() {
 function createContent() {
 	document.getElementById("main-content-block").innerHTML = "";
 
-	function createList(xItem) {
+	const createList = (xItem) =>
+	{
 		let mainUl = document.createElement('ul');
 
 		for (let item of xItem['type']) {
@@ -32,23 +33,41 @@ function createContent() {
 		}
 
 		return mainUl;
-	}
+	};
+
+	const get_links = (x) =>
+	{
+		let linksDiv = document.createElement("div");
+		linksDiv.setAttribute("id", "app-links");
+		const keys = Object.entries(x["url"]);
+
+		for (let item of keys) {
+			let link = document.createElement("a");
+			link.setAttribute("href", item[1]);
+			link.innerHTML = item[0];
+			linksDiv.append(link);
+		}
+
+		return linksDiv;
+	};
 
 	for (let item of base) {
 		let mainDiv = document.createElement('div');
-		let mainUrl = document.createElement('a');
-		let mainDes = document.createElement('p');
+		let mainTitle = document.createElement('div');
+		let mainDes = document.createElement('p'); 
 
 		mainDiv.setAttribute("id", `post-${item['id']}`);
-		mainUrl.setAttribute("href", item['url']);
-		mainUrl.innerHTML = item['name'];
+		mainTitle.innerHTML = item['name'];
 		mainDes.innerHTML = item['description'];
+		mainTitle.setAttribute("id", "app-title");
 
 		let list = createList(item);
 
-		mainDiv.append(mainUrl);
+		mainDiv.append(mainTitle);
 		mainDiv.append(mainDes);
-		mainDiv.append(list)
+		mainDiv.append(get_links(item));
+		mainDiv.append(document.createElement('hr'));
+		mainDiv.append(list);
 
 		document.getElementById("main-content-block").append(mainDiv);
 	}
@@ -70,11 +89,11 @@ function filterContent() {
 		let x = document.getElementById(item);
 		document.getElementById(item).style.display = "block";
 
-		for (let item of x.children[2].children) {
+		for (let item of x.children[4].children) {
 			if (inpText == item.innerHTML) {
 				item.style.backgroundColor = "var(--medium-dark-purple)";
 				item.style.color = "white";
-				item.style.border = "border: 2px solid var(--medium-dark-purple)";
+				item.style.border = "2px solid var(--medium-dark-purple)";
 			}
 		}
 	}
