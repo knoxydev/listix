@@ -4,7 +4,7 @@
 		padding: 10px;
 		width: 95%;
 	}
-	#main-content-block > div > a {font-size: 18pt;}
+	#app-title {font-size: 18pt;}
 	#main-content-block > div > p {font-size: 13pt;}
 	#main-search-input {
 		padding: 6px;
