@@ -1,9 +1,11 @@
 let inpWords = [];
+let tags = [];
 
 window.onload = () => {
 	randomArrPlcHolder();
 	randomPlaceholderTxt();
 	createContent();
+	assemble_tags(base);
 }
 
 function randomPlaceholderTxt() {
@@ -17,6 +19,20 @@ function randomArrPlcHolder() {
 	for (let x of base) copyArrElem(x['type']);
 	arr.sort()
 	inpWords = arr.filter((item, pos) => arr.indexOf(item) == pos);
+}
+
+function assemble_tags(x) {
+	const test = [];
+
+	base.forEach((item) => { for (const value of item['type']) test.push(value); });
+	tags = [...new Set(test)];
+	tags.sort();
+	
+	for (const i of tags) {
+  	let tagDiv = document.createElement('div');
+  	tagDiv.innerHTML = i;
+  	document.getElementById("tags-block").append(tagDiv);
+	}
 }
 
 function createContent() {
@@ -98,6 +114,23 @@ function filterContent() {
 		}
 	}
 	for (let item of postsHavent) document.getElementById(item).style.display = "none";
+
+
+	const filter_tags = () => {
+
+		for (const i of document.querySelectorAll("#tags-block > div")) {
+  		if (i.innerHTML == inpText) {
+  			i.style.backgroundColor = "var(--medium-dark-purple)";
+				i.style.color = "white";
+				i.style.border = "2px solid var(--medium-dark-purple)";
+  		} else {
+  			i.style.backgroundColor = "var(--light-purple)";
+				i.style.color = "var(--medium-dark-purple)";
+				i.style.border = "2px solid var(--light-purple)";
+  		}
+		}
+	}
+	filter_tags();
 }
 
 document.getElementById("main-search-input").addEventListener("input", (e) => filterContent());
