@@ -78,7 +78,7 @@ const base = [
 			"website" : "https://hyper.is/",
 		},
 		"description" : "Project is to create a beautiful and extensible experience for command-line interface users, built on open web standards",
-		"type" : ["cmd", "command-line", "terminal", "tool", "programming", "windows", "macos", "linux"],
+		"type" : ["command-line", "tool", "programming", "windows", "macos", "linux"],
 		"id" : "0"
 	},
 	{
@@ -170,7 +170,7 @@ const base = [
 			"github" : "https://github.com/Ashfaaq18/OpenNetMeter",
 		},
 		"description" : "A simple program to monitor your network/data usage. Made for the average windows user",
-		"type" : ["windows", "monitor", "network", "internet", "analyze", "tool"],
+		"type" : ["windows", "monitoring", "network", "internet", "analyze", "tool"],
 		"id" : "0"
 	},
 	{
@@ -210,7 +210,7 @@ const base = [
 		"url" : {
 			"github" : "https://github.com/rxi/lite",
 		},
-		"description" : "Lite is a lightweight text editor written mostly in Lua — it aims to provide something practical, pretty, small and fast, implemented as simply as possible; easy to modify and extend, or to use without doing either",
+		"description" : "Lite is a lightweight text editor written mostly in Lua - it aims to provide something practical, pretty, small and fast, implemented as simply as possible; easy to modify and extend, or to use without doing either",
 		"type" : ["tool", "code-editor", "code", "programming", "windows", "linux"],
 		"id" : "0"
 	},
@@ -300,7 +300,7 @@ const base = [
 			"github" : "https://github.com/withfig",
 		},
 		"description" : "The next-generation command line",
-		"type" : ["tool", "windows", "macos", "linux", "programming", "cmd", "command-line", "terminal"],
+		"type" : ["tool", "windows", "macos", "linux", "programming", "command-line"],
 		"id" : "0"
 	},
 	{
@@ -341,7 +341,7 @@ const base = [
 			"gitlab" : "https://gitlab.com/wireshark/wireshark/-/tree/master",
 		},
 		"description" : "The world’s foremost and widely-used network protocol analyzer",
-		"type" : ["tool", "windows", "macos", "analyze", "network", "internet", "monitor"],
+		"type" : ["tool", "windows", "macos", "analyze", "network", "internet", "monitoring"],
 		"id" : "0"
 	},
 	{
@@ -380,6 +380,91 @@ const base = [
 		},
 		"description" : "This page contains statistics about the distribution of Android versions. All statistic data comes from Google's servers",
 		"type" : ["analyze", "android"],
+		"id" : "0"
+	},
+	{
+		"name" : "CISN",
+		"url" : {
+			"website" : "https://www.cisn.org/map/",
+		},
+		"description" : "Real-time Earthquake Map",
+		"type" : ["analyze", "map", "tool", "monitoring"],
+		"id" : "0"
+	},
+	{
+		"name" : "OKLCH Color Picker & Converter",
+		"url" : {
+			"website" : "https://oklch.com/",
+			"github" : "https://github.com/evilmartians/oklch-picker",
+		},
+		"description" : "OKLCH is a new way to encode colors (like hex, RGBA, or HSL)",
+		"type" : ["tool", "design", "css"],
+		"id" : "0"
+	},
+	{
+		"name" : "Telegago",
+		"url" : {
+			"website" : "https://cse.google.com/cse?q=+&cx=006368593537057042503:efxu7xprihg#gsc.tab=0&gsc.q=%20&gsc.page=1",
+		},
+		"description" : "Telegram Search Engine",
+		"type" : ["tool", "telegram", "osint", "search", "monitoring"],
+		"id" : "0"
+	},
+	{
+		"name" : "I miss the office",
+		"url" : {
+			"website" : "https://imisstheoffice.eu/",
+		},
+		"description" : "Close your eyes and image you're in the office",
+		"type" : ["sound"],
+		"id" : "0"
+	},
+	{
+		"name" : "NCS",
+		"url" : {
+			"website" : "https://ncs.io/",
+		},
+		"description" : "Music without limitations",
+		"type" : ["sound"],
+		"id" : "0"
+	},
+	{
+		"name" : "FacilMap",
+		"url" : {
+			"website" : "https://facilmap.org/",
+			"github" : "https://github.com/FacilMap/facilmap",
+		},
+		"description" : "FacilMap is a privacy-friendly, open-source versatile online map that combines different services based on OpenStreetMap",
+		"type" : ["map", "tool", "analyze", "monitoring", "osint"],
+		"id" : "0"
+	},
+	{
+		"name" : "DNS Leak Test",
+		"url" : {
+			"website" : "https://www.dnsleaktest.com/",
+		},
+		"description" : "Show your IP address",
+		"type" : ["tool", "analyze", "network"],
+		"id" : "0"
+	},
+	{
+		"name" : "ToWords",
+		"url" : {
+			"website" : "https://www.towords.io/",
+		},
+		"description" : "Convert your YouTube videos and podcasts into engaging articles",
+		"type" : ["tool", "sound", "youtube"],
+		"id" : "0"
+	},
+	{
+		"name" : "Omgopass",
+		"url" : {
+			"website" : "https://omgovich.github.io/omgopass/",
+			"github" : "https://github.com/omgovich/omgopass",
+			"npm" : "https://www.npmjs.com/package/omgopass",
+		},
+		"description" : "A tiny memorable password generator for Node.js and browsers",
+		"type" : ["tool", "generator", "password", "js", "javascript"],
 		"id" : "0"
 	},
 ];
