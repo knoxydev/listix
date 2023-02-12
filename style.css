@@ -17,6 +17,7 @@ body {
   background-color: var(--body-color);
   scroll-behavior: smooth;
 	overflow: scroll;
+	overflow-x: hidden;
 }
 
 * {transition: 0.2s ease-in-out; font-family: "Montserrat", serif;}
@@ -65,13 +66,40 @@ ul, li {padding: 0;margin: 0;list-style: none;}
 	margin-right: auto;
 	text-align: left;
 	padding: 14px;
-	margin-top: 60px;
 }
 
 #main-content-block > div {
 	margin-bottom: 50px;
 	display: block;
 }
+
+
+#tags-block {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	user-select: none;
+
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+#tags-block > div {
+	font-size: 12pt;
+	margin-right: 10px;
+	margin-bottom: 8px;
+	padding: 4px;
+	padding-left: 8px;
+	padding-right: 8px;
+
+	border: 2px solid var(--light-purple);
+	border-radius: var(--main-radius);
+	background-color: var(--light-purple);
+	color: var(--medium-dark-purple);
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+#tags-block > div:hover { border: 2px solid var(--medium-dark-purple); background-color: var(--medium-dark-purple); color: white; }
 
 
 #app-title {
