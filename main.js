@@ -91,6 +91,14 @@ function createContent() {
 
 function filterContent() {
 	let inpText = document.getElementById("main-search-input").value.toLowerCase().trim();
+
+	for (const i of document.querySelectorAll("#tags-block > div")) {
+		i.style.backgroundColor = "var(--light-purple)";
+		i.style.color = "var(--medium-dark-purple)";
+		i.style.border = "2px solid var(--light-purple)";
+		i.style = "#tags-block > div:hover { border: 2px solid var(--medium-dark-purple); background-color: var(--medium-dark-purple); color: white; }";
+	}
+
 	if (inpText == "") return createContent();
 
 	let postsHave = [];
@@ -117,8 +125,8 @@ function filterContent() {
 
 
 	const filter_tags = () => {
-
-		for (const i of document.querySelectorAll("#tags-block > div")) {
+		for (const i of document.querySelectorAll("#tags-block > div"))
+		{
   		if (i.innerHTML == inpText) {
   			i.style.backgroundColor = "var(--medium-dark-purple)";
 				i.style.color = "white";
@@ -127,6 +135,7 @@ function filterContent() {
   			i.style.backgroundColor = "var(--light-purple)";
 				i.style.color = "var(--medium-dark-purple)";
 				i.style.border = "2px solid var(--light-purple)";
+				i.style = "#tags-block > div:hover { border: 2px solid var(--medium-dark-purple); background-color: var(--medium-dark-purple); color: white; }";
   		}
 		}
 	}
