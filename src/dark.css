@@ -1,0 +1,20 @@
+@media screen and (prefers-color-scheme: dark) {
+  ::-webkit-scrollbar {background-color: var(--dark-body-color); width: 7px;}
+
+  body { background-color: var(--dark-body-color); }
+
+  #main-search-input {
+    background-color: var(--dark-body-color);
+    color: var(--dark-medium-purple);
+    border: 2px solid var(--dark-medium-purple);
+    border-radius: var(--search-input-border-radius);
+  }
+
+  #main-header-block > div:nth-of-type(1) { color: var(--dark-medium-purple); }
+
+  #app-title { color: var(--dark-medium-purple); }
+
+  #app-links > a:hover { border: 2px solid var(--medium-dark-purple); background-color: var(--medium-dark-purple); color: white; }
+
+  #main-content-block > div > p { color: #757575; }
+}
