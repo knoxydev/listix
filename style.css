@@ -9,12 +9,17 @@
 
 	--main-radius: 8px;
 	--search-input-border-radius: 12px;
+
+	/* ------	*/
+
+	--dark-body-color: #0E0F12;
+	--dark-medium-purple: #6A5488;
 }
 
 body {
   padding: 0;
   margin: 0;
-  background-color: var(--body-color);
+  background-color: white;
   scroll-behavior: smooth;
 	overflow: scroll;
 	overflow-x: hidden;
