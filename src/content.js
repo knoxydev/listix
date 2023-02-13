@@ -5,7 +5,7 @@ const base = [
 			"website" : "https://pagespeed.web.dev/",
 		},
 		"description" : "Find out how to speed up the loading of your pages on any devices",
-		"type" : ["analysis", "speed", "tool"],
+		"type" : ["analysis", "speed", "network", "monitoring", "tool"],
 		"id" : "0"
 	},
 	{
@@ -87,7 +87,7 @@ const base = [
 			"website" : "https://javascript.info/",
 		},
 		"description" : "Here is a tutorial on JavaScript, starting with the basics, which includes many subtleties and features of JavaScript/DOM",
-		"type" : ["tutorial", "js", "javascript", "documentation", "programming"],
+		"type" : ["tutorial", "javascript", "documentation", "programming"],
 		"id" : "0"
 	},
 	{
@@ -170,7 +170,7 @@ const base = [
 			"github" : "https://github.com/Ashfaaq18/OpenNetMeter",
 		},
 		"description" : "A simple program to monitor your network/data usage. Made for the average windows user",
-		"type" : ["windows", "monitoring", "network", "internet", "analysis", "tool"],
+		"type" : ["windows", "monitoring", "network", "analysis", "tool"],
 		"id" : "0"
 	},
 	{
@@ -239,7 +239,7 @@ const base = [
 			"website" : "https://www.transferfile.io/#/",
 		},
 		"description" : "Decentralized filesharing over the IPFS network",
-		"type" : ["tool", "network", "internet", "file"],
+		"type" : ["tool", "network", "file"],
 		"id" : "0"
 	},
 	{
@@ -341,7 +341,7 @@ const base = [
 			"gitlab" : "https://gitlab.com/wireshark/wireshark/-/tree/master",
 		},
 		"description" : "The world’s foremost and widely-used network protocol analyzer",
-		"type" : ["tool", "windows", "macos", "analysis", "network", "internet", "monitoring"],
+		"type" : ["tool", "windows", "macos", "analysis", "network", "monitoring"],
 		"id" : "0"
 	},
 	{
@@ -464,7 +464,7 @@ const base = [
 			"npm" : "https://www.npmjs.com/package/omgopass",
 		},
 		"description" : "A tiny memorable password generator for Node.js and browsers",
-		"type" : ["tool", "generator", "password", "js", "javascript"],
+		"type" : ["tool", "generator", "password", "javascript"],
 		"id" : "0"
 	},
 	{
@@ -473,7 +473,7 @@ const base = [
 			"website" : "https://www.virustotal.com/gui/home/upload",
 		},
 		"description" : "Analyse suspicious files, domains, IPs and URLs to detect malware and other breaches, automatically share them with the security community",
-		"type" : ["tool", "analysis", "monitoring", "network", "file", "internet"],
+		"type" : ["tool", "analysis", "monitoring", "network", "file"],
 		"id" : "0"
 	},
 	{
@@ -519,7 +519,7 @@ const base = [
 			"github" : "https://github.com/GyulyVGC/sniffnet",
 		},
 		"description" : "Application to comfortably monitor your network traffic",
-		"type" : ["windows", "macos", "linux", "tool", "monitoring", "network", "internet", "analysis"],
+		"type" : ["windows", "macos", "linux", "tool", "monitoring", "network", "analysis"],
 		"id" : "0"
 	},
 	{
@@ -541,7 +541,7 @@ const base = [
 			"github" : "https://github.com/librespeed/speedtest",
 		},
 		"description" : "Free and Open Source Speedtest. No Flash, No Java, No Websocket, No Bullshit",
-		"type" : ["android", "monitoring", "analysis", "internet", "network", "speed"],
+		"type" : ["android", "monitoring", "analysis", "network", "speed", "tool"],
 		"id" : "0"
 	},
 ];
