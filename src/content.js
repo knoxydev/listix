@@ -5,7 +5,7 @@ const base = [
 			"website" : "https://pagespeed.web.dev/",
 		},
 		"description" : "Find out how to speed up the loading of your pages on any devices",
-		"type" : ["analyze", "speed", "tool"],
+		"type" : ["analysis", "speed", "tool"],
 		"id" : "0"
 	},
 	{
@@ -105,7 +105,7 @@ const base = [
 			"website" : "https://monkeytype.com/",
 		},
 		"description" : "Analyzes the speed of your typing on the keyboard",
-		"type" : ["tool", "analyze", "speed"],
+		"type" : ["tool", "analysis", "speed"],
 		"id" : "0"
 	},
 	{
@@ -170,7 +170,7 @@ const base = [
 			"github" : "https://github.com/Ashfaaq18/OpenNetMeter",
 		},
 		"description" : "A simple program to monitor your network/data usage. Made for the average windows user",
-		"type" : ["windows", "monitoring", "network", "internet", "analyze", "tool"],
+		"type" : ["windows", "monitoring", "network", "internet", "analysis", "tool"],
 		"id" : "0"
 	},
 	{
@@ -341,7 +341,7 @@ const base = [
 			"gitlab" : "https://gitlab.com/wireshark/wireshark/-/tree/master",
 		},
 		"description" : "The world’s foremost and widely-used network protocol analyzer",
-		"type" : ["tool", "windows", "macos", "analyze", "network", "internet", "monitoring"],
+		"type" : ["tool", "windows", "macos", "analysis", "network", "internet", "monitoring"],
 		"id" : "0"
 	},
 	{
@@ -379,7 +379,7 @@ const base = [
 			"website" : "https://composables.co/tools/distribution-chart",
 		},
 		"description" : "This page contains statistics about the distribution of Android versions. All statistic data comes from Google's servers",
-		"type" : ["analyze", "android"],
+		"type" : ["analysis", "android"],
 		"id" : "0"
 	},
 	{
@@ -388,7 +388,7 @@ const base = [
 			"website" : "https://www.cisn.org/map/",
 		},
 		"description" : "Real-time Earthquake Map",
-		"type" : ["analyze", "map", "tool", "monitoring"],
+		"type" : ["analysis", "map", "tool", "monitoring"],
 		"id" : "0"
 	},
 	{
@@ -435,7 +435,7 @@ const base = [
 			"github" : "https://github.com/FacilMap/facilmap",
 		},
 		"description" : "FacilMap is a privacy-friendly, open-source versatile online map that combines different services based on OpenStreetMap",
-		"type" : ["map", "tool", "analyze", "monitoring", "osint"],
+		"type" : ["map", "tool", "analysis", "monitoring", "osint"],
 		"id" : "0"
 	},
 	{
@@ -444,7 +444,7 @@ const base = [
 			"website" : "https://www.dnsleaktest.com/",
 		},
 		"description" : "Show your IP address",
-		"type" : ["tool", "analyze", "network"],
+		"type" : ["tool", "analysis", "network"],
 		"id" : "0"
 	},
 	{
@@ -465,6 +465,83 @@ const base = [
 		},
 		"description" : "A tiny memorable password generator for Node.js and browsers",
 		"type" : ["tool", "generator", "password", "js", "javascript"],
+		"id" : "0"
+	},
+	{
+		"name" : "VirusTotal",
+		"url" : {
+			"website" : "https://www.virustotal.com/gui/home/upload",
+		},
+		"description" : "Analyse suspicious files, domains, IPs and URLs to detect malware and other breaches, automatically share them with the security community",
+		"type" : ["tool", "analysis", "monitoring", "network", "file", "internet"],
+		"id" : "0"
+	},
+	{
+		"name" : "Typora",
+		"url" : {
+			"website" : "https://typora.io/",
+		},
+		"description" : "Markdown Edtior",
+		"type" : ["markdown", "text-editor", "file", "macos", "linux", "windows", "study"],
+		"id" : "0"
+	},
+	{
+		"name" : "Cool Screen Recorder",
+		"url" : {
+			"website" : "http://coolmedialife.com/index.php/coolscreenrecorder/what-is-cool-screen-recorder/",
+			"microsoft-store" : "https://www.microsoft.com/store/apps/9ppnffwjcf0x",
+		},
+		"description" : "Cool screen recorder is a useful tool for users to capture screen, audio, cursor, mouse clicks and keystrokes",
+		"type" : ["windows", "screen-recorder", "tool", "recorder"],
+		"id" : "0"
+	},
+	{
+		"name" : "fd",
+		"url" : {
+			"github" : "https://github.com/sharkdp/fd",
+		},
+		"description" : "A simple, fast and user-friendly alternative to 'find'",
+		"type" : ["windows", "macos", "linux", "tool", "file", "search", "command-line"],
+		"id" : "0"
+	},
+	{
+		"name" : "Stashpad",
+		"url" : {
+			"website" : "https://www.stashpad.com/",
+		},
+		"description" : "A new way to take notes",
+		"type" : ["windows", "macos", "linux", "ios", "notes", "file", "study"],
+		"id" : "0"
+	},
+	{
+		"name" : "Sniffnet",
+		"url" : {
+			"github" : "https://github.com/GyulyVGC/sniffnet",
+		},
+		"description" : "Application to comfortably monitor your network traffic",
+		"type" : ["windows", "macos", "linux", "tool", "monitoring", "network", "internet", "analysis"],
+		"id" : "0"
+	},
+	{
+		"name" : "TablePlus",
+		"url" : {
+			"website" : "https://tableplus.com/",
+			"appstore" : "https://apps.apple.com/app/tableplus-database-tool/id1465448609?ls=1",
+			"github" : "https://github.com/TablePlus/TablePlus",
+		},
+		"description" : "Modern, native, and friendly GUI tool for relational databases and more",
+		"type" : ["windows", "macos", "ios", "ipados", "linux", "tool", "monitoring", "database"],
+		"id" : "0"
+	},
+	{
+		"name" : "LibreSpeed",
+		"url" : {
+			"website" : "https://librespeed.org/",
+			"f-droid" : "https://f-droid.org/packages/com.dosse.speedtest/",
+			"github" : "https://github.com/librespeed/speedtest",
+		},
+		"description" : "Free and Open Source Speedtest. No Flash, No Java, No Websocket, No Bullshit",
+		"type" : ["android", "monitoring", "analysis", "internet", "network", "speed"],
 		"id" : "0"
 	},
 ];
