@@ -5,7 +5,7 @@ const base = [
 			"website" : "https://pagespeed.web.dev/",
 		},
 		"description" : "Find out how to speed up the loading of your pages on any devices",
-		"type" : ["analysis", "speed", "network", "monitoring", "tool"],
+		"type" : ["analysis", "speed", "network", "monitoring"],
 		"id" : "0"
 	},
 	{
@@ -41,7 +41,7 @@ const base = [
 			"website" : "https://codeimg.io/",
 		},
 		"description" : "It will make a beautiful picture out of your code fragment",
-		"type" : ["code", "tool", "design", "programming"],
+		"type" : ["code", "design", "programming"],
 		"id" : "0"
 	},
 	{
@@ -59,7 +59,7 @@ const base = [
 			"website" : "http://json.parser.online.fr/",
 		},
 		"description" : "Website for parsing json files",
-		"type" : ["tool", "parser", "character", "file", "programming"],
+		"type" : ["parser", "character", "file", "programming"],
 		"id" : "0"
 	},
 	{
@@ -69,7 +69,7 @@ const base = [
 			"github" : "https://github.com/carbon-app/carbon"
 		},
 		"description" : "Create and share beautiful images of your source code",
-		"type" : ["code", "tool", "design", "programming"],
+		"type" : ["code", "design", "programming"],
 		"id" : "0"
 	},
 	{
@@ -78,7 +78,7 @@ const base = [
 			"website" : "https://hyper.is/",
 		},
 		"description" : "Project is to create a beautiful and extensible experience for command-line interface users, built on open web standards",
-		"type" : ["command-line", "tool", "programming", "windows", "macos", "linux"],
+		"type" : ["command-line", "programming", "windows", "macos", "linux"],
 		"id" : "0"
 	},
 	{
@@ -96,7 +96,7 @@ const base = [
 			"website" : "https://namelix.com/",
 		},
 		"description" : "Generate a short, brandable business name using artificial intelligence",
-		"type" : ["tool", "generator"],
+		"type" : ["generator"],
 		"id" : "0"
 	},
 	{
@@ -105,7 +105,7 @@ const base = [
 			"website" : "https://monkeytype.com/",
 		},
 		"description" : "Analyzes the speed of your typing on the keyboard",
-		"type" : ["tool", "analysis", "speed"],
+		"type" : ["analysis", "speed"],
 		"id" : "0"
 	},
 	{
@@ -142,7 +142,7 @@ const base = [
 			"itch.io" : "https://hundredrabbits.itch.io/left",
 		},
 		"description" : "Left is graphical plain-text editor written in Uxntal. Left doesn't do much, but packs many useful features in a tiny 13kb rom",
-		"type" : ["tool", "text-editor", "windows", "macos", "linux"],
+		"type" : ["text-editor", "windows", "macos", "linux"],
 		"id" : "0"
 	},
 	{
@@ -151,7 +151,7 @@ const base = [
 			"website" : "https://zen.unit.ms/",
 		},
 		"description" : "A functional online text editor with a minimalistic design",
-		"type" : ["tool", "text-editor", "markdown"],
+		"type" : ["text-editor", "markdown"],
 		"id" : "0"
 	},
 	{
@@ -170,7 +170,7 @@ const base = [
 			"github" : "https://github.com/Ashfaaq18/OpenNetMeter",
 		},
 		"description" : "A simple program to monitor your network/data usage. Made for the average windows user",
-		"type" : ["windows", "monitoring", "network", "analysis", "tool"],
+		"type" : ["windows", "monitoring", "network", "analysis"],
 		"id" : "0"
 	},
 	{
@@ -182,7 +182,7 @@ const base = [
 			"chocolatey" : "https://community.chocolatey.org/packages/devtoys/",
 		},
 		"description" : "An offline Windows app that helps developers in daily tasks",
-		"type" : ["windows", "tool", "programming", "code", "markdown"],
+		"type" : ["windows", "programming", "code", "markdown"],
 		"id" : "0"
 	},
 	{
@@ -202,7 +202,7 @@ const base = [
 			"website" : "https://poet.so/",
 		},
 		"description" : "Create beautiful images of Twitter posts",
-		"type" : ["tool", "design"],
+		"type" : ["design"],
 		"id" : "0"
 	},
 	{
@@ -211,7 +211,7 @@ const base = [
 			"github" : "https://github.com/rxi/lite",
 		},
 		"description" : "Lite is a lightweight text editor written mostly in Lua - it aims to provide something practical, pretty, small and fast, implemented as simply as possible; easy to modify and extend, or to use without doing either",
-		"type" : ["tool", "code-editor", "code", "programming", "windows", "linux"],
+		"type" : ["code-editor", "code", "programming", "windows", "linux"],
 		"id" : "0"
 	},
 	{
@@ -239,7 +239,7 @@ const base = [
 			"website" : "https://www.transferfile.io/#/",
 		},
 		"description" : "Decentralized filesharing over the IPFS network",
-		"type" : ["tool", "network", "file"],
+		"type" : ["network", "file"],
 		"id" : "0"
 	},
 	{
@@ -269,7 +269,7 @@ const base = [
 			"appstore" : "https://apps.apple.com/us/app/unit-notes-lists-tasks/id1422480663?platform=iphone"
 		},
 		"description" : "Redefining note-taking software",
-		"type" : ["tool", "ios", "to-do", "notes"],
+		"type" : ["ios", "to-do", "notes"],
 		"id" : "0"
 	},
 	{
@@ -279,7 +279,7 @@ const base = [
 			"appstore" : "https://apps.apple.com/us/app/id1533756032"
 		},
 		"description" : "All-in-one Toolbox for Developers",
-		"type" : ["tool", "macos", "programming", "code", "markdown"],
+		"type" : ["macos", "programming", "code", "markdown"],
 		"id" : "0"
 	},
 	{
@@ -290,7 +290,7 @@ const base = [
 			"app-gallary" : "https://appgallery.huawei.com/#/app/C102717909"
 		},
 		"description" : "An Android app for scanning QR codes and barcodes",
-		"type" : ["tool", "android", "qrcode", "barcode"],
+		"type" : ["android", "qrcode", "barcode"],
 		"id" : "0"
 	},
 	{
@@ -300,7 +300,7 @@ const base = [
 			"github" : "https://github.com/withfig",
 		},
 		"description" : "The next-generation command line",
-		"type" : ["tool", "windows", "macos", "linux", "command-line"],
+		"type" : ["windows", "macos", "linux", "command-line"],
 		"id" : "0"
 	},
 	{
@@ -312,7 +312,7 @@ const base = [
 			"google-play" : "https://play.google.com/store/apps/details?id=com.bionic_reading_app",
 		},
 		"description" : "Faster, better, more focused, reading",
-		"type" : ["tool", "android", "ios"],
+		"type" : ["android", "ios"],
 		"id" : "0"
 	},
 	{
@@ -331,7 +331,7 @@ const base = [
 			"github" : "https://github.com/clowd/Clowd"
 		},
 		"description" : "Simple but powerful screenshot and screen recording tool for Windows",
-		"type" : ["tool", "windows", "screen-recorder", "recorder"],
+		"type" : ["windows", "screen-recorder", "recorder"],
 		"id" : "0"
 	},
 	{
@@ -341,7 +341,7 @@ const base = [
 			"gitlab" : "https://gitlab.com/wireshark/wireshark/-/tree/master",
 		},
 		"description" : "The world’s foremost and widely-used network protocol analyzer",
-		"type" : ["tool", "windows", "macos", "analysis", "network", "monitoring"],
+		"type" : ["windows", "macos", "analysis", "network", "monitoring"],
 		"id" : "0"
 	},
 	{
@@ -370,7 +370,7 @@ const base = [
 			"website" : "https://www.wavosaur.com/",
 		},
 		"description" : "Cool free sound editor, audio editor, wav editor software for editing, processing and recording sounds, wav and mp3 files",
-		"type" : ["windows", "sound", "tool"],
+		"type" : ["windows", "sound"],
 		"id" : "0"
 	},
 	{
@@ -388,7 +388,7 @@ const base = [
 			"website" : "https://www.cisn.org/map/",
 		},
 		"description" : "Real-time Earthquake Map",
-		"type" : ["analysis", "map", "tool", "monitoring"],
+		"type" : ["analysis", "map", "monitoring"],
 		"id" : "0"
 	},
 	{
@@ -398,7 +398,7 @@ const base = [
 			"github" : "https://github.com/evilmartians/oklch-picker",
 		},
 		"description" : "OKLCH is a new way to encode colors (like hex, RGBA, or HSL)",
-		"type" : ["tool", "design", "css"],
+		"type" : ["design", "css"],
 		"id" : "0"
 	},
 	{
@@ -407,7 +407,7 @@ const base = [
 			"website" : "https://cse.google.com/cse?q=+&cx=006368593537057042503:efxu7xprihg#gsc.tab=0&gsc.q=%20&gsc.page=1",
 		},
 		"description" : "Telegram Search Engine",
-		"type" : ["tool", "telegram", "osint", "search", "monitoring"],
+		"type" : ["telegram", "osint", "search", "monitoring"],
 		"id" : "0"
 	},
 	{
@@ -435,7 +435,7 @@ const base = [
 			"github" : "https://github.com/FacilMap/facilmap",
 		},
 		"description" : "FacilMap is a privacy-friendly, open-source versatile online map that combines different services based on OpenStreetMap",
-		"type" : ["map", "tool", "analysis", "monitoring", "osint"],
+		"type" : ["map", "analysis", "monitoring", "osint"],
 		"id" : "0"
 	},
 	{
@@ -444,7 +444,7 @@ const base = [
 			"website" : "https://www.dnsleaktest.com/",
 		},
 		"description" : "Show your IP address",
-		"type" : ["tool", "analysis", "network"],
+		"type" : ["analysis", "network"],
 		"id" : "0"
 	},
 	{
@@ -453,7 +453,7 @@ const base = [
 			"website" : "https://www.towords.io/",
 		},
 		"description" : "Convert your YouTube videos and podcasts into engaging articles",
-		"type" : ["tool", "sound", "youtube"],
+		"type" : ["sound", "youtube"],
 		"id" : "0"
 	},
 	{
@@ -464,7 +464,7 @@ const base = [
 			"npm" : "https://www.npmjs.com/package/omgopass",
 		},
 		"description" : "A tiny memorable password generator for Node.js and browsers",
-		"type" : ["tool", "generator", "password", "javascript"],
+		"type" : ["generator", "password", "javascript"],
 		"id" : "0"
 	},
 	{
@@ -473,7 +473,7 @@ const base = [
 			"website" : "https://www.virustotal.com/gui/home/upload",
 		},
 		"description" : "Analyse suspicious files, domains, IPs and URLs to detect malware and other breaches, automatically share them with the security community",
-		"type" : ["tool", "analysis", "monitoring", "network", "file"],
+		"type" : ["analysis", "monitoring", "network", "file"],
 		"id" : "0"
 	},
 	{
@@ -492,7 +492,7 @@ const base = [
 			"microsoft-store" : "https://www.microsoft.com/store/apps/9ppnffwjcf0x",
 		},
 		"description" : "Cool screen recorder is a useful tool for users to capture screen, audio, cursor, mouse clicks and keystrokes",
-		"type" : ["windows", "screen-recorder", "tool", "recorder"],
+		"type" : ["windows", "screen-recorder", "recorder"],
 		"id" : "0"
 	},
 	{
@@ -501,7 +501,7 @@ const base = [
 			"github" : "https://github.com/sharkdp/fd",
 		},
 		"description" : "A simple, fast and user-friendly alternative to 'find'",
-		"type" : ["windows", "macos", "linux", "tool", "file", "search", "command-line"],
+		"type" : ["windows", "macos", "linux", "file", "search", "command-line"],
 		"id" : "0"
 	},
 	{
@@ -519,7 +519,7 @@ const base = [
 			"github" : "https://github.com/GyulyVGC/sniffnet",
 		},
 		"description" : "Application to comfortably monitor your network traffic",
-		"type" : ["windows", "macos", "linux", "tool", "monitoring", "network", "analysis"],
+		"type" : ["windows", "macos", "linux", "monitoring", "network", "analysis"],
 		"id" : "0"
 	},
 	{
@@ -530,7 +530,7 @@ const base = [
 			"github" : "https://github.com/TablePlus/TablePlus",
 		},
 		"description" : "Modern, native, and friendly GUI tool for relational databases and more",
-		"type" : ["windows", "macos", "ios", "ipados", "linux", "tool", "monitoring", "database"],
+		"type" : ["windows", "macos", "ios", "ipados", "linux", "monitoring", "database"],
 		"id" : "0"
 	},
 	{
@@ -541,7 +541,7 @@ const base = [
 			"github" : "https://github.com/librespeed/speedtest",
 		},
 		"description" : "Free and Open Source Speedtest. No Flash, No Java, No Websocket, No Bullshit",
-		"type" : ["android", "monitoring", "analysis", "network", "speed", "tool"],
+		"type" : ["android", "monitoring", "analysis", "network", "speed"],
 		"id" : "0"
 	},
 	{
@@ -561,6 +561,68 @@ const base = [
 		},
 		"description" : "A modern and intuitive terminal-based text editor",
 		"type" : ["windows", "macos", "linux", "command-line", "code-editor", "text-editor"],
+		"id" : "0"
+	},
+	{
+		"name" : "Matrix",
+		"url" : {
+			"website" : "https://rezmason.github.io/matrix",
+			"github" : "https://github.com/Rezmason/matrix",
+		},
+		"description" : "Web-based green code rain",
+		"type" : ["generator", "code", "design", "background"],
+		"id" : "0"
+	},
+	{
+		"name" : "Gomoku",
+		"url" : {
+			"website" : "http://www.artemlopatin.ru/gomoku/",
+			"github" : "https://github.com/artemlopatin/gomoku",
+		},
+		"description" : "Abstract strategy board game",
+		"type" : ["game"],
+		"id" : "0"
+	},
+	{
+		"name" : "Pinball-Android",
+		"url" : {
+			"github" : "https://github.com/fexed/Pinball-on-Android",
+		},
+		"description" : "Android port of 3D Pinball Space Cadet",
+		"type" : ["game", "android"],
+		"id" : "0"
+	},
+	{
+		"name" : "Meshenger",
+		"url" : {
+			"google-play" : "https://play.google.com/store/apps/details?id=app.meshenger",
+			"github" : "https://github.com/meshenger-app/meshenger-android",
+			"f-droid" : "https://f-droid.org/packages/d.d.meshenger/",
+		},
+		"description" : "P2P Voice/Video phone App for local networks",
+		"type" : ["network", "android", "p2p"],
+		"id" : "0"
+	},
+	{
+		"name" : "Infinity",
+		"url" : {
+			"google-play" : "https://play.google.com/store/apps/details?id=ml.docilealligator.infinityforreddit",
+			"github" : "https://github.com/Docile-Alligator/Infinity-For-Reddit",
+			"f-droid" : "https://f-droid.org/packages/ml.docilealligator.infinityforreddit/",
+		},
+		"description" : "A Reddit client for Android",
+		"type" : ["android", "network", "news"],
+		"id" : "0"
+	},
+	{
+		"name" : "Tiny Weather",
+		"url" : {
+			"website" : "https://alexandersandberg.com/apps/tiny-weather/",
+			"google-play" : "https://play.google.com/store/apps/details?id=com.alexandersandberg.tinyweather",
+			"appstore" : "https://apps.apple.com/app/id1522059185",
+		},
+		"description" : "Tiny Weather is a simple weather app free of ads and subscriptions",
+		"type" : ["android", "ios", "monitoring"],
 		"id" : "0"
 	},
 ];

@@ -14,7 +14,9 @@
   #main-header-block > div:nth-of-type(1) { color: var(--dark-medium-purple); }
 
   #app-title { color: var(--dark-medium-purple); }
+  #app-title::selection { background-color: white; color: var(--medium-dark-purple); }
   #app-links > a:hover { border: 2px solid var(--medium-dark-purple); background-color: var(--medium-dark-purple); color: white; }
+  #main-content-block > div > p::selection { background-color: white; color: var(--medium-dark-purple); }
 
   #main-content-block > div > p { color: #757575; }
 }
