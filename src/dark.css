@@ -2,6 +2,7 @@
   ::-webkit-scrollbar {background-color: var(--dark-body-color); width: 7px;}
 
   body { background-color: var(--dark-body-color); }
+  hr { border: 1px solid var(--dark-grey); }
 
   #main-search-input {
     background-color: var(--dark-body-color);
@@ -13,7 +14,6 @@
   #main-header-block > div:nth-of-type(1) { color: var(--dark-medium-purple); }
 
   #app-title { color: var(--dark-medium-purple); }
-
   #app-links > a:hover { border: 2px solid var(--medium-dark-purple); background-color: var(--medium-dark-purple); color: white; }
 
   #main-content-block > div > p { color: #757575; }
