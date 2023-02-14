@@ -300,7 +300,7 @@ const base = [
 			"github" : "https://github.com/withfig",
 		},
 		"description" : "The next-generation command line",
-		"type" : ["tool", "windows", "macos", "linux", "programming", "command-line"],
+		"type" : ["tool", "windows", "macos", "linux", "command-line"],
 		"id" : "0"
 	},
 	{
@@ -542,6 +542,25 @@ const base = [
 		},
 		"description" : "Free and Open Source Speedtest. No Flash, No Java, No Websocket, No Bullshit",
 		"type" : ["android", "monitoring", "analysis", "network", "speed", "tool"],
+		"id" : "0"
+	},
+	{
+		"name" : "cool-retro-term",
+		"url" : {
+			"github" : "https://github.com/Swordfish90/cool-retro-term",
+		},
+		"description" : "A good looking terminal emulator which mimics the old cathode display",
+		"type" : ["macos", "linux", "command-line"],
+		"id" : "0"
+	},
+	{
+		"name" : "Micro",
+		"url" : {
+			"website" : "https://micro-editor.github.io/",
+			"github" : "https://github.com/zyedidia/micro",
+		},
+		"description" : "A modern and intuitive terminal-based text editor",
+		"type" : ["windows", "macos", "linux", "command-line", "code-editor", "text-editor"],
 		"id" : "0"
 	},
 ];
