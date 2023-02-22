@@ -625,6 +625,26 @@ const base = [
 		"type" : ["android", "ios", "monitoring"],
 		"id" : "0"
 	},
+	{
+		"name" : "Sumatra PDF",
+		"url" : {
+			"website" : "https://www.sumatrapdfreader.org/free-pdf-reader",
+			"github" : "https://github.com/sumatrapdfreader/sumatrapdf",
+		},
+		"description" : "PDF, eBook (epub, mobi), comic book (cbz/cbr), DjVu, XPS, CHM, image viewer for Windows. Small, fast, customizable, free",
+		"type" : ["study", "reader", "file", "windows"],
+		"id" : "0"
+	},
+	{
+		"name" : "Mypal",
+		"url" : {
+			"website" : "https://www.mypal-browser.org/",
+			"github" : "https://github.com/Feodor2/mypal",
+		},
+		"description" : "Mypal is a current and maintained browser for Windows XP",
+		"type" : ["browser", "windows", "network"],
+		"id" : "0"
+	},
 ];
 
 let shuffle = (array) => {
