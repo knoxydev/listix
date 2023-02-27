@@ -645,6 +645,26 @@ const base = [
 		"type" : ["browser", "windows", "network"],
 		"id" : "0"
 	},
+	{
+		"name" : "Nushell",
+		"url" : {
+			"website" : "https://www.nushell.sh/",
+			"github" : "https://github.com/nushell/nushell",
+		},
+		"description" : "A new type of shell",
+		"type" : ["windows", "macos", "linux", "command-line", "file"],
+		"id" : "0"
+	},
+	{
+		"name" : "Ghostwriter",
+		"url" : {
+			"website" : "https://ghostwriter.kde.org/",
+			"github" : "https://github.com/KDE/ghostwriter",
+		},
+		"description" : "Markdown editor",
+		"type" : ["windows", "macos", "linux", "markdown", "file", "notes"],
+		"id" : "0"
+	},
 ];
 
 let shuffle = (array) => {
