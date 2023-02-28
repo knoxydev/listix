@@ -23,7 +23,7 @@ const base = [
 			"website" : "https://unicode-table.com/en/",
 		},
 		"description" : "Website with Unicode characters",
-		"type" : ["unicode", "emoji", "character", "symbol"],
+		"type" : ["unicode", "emoji", "symbol"],
 		"id" : "0"
 	},
 	{
@@ -32,7 +32,7 @@ const base = [
 			"website" : "https://fonts.google.com/",
 		},
 		"description" : "A service where a large number of different fonts are collected",
-		"type" : ["fonts", "collection", "character", "symbol"],
+		"type" : ["fonts", "collection", "symbol"],
 		"id" : "0"
 	},
 	{
@@ -59,7 +59,7 @@ const base = [
 			"website" : "http://json.parser.online.fr/",
 		},
 		"description" : "Website for parsing json files",
-		"type" : ["parser", "character", "file", "programming"],
+		"type" : ["parser", "file", "programming"],
 		"id" : "0"
 	},
 	{
@@ -663,6 +663,16 @@ const base = [
 		},
 		"description" : "Markdown editor",
 		"type" : ["windows", "macos", "linux", "markdown", "file", "notes"],
+		"id" : "0"
+	},
+	{
+		"name" : "Simple Badges",
+		"url" : {
+			"website" : "https://badges.pages.dev/",
+			"github" : "https://github.com/developStorm/simple-badges",
+		},
+		"description" : "Awesome Simple Icons on your favorite Shields.io Badges",
+		"type" : ["design"],
 		"id" : "0"
 	},
 ];
