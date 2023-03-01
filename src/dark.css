@@ -13,10 +13,37 @@
 
   #main-header-block > div:nth-of-type(1) { color: var(--dark-medium-purple); }
 
-  #app-title { color: var(--dark-medium-purple); }
-  #app-title::selection { background-color: white; color: var(--medium-dark-purple); }
-  #app-links > a:hover { border: 2px solid var(--medium-dark-purple); background-color: var(--medium-dark-purple); color: white; }
-  #main-content-block > div > p::selection { background-color: white; color: var(--medium-dark-purple); }
+  #tags-block > div {
+    border: 2px solid var(--medium-dark-purple);
+    background-color: var(--medium-dark-purple);
+    color: #c0c0c0;
+  }
+  #tags-block > div:hover {
+    border: 2px solid var(--light-purple);
+    background-color: var(--light-purple);
+    color: var(--medium-dark-purple);
+  }
 
+  #app-title { color: var(--light-purple); }
+  #app-title::selection { background-color: white; color: var(--medium-dark-purple); }
+
+  #app-links > a {
+    border: 2px solid #757575;
+    background-color: transparent;
+    color: var(--light-purple);
+  } #app-links > a:hover { border: 2px solid var(--medium-dark-purple); background-color: var(--medium-dark-purple); color: white; }
+
+  #main-content-block > div > p::selection { background-color: white; color: var(--medium-dark-purple); }
   #main-content-block > div > p { color: #757575; }
+
+
+  #main-content-block > div > ul > li {
+    border: 2px solid var(--medium-dark-purple);
+    background-color: var(--medium-dark-purple);
+    color: #c0c0c0;
+  } #main-content-block > div > ul > li:hover {
+    border: 2px solid var(--light-purple);
+    background-color: var(--light-purple);
+    color: var(--medium-dark-purple);
+  }
 }
