@@ -115,9 +115,9 @@ function filterContent() {
 
 		for (let item of x.children[4].children) {
 			if (inpText == item.innerHTML) {
-				item.style.backgroundColor = "var(--medium-dark-purple)";
-				item.style.color = "white";
-				item.style.border = "2px solid var(--medium-dark-purple)";
+				item.style.backgroundColor = "var(--light-purple)";
+				item.style.color = "var(--medium-dark-purple)";
+				item.style.border = "2px solid var(--light-purple)";
 			}
 		}
 	}
@@ -128,9 +128,9 @@ function filterContent() {
 		for (const i of document.querySelectorAll("#tags-block > div"))
 		{
   		if (i.innerHTML == inpText) {
-  			i.style.backgroundColor = "var(--medium-dark-purple)";
-				i.style.color = "white";
-				i.style.border = "2px solid var(--medium-dark-purple)";
+  			i.style.backgroundColor = "var(--light-purple)";
+				i.style.color = "var(--medium-dark-purple)";
+				i.style.border = "2px solid var(--light-purple)";
   		} else {
   			i.style.backgroundColor = "var(--light-purple)";
 				i.style.color = "var(--medium-dark-purple)";
