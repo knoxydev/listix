@@ -1,5 +1,6 @@
 @media screen and (prefers-color-scheme: dark) {
-  ::-webkit-scrollbar {background-color: var(--dark-body-color); width: 7px;}
+  ::-webkit-scrollbar {background-color: var(--dark-body-color); }
+  ::-webkit-scrollbar-thumb {background-color: #757575; }
 
   body { background-color: var(--dark-body-color); }
   hr { border: 1px solid var(--dark-grey); }

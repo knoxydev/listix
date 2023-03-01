@@ -765,6 +765,15 @@ const base = [
 		"type" : ["android", "password"],
 		"id" : "0"
 	},
+	{
+		"name" : "K-Meleon",
+		"url" : {
+			"website" : "http://kmeleonbrowser.org/",
+		},
+		"description" : "K-Meleon is a lightweight, customizable, open-source web browser. It's designed for Microsoft Windows (Win32) operating systems",
+		"type" : ["windows", "browser", "network"],
+		"id" : "0"
+	},
 ];
 
 let shuffle = (array) => {
