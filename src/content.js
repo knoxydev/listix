@@ -611,7 +611,7 @@ const base = [
 			"f-droid" : "https://f-droid.org/packages/ml.docilealligator.infinityforreddit/",
 		},
 		"description" : "A Reddit client for Android",
-		"type" : ["android", "network", "news"],
+		"type" : ["android", "social", "news"],
 		"id" : "0"
 	},
 	{
@@ -673,6 +673,96 @@ const base = [
 		},
 		"description" : "Awesome Simple Icons on your favorite Shields.io Badges",
 		"type" : ["design"],
+		"id" : "0"
+	},
+	{
+		"name" : "Rizin",
+		"url" : {
+			"website" : "https://rizin.re/",
+			"github" : "https://github.com/rizinorg/rizin",
+		},
+		"description" : "Free and Open Source Reverse Engineering Framework",
+		"type" : ["windows", "linux", "macos", "openbsd", "android", "file", "analysis", "command-line"],
+		"id" : "0"
+	},
+	{
+		"name" : "It's FOSS News",
+		"url" : {
+			"website" : "https://news.itsfoss.com/",
+		},
+		"description" : "Web portal that focuses on Open Source in general and Linux in particular",
+		"type" : ["news"],
+		"id" : "0"
+	},
+	{
+		"name" : "LibReddit",
+		"url" : {
+			"website" : "https://libreddit.spike.codes/",
+			"github" : "https://github.com/libreddit/libreddit",
+		},
+		"description" : "Private front-end for Reddit",
+		"type" : ["news", "social"],
+		"id" : "0"
+	},
+	{
+		"name" : "Spotube",
+		"url" : {
+			"website" : "https://spotube.netlify.app/",
+			"github" : "https://github.com/KRTirtho/spotube",
+		},
+		"description" : "A fast, modern, lightweight & efficient Spotify Music Client for every platform",
+		"type" : ["windows", "linux", "macos", "android", "sound", "music-player"],
+		"id" : "0"
+	},
+	{
+		"name" : "NYTimes",
+		"url" : {
+			"github" : "https://github.com/TheCodeMonks/NYTimes-App",
+		},
+		"description" : "A Simple Demonstration of the New York Times App",
+		"type" : ["android", "news"],
+		"id" : "0"
+	},
+	{
+		"name" : "DataMonitor",
+		"url" : {
+			"github" : "https://github.com/itsdrnoob/DataMonitor",
+			"google-play" : "https://play.google.com/store/apps/details?id=com.drnoob.datamonitor",
+			"f-droid" : "https://f-droid.org/packages/com.drnoob.datamonitor/",
+		},
+		"description" : "Data usage monitor app for android",
+		"type" : ["android", "network", "monitoring", "analysis"],
+		"id" : "0"
+	},
+	{
+		"name" : "Symphony",
+		"url" : {
+			"website" : "https://zyrouge.github.io/symphony/",
+			"github" : "https://github.com/zyrouge/symphony",
+		},
+		"description" : "Groovify & Symphonize with Symphony! Available for Android 9+",
+		"type" : ["android", "sound", "music-player"],
+		"id" : "0"
+	},
+	{
+		"name" : "Anycode Wallet",
+		"url" : {
+			"website" : "https://anycodewallet.com/",
+			"google-play" : "https://play.google.com/store/apps/details?id=com.samirthapa.anycodewallet",
+			"appstore" : "https://apps.apple.com/us/app/anycode-wallet/id1538232377"
+		},
+		"description" : "You can add any barcode to your wallet by simply scanning them. From store cards, to boarding passes, to concert tickets, the possibilities are endless",
+		"type" : ["android", "ios", "barcode", "qrcode"],
+		"id" : "0"
+	},
+	{
+		"name" : "Pincredible",
+		"url" : {
+			"github" : "https://github.com/cyb3rko/pincredible",
+			"f-droid" : "https://f-droid.org/packages/com.cyb3rko.pincredible/",
+		},
+		"description" : "Modern and secure Android app to help you remember any PIN",
+		"type" : ["android", "password"],
 		"id" : "0"
 	},
 ];
