@@ -20,7 +20,7 @@ const base = [
 	{
 		"name" : "Unicode Character Table",
 		"url" : {
-			"website" : "https://unicode-table.com/en/",
+			"website" : "https://symbl.cc/en/",
 		},
 		"description" : "Website with Unicode characters",
 		"type" : ["unicode", "emoji", "symbol"],
@@ -250,7 +250,7 @@ const base = [
 			"appstore" : "https://apps.apple.com/us/app/rainy-mood/id566752651",
 		},
 		"description" : "Rain Sounds for Sleep & Study",
-		"type" : ["sound", "study", "android", "ios"],
+		"type" : ["sound", "study", "android", "ios", "ipados"],
 		"id" : "0"
 	},
 	{
@@ -772,6 +772,98 @@ const base = [
 		},
 		"description" : "K-Meleon is a lightweight, customizable, open-source web browser. It's designed for Microsoft Windows (Win32) operating systems",
 		"type" : ["windows", "browser", "network"],
+		"id" : "0"
+	},
+	{
+		"name" : "WinMerge",
+		"url" : {
+			"website" : "https://winmerge.org/",
+			"github" : "https://github.com/winmerge/winmerge",
+		},
+		"description" : "WinMerge is an Open Source differencing and merging tool for Windows. WinMerge can compare both folders and files, presenting differences in a visual text format that is easy to understand and handle",
+		"type" : ["windows", "file", "analysis"],
+		"id" : "0"
+	},
+	{
+		"name" : "Rise Media Player",
+		"url" : {
+			"github" : "https://github.com/Rise-Software/Rise-Media-Player",
+		},
+		"description" : "Media player for everything you own or stream. It's beautiful and native with the latest version of WinUI",
+		"type" : ["windows", "music-player", "sound"],
+		"id" : "0"
+	},
+	{
+		"name" : "Museeks",
+		"url" : {
+			"website" : "https://museeks.io/",
+			"github" : "https://github.com/martpie/museeks",
+		},
+		"description" : "A simple, clean and cross-platform music player",
+		"type" : ["windows", "macos", "linux", "music-player", "sound"],
+		"id" : "0"
+	},
+	{
+		"name" : "Generative.fm",
+		"url" : {
+			"website" : "https://generative.fm/",
+			"github" : "https://github.com/generativefm",
+		},
+		"description" : "Ambient music generators that never end or repeat",
+		"type" : ["generator", "music-player", "sound"],
+		"id" : "0"
+	},
+	{
+		"name" : "Cider",
+		"url" : {
+			"website" : "https://cider.sh/",
+			"github" : "https://github.com/ciderapp",
+			"microsoft-store" : "https://www.microsoft.com/store/productId/9P21XJ9D9G66",
+		},
+		"description" : "Cider is a new cross-platform Apple Music experience built on Vue.js and written from the ground up with performance in mind",
+		"type" : ["windows", "macos", "linux", "music-player", "sound"],
+		"id" : "0"
+	},
+	{
+		"name" : "Auxio",
+		"url" : {
+			"github" : "https://github.com/OxygenCobalt/Auxio",
+			"f-droid" : "https://f-droid.org/app/org.oxycblt.auxio"
+		},
+		"description" : "A simple, rational music player for android",
+		"type" : ["android", "music-player", "sound"],
+		"id" : "0"
+	},
+	{
+		"name" : "Finamp",
+		"url" : {
+			"github" : "https://github.com/jmshrv/finamp",
+			"f-droid" : "https://f-droid.org/packages/com.unicornsonlsd.finamp/",
+			"google-play" : "https://play.google.com/store/apps/details?id=com.unicornsonlsd.finamp",
+			"appstore" : "https://apps.apple.com/us/app/finamp/id1574922594"
+		},
+		"description" : "A Jellyfin music client for mobile",
+		"type" : ["android", "ios", "ipados", "sound", "music-player"],
+		"id" : "0"
+	},
+	{
+		"name" : "Zen Tuner",
+		"url" : {
+			"github" : "https://github.com/jpsim/ZenTuner",
+			"appstore" : "https://apps.apple.com/us/app/zen-tuner/id1550640624"
+		},
+		"description" : "A minimal chromatic tuner for iOS & macOS & iPad",
+		"type" : ["macos", "ios", "ipados", "sound"],
+		"id" : "0"
+	},
+	{
+		"name" : "SoundSpice",
+		"url" : {
+			"github" : "https://github.com/farshed/SoundSpice-mobile",
+			"google-play" : "https://play.google.com/store/apps/details?id=com.vynilla"
+		},
+		"description" : "A light-weight and minimalist music player for Android",
+		"type" : ["android", "sound", "music-player"],
 		"id" : "0"
 	},
 ];
