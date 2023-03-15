@@ -866,6 +866,86 @@ const base = [
 		"type" : ["android", "sound", "music-player"],
 		"id" : "0"
 	},
+	{
+		"name" : "LMMS",
+		"url" : {
+			"website" : "https://lmms.io/",
+			"github" : "https://github.com/lmms/lmms"
+		},
+		"description" : "Free & cross-platform music production software",
+		"type" : ["windows", "macos", "linux", "sound"],
+		"id" : "0"
+	},
+	{
+		"name" : "Maroofy",
+		"url" : {
+			"website" : "https://maroofy.com/",
+		},
+		"description" : "Discover similar music you'll love",
+		"type" : ["sound", "search", "collection"],
+		"id" : "0"
+	},
+	{
+		"name" : "Curated Design",
+		"url" : {
+			"website" : "https://www.curated.design/",
+		},
+		"description" : "Curated web design inspiration catalog",
+		"type" : ["design", "search", "collection"],
+		"id" : "0"
+	},
+	{
+		"name" : "PicFinder",
+		"url" : {
+			"website" : "https://picfinder.ai/",
+		},
+		"description" : "Infinite image generation powered by AI",
+		"type" : ["design", "search", "collection", "generator"],
+		"id" : "0"
+	},
+	{
+		"name" : "Krita",
+		"url" : {
+			"website" : "https://krita.org/",
+			"microsoft-store" : "https://www.microsoft.com/en-us/store/p/krita/9n6x57zgrw96",
+			"steam-store" : "https://store.steampowered.com/app/280680/Krita_Gemini/",
+			"epic-store" : "https://www.epicgames.com/store/p/krita"
+		},
+		"description" : "Krita is a professional FREE and open source painting program",
+		"type" : ["windows", "linux", "macos", "design", "painting"],
+		"id" : "0"
+	},
+	{
+		"name" : "Cosmicast",
+		"url" : {
+			"website" : "https://basicappleguy.com/basicappleblog/cosmicast",
+			"appstore" : "https://apps.apple.com/us/app/cosmicast/id1435195637",
+		},
+		"description" : "Cosmicast is a beautiful podcast player that works & syncs across all your Mac & iOS devices",
+		"type" : ["macos", "ios", "podcast-player", "sound"],
+		"id" : "0"
+	},
+	{
+		"name" : "Paisa",
+		"url" : {
+			"google-play" : "https://play.google.com/store/apps/details?id=dev.hemanths.paisa",
+			"github" : "https://github.com/RetroMusicPlayer/Paisa",
+		},
+		"description" : "Expense manager for Android with Material Design",
+		"type" : ["android", "monitoring", "manager", "money"],
+		"id" : "0"
+	},
+	{
+		"name" : "FlashDim",
+		"url" : {
+			"google-play" : "http://play.google.com/store/apps/details?id=com.cyb3rko.flashdim",
+			"f-droid" : "https://f-droid.org/app/com.cyb3rko.flashdim",
+			"github" : "https://github.com/cyb3rko/flashdim",
+		},
+		"description" : "EModern flashlight app with dim functionality on Android 13+",
+		"type" : ["android"],
+		"id" : "0"
+	},
 ];
 
 let shuffle = (array) => {
