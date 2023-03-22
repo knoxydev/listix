@@ -132,7 +132,7 @@ const base = [
 			"website" : "https://kono.store/",
 		},
 		"description" : "Online keyboard store",
-		"type" : ["store", "shop"],
+		"type" : ["store", "shop", "keyboard"],
 		"id" : "0"
 	},
 	{
@@ -944,6 +944,68 @@ const base = [
 		},
 		"description" : "EModern flashlight app with dim functionality on Android 13+",
 		"type" : ["android"],
+		"id" : "0"
+	},
+	{
+		"name" : "Retro Music PLayer",
+		"url" : {
+			"website" : "https://retromusic.app/",
+			"google-play" : "https://play.google.com/store/apps/details?id=code.name.monkey.retromusic",
+			"github" : "https://github.com/RetroMusicPlayer/RetroMusicPlayer",
+		},
+		"description" : "The best Material design offline music player for Android",
+		"type" : ["android", "sound", "music-player"],
+		"id" : "0"
+	},
+	{
+		"name" : "JSON Crack",
+		"url" : {
+			"website" : "https://jsoncrack.com/",
+			"github" : "https://github.com/AykutSarac/jsoncrack.com",
+		},
+		"description" : "Seamlessly visualize your JSON data instantly into graphs",
+		"type" : ["parser", "file", "programming"],
+		"id" : "0"
+	},
+	{
+		"name" : "Thumb Key",
+		"url" : {
+			"github" : "https://github.com/dessalines/thumb-key",
+		},
+		"description" : "A privacy-conscious Android keyboard made for your thumbs",
+		"type" : ["android", "keyboard"],
+		"id" : "0"
+	},
+	{
+		"name" : "Comprehensive Rust",
+		"url" : {
+			"website" : "https://google.github.io/comprehensive-rust/",
+		},
+		"description" : "A This is a four day Rust course developed by the Android team",
+		"type" : ["documentation", "rustlang"],
+		"id" : "0"
+	},
+	{
+		"name" : "Radio Garden",
+		"url" : {
+			"website" : "http://radio.garden/",
+			"google-play" : "https://play.google.com/store/apps/details?id=com.jonathanpuckey.radiogarden",
+			"appstore" : "https://itunes.apple.com/nl/app/radio-garden-live/id1339670993",
+		},
+		"description" : "Radio Garden invites you to tune into thousands of live radio stations across the globe",
+		"type" : ["sound", "social", "radio"],
+		"id" : "0"
+	},
+	{
+		"name" : "FocalBoard",
+		"url" : {
+			"website" : "https://www.focalboard.com/",
+			"github" : "https://github.com/mattermost/focalboard",
+			"microsoft-store" : "https://www.microsoft.com/store/apps/9NLN2T0SX9VF?cid=website",
+			"appstore" : "https://apps.apple.com/app/apple-store/id1556908618?pt=2114704&ct=website&mt=8",
+		},
+		"description" : "Focalboard is an open source, self-hosted alternative to Trello, Notion, and Asana",
+		"type" : ["windows", "macos", "linux", "notes", "manager", "database"],
 		"id" : "0"
 	},
 ];
