@@ -1008,6 +1008,15 @@ const base = [
 		"type" : ["windows", "macos", "linux", "notes", "manager", "database"],
 		"id" : "0"
 	},
+	{
+		"name" : "Manymap",
+		"url" : {
+			"website" : "https://manymap.io/en/",
+		},
+		"description" : "Manymap is a cutting-edge route planner for hiking, cycling, running, water tourism. Create, keep and share your routes",
+		"type" : ["map", "manager", "social", "notes"],
+		"id" : "0"
+	},
 ];
 
 let shuffle = (array) => {
