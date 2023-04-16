@@ -682,7 +682,7 @@ const base = [
 			"github" : "https://github.com/rizinorg/rizin",
 		},
 		"description" : "Free and Open Source Reverse Engineering Framework",
-		"type" : ["windows", "linux", "macos", "openbsd", "android", "file", "analysis", "command-line"],
+		"type" : ["windows", "linux", "macos", "android", "file", "analysis", "command-line"],
 		"id" : "0"
 	},
 	{
@@ -1015,6 +1015,56 @@ const base = [
 		},
 		"description" : "Manymap is a cutting-edge route planner for hiking, cycling, running, water tourism. Create, keep and share your routes",
 		"type" : ["map", "manager", "social", "notes"],
+		"id" : "0"
+	},
+	{
+		"name" : "OnionShare",
+		"url" : {
+			"website" : "https://onionshare.org/",
+			"github" : "https://github.com/onionshare/onionshare"
+		},
+		"description" : "Securely and anonymously share files, host websites, and chat with friends using the Tor network",
+		"type" : ["windows", "macos", "linux", "file", "network"],
+		"id" : "0"
+	},
+	{
+		"name" : "LoFi Generator",
+		"url" : {
+			"website" : "https://lofigenerator.com/",
+		},
+		"description" : "beats for video, streaming and chilling",
+		"type" : ["generator", "music-player", "sound"],
+		"id" : "0"
+	},
+	{
+		"name" : "Minetest",
+		"url" : {
+			"website" : "https://www.minetest.net/",
+			"github" : "https://github.com/minetest/minetest",
+			"f-droid" : "https://play.google.com/store/apps/details?id=net.minetest.minetest&utm_source=website&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1",
+		},
+		"description" : "An open source voxel game engine. Play one of our many games, mod a game to your liking, make your own game, or play on a multiplayer server",
+		"type" : ["game", "windows", "macos", "linux", "android"],
+		"id" : "0"
+	},
+	{
+		"name" : "Gource",
+		"url" : {
+			"website" : "https://gource.io/",
+			"github" : "https://github.com/acaudwell/Gource",
+		},
+		"description" : "Software projects are displayed by Gource as an animated tree with the root directory of the project at its centre",
+		"type" : ["windows", "macos", "linux", "file", "analysis", "visualization"],
+		"id" : "0"
+	},
+	{
+		"name" : "OpenStego",
+		"url" : {
+			"website" : "https://www.openstego.com/index.html",
+			"github" : "https://github.com/syvaidya/openstego",
+		},
+		"description" : "OpenStego is a steganography application that provides two functionalities - data hiding and watermarking",
+		"type" : ["windows", "macos", "linux", "file"],
 		"id" : "0"
 	},
 ];
