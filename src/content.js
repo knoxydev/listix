@@ -1067,6 +1067,43 @@ const base = [
 		"type" : ["windows", "macos", "linux", "file"],
 		"id" : "0"
 	},
+	{
+		"name" : "lofiatc",
+		"url" : {
+			"website" : "https://www.lofiatc.com/?icao=KLAX",
+			"github" : "https://github.com/syvaidya/openstego",
+		},
+		"description" : "lofi music with pilots' talks",
+		"type" : ["generator", "music-player", "sound"],
+		"id" : "0"
+	},
+	{
+		"name" : "skydb",
+		"url" : {
+			"website" : "https://www.skydb.net/",
+		},
+		"description" : "SKYDB is the world's database about tall buildings",
+		"type" : ["database", "osint"],
+		"id" : "0"
+	},
+	{
+		"name" : "F4map",
+		"url" : {
+			"website" : "https://www.f4map.com/",
+		},
+		"description" : "Explore the World in 3D",
+		"type" : ["map", "osint", "analysis", "monitoring"],
+		"id" : "0"
+	},
+	{
+		"name" : "Shadowmap",
+		"url" : {
+			"website" : "https://shadowmap.org/",
+		},
+		"description" : "The Sun is the ultimate source of light and energy on Earth. Use Shadowmap to plan with the Sun by visualizing sunlight and shadows anywhere on the Planet",
+		"type" : ["map", "osint", "analysis", "monitoring", "visualization"],
+		"id" : "0"
+	},
 ];
 
 let shuffle = (array) => {
