@@ -29,13 +29,15 @@
 
 
   #tags-block > div,
-  #main-content-block > div > ul > li {
+  #main-content-block > div > ul > li,
+  #content-length {
     border: 2px solid var(--medium-dark-purple);
     background-color: var(--medium-dark-purple);
     color: #c0c0c0;
   }
   #tags-block > div:hover,
-  #main-content-block > div > ul > li:hover {
+  #main-content-block > div > ul > li:hover,
+  #content-length:hover {
     border: 2px solid var(--light-purple);
     background-color: var(--light-purple);
     color: var(--medium-dark-purple);

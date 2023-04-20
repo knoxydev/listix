@@ -89,7 +89,7 @@ ul, li {padding: 0;margin: 0;list-style: none;}
 	user-select: none;
 
 	margin-top: 70px;
-	margin-bottom: 70px;
+	margin-bottom: 40px;
 }
 #tags-block > div {
 	font-size: 12pt;
@@ -107,6 +107,25 @@ ul, li {padding: 0;margin: 0;list-style: none;}
 	letter-spacing: 1px;
 }
 #tags-block > div:hover { border: 2px solid var(--medium-dark-purple); background-color: var(--medium-dark-purple); color: white; }
+
+
+#content-length {
+	display: inline-block;
+	font-size: 13pt;
+	margin-bottom: 70px;
+	padding: 6px;
+	padding-left: 12px;
+	padding-right: 12px;
+
+	border: 2px solid var(--light-purple);
+	border-radius: var(--main-radius);
+	background-color: var(--light-purple);
+	color: var(--medium-dark-purple);
+	text-decoration: none;
+	user-select: none;
+	letter-spacing: 1.5px;
+}
+#content-length:hover { border: 2px solid var(--medium-dark-purple); background-color: var(--medium-dark-purple); color: white; }
 
 
 #app-title {

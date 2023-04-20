@@ -6,6 +6,8 @@ window.onload = () => {
 	randomPlaceholderTxt();
 	createContent();
 	assemble_tags(base);
+
+	document.getElementById("content-length").innerHTML = `Apps: ${base.length} / Tags: ${tags.length}`;
 }
 
 function randomPlaceholderTxt() {
