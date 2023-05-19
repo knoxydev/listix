@@ -1104,6 +1104,95 @@ const base = [
 		"type" : ["map", "osint", "analysis", "monitoring", "visualization"],
 		"id" : "0"
 	},
+	{
+		"name" : "Not Tetris 2",
+		"url" : {
+			"website" : "https://stabyourself.net/nottetris2/",
+			"github" : "https://github.com/Stabyourself/nottetris2",
+		},
+		"description" : "the spiritual successor of the classic Tetris mixed with physics",
+		"type" : ["game", "windows", "linux", "macos"],
+		"id" : "0"
+	},
+	{
+		"name" : "123apps",
+		"url" : {
+			"website" : "https://123apps.com/ru/",
+		},
+		"description" : "Web applications from 123apps. Edit, convert, create.",
+		"type" : ["file", "design", "sound", "screen-recorder", "video"],
+		"id" : "0"
+	},
+	{
+		"name" : "Ulry",
+		"url" : {
+			"website" : "https://ulry.app/",
+			"appstore" : "https://apps.apple.com/it/app/ulry/id1603982621",
+			"github" : "https://github.com/mattrighetti/Ulry",
+		},
+		"description" : "Fast and lightweight read-it-later and link archiver application for iOS",
+		"type" : ["ios", "ipados", "manager", "database"],
+		"id" : "0"
+	},
+	{
+		"name" : "Beton Brutal",
+		"url" : {
+			"steam-store" : "https://store.steampowered.com/app/2330500/BETON_BRUTAL/",
+		},
+		"description" : "Climb a massive overgrown concrete tower while constantly at risk of falling and losing precious progress",
+		"type" : ["game", "windows"],
+		"id" : "0"
+	},
+	{
+		"name" : "Chalk",
+		"url" : {
+			"website" : "https://chalk.ist/",
+			"github" : "https://github.com/Idered/chalk.ist",
+		},
+		"description" : "Create beautiful images of your source code",
+		"type" : ["code", "design", "programming"],
+		"id" : "0"
+	},
+	{
+		"name" : "FML",
+		"url" : {
+			"website" : "https://www.fmylife.com/",
+			"appstore" : "https://apps.apple.com/app/fml-fmylife/id1596259692",
+			"google-play" : "https://play.google.com/store/apps/details?id=com.vdm.fml",
+		},
+		"description" : "Your everyday life stories",
+		"type" : ["ios", "android", "ipad"],
+		"id" : "0"
+	},
+	{
+		"name" : "Logseq",
+		"url" : {
+			"website" : "https://logseq.com/",
+			"github" : "https://github.com/logseq/logseq",
+			"appstore" : "https://apps.apple.com/us/app/logseq/id1601013908",
+		},
+		"description" : "A privacy-first, open-source platform for knowledge management and collaboration",
+		"type" : ["windows", "android", "ios", "linux", "macos", "notes", "manager", "database", "study"],
+		"id" : "0"
+	},
+	{
+		"name" : "DataVizProject",
+		"url" : {
+			"website" : "https://datavizproject.com/",
+		},
+		"description" : "A privacy-first, open-source platform for knowledge management and collaboration",
+		"type" : ["design", "visualization", "collection", "study"],
+		"id" : "0"
+	},
+	{
+		"name" : "Metadata2go",
+		"url" : {
+			"website" : "https://www.metadata2go.com/",
+		},
+		"description" : "Get all metadata info of your files",
+		"type" : ["file", "analysis", "osint"],
+		"id" : "0"
+	},
 ];
 
 let shuffle = (array) => {
