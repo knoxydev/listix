@@ -7,7 +7,8 @@ window.onload = () => {
 	createContent();
 	assemble_tags(base);
 
-	document.getElementById("content-length").innerHTML = `Apps: ${base.length} / Tags: ${tags.length}`;
+	document.getElementById("apps-quantity").innerHTML = `Apps: ${base.length}`;
+	document.getElementById("tags-quantity").innerHTML = `Tags: ${tags.length}`;
 }
 
 function randomPlaceholderTxt() {
