@@ -78,7 +78,7 @@ const base = [
 			"website" : "https://hyper.is/",
 		},
 		"description" : "Project is to create a beautiful and extensible experience for command-line interface users, built on open web standards",
-		"type" : ["command-line", "programming", "windows", "macos", "linux"],
+		"type" : ["command-line", "windows", "macos", "linux"],
 		"id" : "0"
 	},
 	{
@@ -600,7 +600,7 @@ const base = [
 			"f-droid" : "https://f-droid.org/packages/d.d.meshenger/",
 		},
 		"description" : "P2P Voice/Video phone App for local networks",
-		"type" : ["network", "android", "p2p"],
+		"type" : ["network", "android", "p2p", "privacy"],
 		"id" : "0"
 	},
 	{
@@ -662,7 +662,7 @@ const base = [
 			"github" : "https://github.com/KDE/ghostwriter",
 		},
 		"description" : "Markdown editor",
-		"type" : ["windows", "macos", "linux", "markdown", "file", "notes"],
+		"type" : ["windows", "macos", "linux", "markdown", "file", "notes", "text-editor"],
 		"id" : "0"
 	},
 	{
@@ -1191,6 +1191,123 @@ const base = [
 		},
 		"description" : "Get all metadata info of your files",
 		"type" : ["file", "analysis", "osint"],
+		"id" : "0"
+	},
+	{
+		"name" : "vccgenerator",
+		"url" : {
+			"website" : "https://www.vccgenerator.org/",
+		},
+		"description" : "Generate valid test credit card numbers with all the required details such as Name, Address, Expiry Date, Money, PIN code, and CVV code",
+		"type" : ["generator"],
+		"id" : "0"
+	},
+	{
+		"name" : "Dumpoir",
+		"url" : {
+			"website" : "https://dumpoir.com/",
+		},
+		"description" : "Instagram story viewer anonymously. Online view profiles, reels, stories IG, followers, tagged posts. Best insta viewer and stalker",
+		"type" : ["instagram", "social", "monitoring"],
+		"id" : "0"
+	},
+	{
+		"name" : "Privacy Tools",
+		"url" : {
+			"website" : "https://www.privacytools.io/",
+		},
+		"description" : "Website for Encrypted Software & Apps",
+		"type" : ["collection", "privacy", "p2p", "search", "network"],
+		"id" : "0"
+	},
+	{
+		"name" : "Raven Reader",
+		"url" : {
+			"website" : "https://ravenreader.app/",
+			"github" : "https://github.com/hello-efficiency-inc/raven-reader",
+		},
+		"description" : "All your articles in one place",
+		"type" : ["reader", "parser", "news", "rss", "windows", "macos", "linux"],
+		"id" : "0"
+	},
+	{
+		"name" : "Metaphor",
+		"url" : {
+			"website" : "https://metaphor.systems/",
+		},
+		"description" : "Metaphor is a search engine designed from scratch using AI",
+		"type" : ["search", "network"],
+		"id" : "0"
+	},
+	{
+		"name" : "Rextracter",
+		"url" : {
+			"website" : "https://rextracter.streamlit.app/",
+		},
+		"description" : "Visualization of subdomains of the website",
+		"type" : ["visualization", "network", "analysis", "monitoring", "map", "osint"],
+		"id" : "0"
+	},
+	{
+		"name" : "Netlas",
+		"url" : {
+			"website" : "https://netlas.io/",
+			"github" : "https://github.com/netlas-io",
+		},
+		"description" : "Discover, Research and Monitor any Assets Available Online",
+		"type" : ["network", "analysis", "monitoring", "osint"],
+		"id" : "0"
+	},
+	{
+		"name" : "Alacritty",
+		"url" : {
+			"website" : "https://alacritty.org/",
+			"github" : "https://github.com/alacritty/alacritty",
+		},
+		"description" : "A cross-platform, OpenGL terminal emulator",
+		"type" : ["windows", "macos", "linux", "command-line"],
+		"id" : "0"
+	},
+	{
+		"name" : "Open Source Alternative",
+		"url" : {
+			"website" : "https://www.opensourcealternative.to/",
+		},
+		"description" : "Discover 400+ popular open source alternatives to your proprietary SaaS",
+		"type" : ["collection"],
+		"id" : "0"
+	},
+	{
+		"name" : "Planka",
+		"url" : {
+			"website" : "https://planka.app/",
+			"github" : "https://github.com/plankanban/planka",
+		},
+		"description" : "Free open source kanban board for workgroups",
+		"type" : ["notes", "windows", "linux", "manager", "database"],
+		"id" : "0"
+	},
+	{
+		"name" : "Element",
+		"url" : {
+			"website" : "https://element.io/",
+			"github" : "https://github.com/vector-im",
+			"appstore" : "https://itunes.apple.com/us/app/element/id1083446067?mt=8",
+			"google-play" : "https://play.google.com/store/apps/details?id=im.vector.app",
+			"f-droid" : "https://f-droid.org/app/im.vector.app"
+		},
+		"description" : "Secure communication and collaboration",
+		"type" : ["windows", "linux", "macos", "ios", "ipados", "android", "p2p", "privacy", "network"],
+		"id" : "0"
+	},
+	{
+		"name" : "AppFlowy",
+		"url" : {
+			"website" : "https://appflowy.io/",
+			"github" : "https://github.com/AppFlowy-IO/appflowy",
+		},
+		"description" : "An open-source alternative to Notion. You are in charge of your data and customizations",
+		"type" : ["notes", "markdown", "manager", "database", "text-editor"],
 		"id" : "0"
 	},
 ];
