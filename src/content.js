@@ -900,7 +900,7 @@ const base = [
 			"website" : "https://picfinder.ai/",
 		},
 		"description" : "Infinite image generation powered by AI",
-		"type" : ["design", "search", "collection", "generator"],
+		"type" : ["design", "search", "collection", "generator", "ai"],
 		"id" : "0"
 	},
 	{
@@ -1236,7 +1236,7 @@ const base = [
 			"website" : "https://metaphor.systems/",
 		},
 		"description" : "Metaphor is a search engine designed from scratch using AI",
-		"type" : ["search", "network"],
+		"type" : ["search", "network", "ai"],
 		"id" : "0"
 	},
 	{
@@ -1310,6 +1310,129 @@ const base = [
 		"type" : ["notes", "markdown", "manager", "database", "text-editor"],
 		"id" : "0"
 	},
+	{
+		"name" : "Spyglass",
+		"url" : {
+			"website" : "https://docs.spyglass.fyi",
+			"github" : "https://github.com/spyglass-search/spyglass",
+		},
+		"description" : "A personal search engine that indexes what you want, exposing it to you in a simple & fast interface",
+		"type" : ["windows", "macos", "linux", "search", "text-editor"],
+		"id" : "0"
+	},
+	{
+		"name" : "AI Transcriptions",
+		"url" : {
+			"website" : "https://riverside.fm/transcription",
+		},
+		"description" : "Unlimited transcriptions for free. Powered by the latest AI technology. Supports MP3, WAV, MP4 and MOV",
+		"type" : ["sound", "ai"],
+		"id" : "0"
+	},
+	{
+		"name" : "NYC Guessr",
+		"url" : {
+			"website" : "https://nycguessr.com/",
+			"github" : "https://github.com/BenMusch/transit-guessr",
+		},
+		"description" : "GeoGuessr for Subway Systems",
+		"type" : ["game", "map"],
+		"id" : "0"
+	},
+	{
+		"name" : "NYC Subwaysheds",
+		"url" : {
+			"website" : "https://subwaysheds.com/",
+		},
+		"description" : "How far can you get in 40 minutes from each subway station in New York City ?",
+		"type" : ["map", "analysis"],
+		"id" : "0"
+	},
+	{
+		"name" : "Gyroflow",
+		"url" : {
+			"website" : "https://gyroflow.xyz/",
+			"github" : "https://github.com/gyroflow/gyroflow",
+		},
+		"description" : "Advanced gyro-based video stabilization tool for cinematography, drone videography and much more! Bring your cinematic footage to the next level",
+		"type" : ["video", "windows", "macos", "linux"],
+		"id" : "0"
+	},
+	{
+		"name" : "Ebou",
+		"url" : {
+			"website" : "https://terhech.de/ebou/",
+			"github" : "https://github.com/terhechte/Ebou",
+		},
+		"description" : "A Mastodon Client with a Messenger Feel",
+		"type" : ["windows", "macos", "linux", "social", "network"],
+		"id" : "0"
+	},
+	{
+		"name" : "Contexto",
+		"url" : {
+			"website" : "https://contexto.me/",
+		},
+		"description" : "Find the secret word. You have unlimited guesses",
+		"type" : ["games"],
+		"id" : "0"
+	},
+	{
+		"name" : "Natron",
+		"url" : {
+			"website" : "https://natrongithub.github.io/",
+			"github" : "https://github.com/NatronGitHub/Natron",
+		},
+		"description" : "Open Source Compositing Software For VFX and Motion Graphics",
+		"type" : ["graphics", "video"],
+		"id" : "0"
+	},
+	{
+		"name" : "Goosint",
+		"url" : {
+			"website" : "https://goosint.com/",
+		},
+		"description" : "Goosint focused on the most popular web-based Open Source Intelligence and Cybersecurity Tools",
+		"type" : ["network", "analysis", "collection", "monitoring", "osint", "search"],
+		"id" : "0"
+	},
+	{
+		"name" : "Alkaa",
+		"url" : {
+			"github" : "https://github.com/igorescodro/alkaa",
+			"google-play" : "https://play.google.com/store/apps/details?id=com.escodro.alkaa",
+		},
+		"description" : "Open-source app to manage your tasks quickly and easily",
+		"type" : ["android", "notes"],
+		"id" : "0"
+	},
+	{
+		"name" : "Frontline Ops",
+		"url" : {
+			"itch.io" : "https://vmgangsta7.itch.io/frontline-ops",
+		},
+		"description" : "Frontline Ops is a top down shooter. It puts emphasis on combat tactics in combination with a slightly arcade style",
+		"type" : ["windows", "game"],
+		"id" : "0"
+	},
+	{
+		"name" : "Chesses",
+		"url" : {
+			"itch.io" : "https://pippinbarr.itch.io/chesses",
+		},
+		"description" : "There are eight variations in the collection, each exploring some addition to or subtraction from the original game of chess, whether it's playing with gravity applied or playing quantum moves that exercise every option at once",
+		"type" : ["game"],
+		"id" : "0"
+	},
+	{
+		"name" : "SuperHotline Miami",
+		"url" : {
+			"itch.io" : "https://albatr.itch.io/superhotline-miami",
+		},
+		"description" : "What happens when you mix SUPER HOT with Hotline Miami ? You get SuperHotline Miami",
+		"type" : ["game", "windows", "linux", "macos"],
+		"id" : "0"
+	}
 ];
 
 let shuffle = (array) => {
