@@ -11,10 +11,7 @@ window.onload = () => {
 	document.getElementById("tags-quantity").innerHTML = `Tags: ${tags.length}`;
 }
 
-function randomPlaceholderTxt() {
-	let word = inpWords[Math.floor(Math.random() * inpWords.length)];
-	document.getElementById("main-search-input").placeholder = `Enter for example: ${word}`;
-}
+function randomPlaceholderTxt() { document.getElementById("main-search-input").placeholder = `Enter for example: ${inpWords[Math.floor(Math.random() * inpWords.length)]}`; }
 
 function randomArrPlcHolder() {
 	let arr = [];
@@ -45,10 +42,13 @@ function createContent() {
 	{
 		let mainUl = document.createElement('ul');
 
-		for (let item of xItem['type']) {
-			let mainLi = document.createElement('li');
-			mainLi.innerHTML = item;
-			mainUl.append(mainLi);
+		for (let item of xItem['type'])
+		{
+			mainUl.append((function() {
+				let mainLi = document.createElement('li');
+				mainLi.innerHTML = item;
+				return mainLi
+			})());
 		}
 
 		return mainUl;
