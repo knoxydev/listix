@@ -1374,7 +1374,7 @@ const base = [
 			"website" : "https://contexto.me/",
 		},
 		"description" : "Find the secret word. You have unlimited guesses",
-		"type" : ["games"],
+		"type" : ["game"],
 		"id" : "0"
 	},
 	{
@@ -1432,7 +1432,144 @@ const base = [
 		"description" : "What happens when you mix SUPER HOT with Hotline Miami ? You get SuperHotline Miami",
 		"type" : ["game", "windows", "linux", "macos"],
 		"id" : "0"
-	}
+	},
+	{
+		"name" : "OpenSCAD",
+		"url" : {
+			"website" : "https://openscad.org/",
+			"github" : "https://github.com/openscad/openscad/"
+		},
+		"description" : "The Programmers Solid 3D CAD Modeller",
+		"type" : ["painting", "windows", "linux", "macos"],
+		"id" : "0"
+	},
+	{
+		"name" : "OpenResume",
+		"url" : {
+			"website" : "https://www.open-resume.com/",
+			"github" : "https://github.com/xitanggg/open-resume"
+		},
+		"description" : "A powerful open-source resume builder and resume parser",
+		"type" : ["builder"],
+		"id" : "0"
+	},
+	{
+		"name" : "Mindustry",
+		"url" : {
+			"itch.io" : "https://anuke.itch.io/mindustry",
+			"github" : "https://github.com/Anuken/Mindustry",
+			"google-play" : "https://play.google.com/store/apps/details?id=io.anuke.mindustry",
+			"appstore" : "https://itunes.apple.com/us/app/mindustry/id1385258906?ls=1&mt=8&uo=8&at=1l3vuur"
+		},
+		"description" : "A hybrid tower-defense sandbox factory game",
+		"type" : ["game", "windows", "ios", "macos", "linux", "android"],
+		"id" : "0"
+	},
+	{
+		"name" : "Darktable",
+		"url" : {
+			"website" : "https://www.darktable.org/",
+			"github" : "https://github.com/darktable-org",
+		},
+		"description" : "Open source photography workflow application and raw developer. A virtual lighttable and darkroom for photographers",
+		"type" : ["photo-editing", "windows", "macos", "linux"],
+		"id" : "0"
+	},
+	{
+		"name" : "Slow Roads",
+		"url" : {
+			"website" : "https://slowroads.io/",
+		},
+		"description" : "Slow Roads is a casual, procedurally-generated driving game which lets you disconnect from life for a while and run endlessly toward the distant horizon",
+		"type" : ["game"],
+		"id" : "0"
+	},
+	{
+		"name" : "Silence",
+		"url" : {
+			"website" : "https://silence.im/",
+			"f-droid" : "https://f-droid.org/app/org.smssecure.smssecure",
+		},
+		"description" : "Encrypt your SMS and MMS messages with Silence. Improve your privacy, think freely",
+		"type" : ["privacy", "android"],
+		"id" : "0"
+	},
+	{
+		"name" : "D2",
+		"url" : {
+			"website" : "https://d2lang.com/",
+			"github" : "https://github.com/terrastruct/d2",
+		},
+		"description" : "A modern language that turns text to diagrams",
+		"type" : ["visualization", "painting", "windows", "macos", "linux"],
+		"id" : "0"
+	},
+	{
+		"name" : "The Password Game",
+		"url" : {
+			"website" : "https://neal.fun/password-game/",
+		},
+		"description" : "A game in which you are thrown more and more strange password requirements until it meets 40 criteria",
+		"type" : ["password", "privacy"],
+		"id" : "0"
+	},
+	{
+		"name" : "Mark O'Travel",
+		"url" : {
+			"google-play" : "https://play.google.com/store/apps/details?id=com.radetel.markotravel2&hl=ru",
+			"appstore" : "https://apps.apple.com/us/app/mark-otravel-where-ive-been/id866778149",
+		},
+		"description" : "The essential tool for a traveler. Create your own travel map marking states and regions where you've been",
+		"type" : ["map"],
+		"id" : "0"
+	},
+	{
+		"name" : "Globle",
+		"url" : {
+			"website" : "https://globle-game.com/",
+		},
+		"description" : "Guess country",
+		"type" : ["game", "map"],
+		"id" : "0"
+	},
+	{
+		"name" : "city-generator",
+		"url" : {
+			"website" : "https://maps.probabletrain.com/#/",
+			"itch.io" : "https://probabletrain.itch.io/city-generator",
+			"github" : "https://github.com/ProbableTrain/MapGenerator",
+		},
+		"description" : "Create procedurally generated city maps in the style of American grid-based cities",
+		"type" : ["generator", "map"],
+		"id" : "0"
+	},
+	{
+		"name" : "Inkscape",
+		"url" : {
+			"website" : "https://inkscape.org/",
+		},
+		"description" : "Inkscape is a free and open source vector graphics editor",
+		"type" : ["windows", "macos", "linux", "painting"],
+		"id" : "0"
+	},
+	{
+		"name" : "Rix",
+		"url" : {
+			"website" : "https://hashnode.com/rix",
+		},
+		"description" : "The AI search companion, optimized for developers",
+		"type" : ["ai", "code", "programming"],
+		"id" : "0"
+	},
+	{
+		"name" : "Iconbuddy",
+		"url" : {
+			"website" : "https://iconbuddy.app/",
+		},
+		"description" : "Download, Customize, Edit and Personalize. Over 100k+ open source icons",
+		"type" : ["design", "collection"],
+		"id" : "0"
+	},
 ];
 
 let shuffle = (array) => {
