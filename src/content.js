@@ -912,7 +912,7 @@ const base = [
 			"epic-store" : "https://www.epicgames.com/store/p/krita"
 		},
 		"description" : "Krita is a professional FREE and open source painting program",
-		"type" : ["windows", "linux", "macos", "design", "painting"],
+		"type" : ["windows", "linux", "macos", "design", "painting", "graphics", "editor"],
 		"id" : "0"
 	},
 	{
@@ -1161,7 +1161,7 @@ const base = [
 			"google-play" : "https://play.google.com/store/apps/details?id=com.vdm.fml",
 		},
 		"description" : "Your everyday life stories",
-		"type" : ["ios", "android", "ipad"],
+		"type" : ["ios", "android", "ipados"],
 		"id" : "0"
 	},
 	{
@@ -1440,7 +1440,7 @@ const base = [
 			"github" : "https://github.com/openscad/openscad/"
 		},
 		"description" : "The Programmers Solid 3D CAD Modeller",
-		"type" : ["painting", "windows", "linux", "macos"],
+		"type" : ["windows", "linux", "macos", "painting", "editor", "design", "graphics"],
 		"id" : "0"
 	},
 	{
@@ -1549,7 +1549,7 @@ const base = [
 			"website" : "https://inkscape.org/",
 		},
 		"description" : "Inkscape is a free and open source vector graphics editor",
-		"type" : ["windows", "macos", "linux", "painting"],
+		"type" : ["windows", "macos", "linux", "painting", "editor", "graphics"],
 		"id" : "0"
 	},
 	{
@@ -1570,7 +1570,159 @@ const base = [
 		"type" : ["design", "collection"],
 		"id" : "0"
 	},
+	{
+		"name" : "Everything",
+		"url" : {
+			"website" : "https://www.voidtools.com/ru-ru/",
+		},
+		"description" : "Instant search of files and folders by their names",
+		"type" : ["windows", "search", "file"],
+		"id" : "0"
+	},
+	{
+		"name" : "Nonsense Laboratory",
+		"url" : {
+			"website" : "https://artsexperiments.withgoogle.com/nonsense-laboratory/#",
+		},
+		"description" : "The Nonsense Laboratory uses machine learning to let you poke at, mangle, and play with the spelling of words",
+		"type" : ["generator"],
+		"id" : "0"
+	},
+	{
+		"name" : "Insomnia",
+		"url" : {
+			"website" : "https://insomnia.rest/",
+			"github" : "https://github.com/Kong/insomnia",
+		},
+		"description" : "The easy way to design, debug, and test APIs",
+		"type" : ["windows", "macos", "linux", "network", "builder"],
+		"id" : "0"
+	},
+	{
+		"name" : "Raycast",
+		"url" : {
+			"website" : "https://www.raycast.com/",
+			"github" : "https://github.com/raycast",
+		},
+		"description" : "Raycast is a blazingly fast, totally extendable launcher. It lets you complete tasks, calculate, share common links, and much more",
+		"type" : ["macos", "search", "collection"],
+		"id" : "0"
+	},
+	{
+		"name" : "Ray.so",
+		"url" : {
+			"website" : "https://www.raycast.com/",
+		},
+		"description" : "Create beautiful images of your source code",
+		"type" : ["code", "design", "programming"],
+		"id" : "0"
+	},
+	{
+		"name" : "GeoTips",
+		"url" : {
+			"website" : "https://geotips.net/",
+		},
+		"description" : "Tips and tricks for Geoguessr game",
+		"type" : ["map", "analysis", "osint"],
+		"id" : "0"
+	},
+	{
+		"name" : "Glider",
+		"url" : {
+			"f-droid" : "https://f-droid.org/packages/nl.viter.glider/",
+			"github" : "https://github.com/Mosc/Glider",
+		},
+		"description" : "Glider is an opinionated Hacker News client. Ad-free, open-source, no-nonsense",
+		"type" : ["android", "news", "programming", "social"],
+		"id" : "0"
+	},
+	{
+		"name" : "WezTerm",
+		"url" : {
+			"website" : "https://wezfurlong.org/wezterm/",
+			"github" : "https://github.com/wez/wezterm",
+		},
+		"description" : "WezTerm is a powerful cross-platform terminal emulator and implemented in Rust",
+		"type" : ["windows", "macos", "linux", "command-line"],
+		"id" : "0"
+	},
+	{
+		"name" : "foobar2000",
+		"url" : {
+			"website" : "https://www.foobar2000.org/",
+			"microsoft-store" : "https://www.microsoft.com/store/apps/9PDJ8X9SPF2K",
+		},
+		"description" : "foobar2000 is an advanced freeware audio player for the Windows platform",
+		"type" : ["windows", "music-player", "sound"],
+		"id" : "0"
+	},
+	{
+		"name" : "OpenBoard",
+		"url" : {
+			"github" : "https://github.com/openboard-team/openboard",
+			"f-droid" : "https://f-droid.org/packages/org.dslul.openboard.inputmethod.latin",
+		},
+		"description" : "100% FOSS keyboard, based on AOSP",
+		"type" : ["android", "keyboard"],
+		"id" : "0"
+	},
+	{
+		"name" : "Simple Keyboard",
+		"url" : {
+			"github" : "https://github.com/rkkr/simple-keyboard",
+			"f-droid" : "https://f-droid.org/packages/rkr.simplekeyboard.inputmethod/",
+			"google-play" : "https://play.google.com/store/apps/details?id=rkr.simplekeyboard.inputmethod",
+		},
+		"description" : "This keyboard is designed for those who only need a keyboard and nothing extra",
+		"type" : ["android", "keyboard"],
+		"id" : "0"
+	},
+	{
+		"name" : "FlorisBoard",
+		"url" : {
+			"website" : "https://florisboard.org/",
+			"github" : "https://github.com/florisboard/florisboard",
+			"f-droid" : "https://f-droid.org/packages/dev.patrickgold.florisboard/",
+		},
+		"description" : "An open-source keyboard for Android which respects your privacy",
+		"type" : ["android", "keyboard"],
+		"id" : "0"
+	},
+	{
+		"name" : "Graphite",
+		"url" : {
+			"website" : "https://graphite.rs/",
+			"github" : "https://github.com/GraphiteEditor/Graphite",
+		},
+		"description" : "Graphite is an in-development raster and vector 2D graphics editor that is free and open source",
+		"type" : ["windows", "macos", "linux", "design", "editor", "painting", "graphics"],
+		"id" : "0"
+	},
+	{
+		"name" : "Hacki",
+		"url" : {
+			"github" : "https://github.com/Livinglist/Hacki",
+			"google-play" : "https://play.google.com/store/apps/details?id=com.jiaqifeng.hacki",
+			"f-droid" : "https://f-droid.org/en/packages/com.jiaqifeng.hacki/",
+			"appstore" : "https://apps.apple.com/us/app/hacki/id1602043763",
+		},
+		"description" : "A Hacker News client",
+		"type" : ["android", "ios", "ipados", "news", "social"],
+		"id" : "0"
+	},
+	{
+		"name" : "Halloy",
+		"url" : {
+			"website" : "https://squidowl.org/",
+			"github" : "https://github.com/squidowl/halloy",
+			"flatpak" : "https://flathub.org/apps/org.squidowl.halloy",
+		},
+		"description" : "IRC application written in Rust",
+		"type" : ["windows", "macos", "linux", "network"],
+		"id" : "0"
+	},
 ];
+
 
 let shuffle = (array) => {
   for (let i = array.length - 1; i > 0; i--) {
