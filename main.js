@@ -145,5 +145,11 @@ function filterContent() {
 	filter_tags();
 }
 
-document.getElementById("main-search-input").addEventListener("input", (e) => filterContent());
+document.getElementById("main-search-input").addEventListener("input", (e) =>
+{
+	let inp = document.getElementById("main-search-input").value.toLowerCase();
+	document.getElementById("main-search-input").value = inp.replace(/\s/g, "-");
+
+	filterContent();
+});
 
