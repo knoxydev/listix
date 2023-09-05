@@ -1721,6 +1721,237 @@ const base = [
 		"type" : ["windows", "macos", "linux", "network"],
 		"id" : "0"
 	},
+	{
+		"name" : "Rize",
+		"url" : {
+			"website" : "https://rize.io/",
+		},
+		"description" : "Rize is a smart time tracker that improves your focus and helps you build better work habits",
+		"type" : ["windows", "macos", "manager", "time"],
+		"id" : "0"
+	},
+	{
+		"name" : "Flathub",
+		"url" : {
+			"website" : "https://flathub.org/",
+		},
+		"description" : "Linux App Store",
+		"type" : ["linux", "store"],
+		"id" : "0"
+	},
+	{
+		"name" : "Tabby",
+		"url" : {
+			"website" : "https://tabby.sh/",
+			"github" : "https://github.com/Eugeny/tabby",
+		},
+		"description" : "Tabby is an infinitely customizable cross-platform terminal app for local shells, serial, SSH and Telnet connections",
+		"type" : ["windows", "macos", "linux", "command-line"],
+		"id" : "0"
+	},
+	{
+		"name" : "Flagle",
+		"url" : {
+			"website" : "https://www.flagle.io/",
+		},
+		"description" : "Guess the country by the flag",
+		"type" : ["game"],
+		"id" : "0"
+	},
+	{
+		"name" : "Focus Editor",
+		"url" : {
+			"github" : "https://github.com/focus-editor/focus",
+		},
+		"description" : "A simple and fast text editor",
+		"type" : ["windows", "macos", "linux", "text-editor", "code", "code-editor", "programming"],
+		"id" : "0"
+	},
+	{
+		"name" : "Hydrogen Music",
+		"url" : {
+			"website" : "http://hydrogen-music.org/",
+			"github" : "https://github.com/hydrogen-music/hydrogen",
+		},
+		"description" : "This is an open source drum machine",
+		"type" : ["windows", "macos", "linux", "editor", "sound"],
+		"id" : "0"
+	},
+	{
+		"name" : "Avaide Image Upscaler",
+		"url" : {
+			"website" : "https://www.avaide.com/image-upscaler/",
+		},
+		"description" : "Upscale Images, increase photo resolution and fix blurry images online",
+		"type" : ["ai", "photo-editing"],
+		"id" : "0"
+	},
+	{
+		"name" : "Eyecandy",
+		"url" : {
+			"website" : "https://eycndy.co/",
+		},
+		"description" : "Eyecandy is a visual technique community shared across three hubs",
+		"type" : ["collection", "visual"],
+		"id" : "0"
+	},
+	{
+		"name" : "Qalculate",
+		"url" : {
+			"website" : "https://qalculate.github.io/",
+			"github" : "https://github.com/Qalculate",
+		},
+		"description" : "Qalculate is a multi-purpose cross-platform desktop calculator",
+		"type" : ["windows", "macos", "linux", "calculator"],
+		"id" : "0"
+	},
+	{
+		"name" : "Kvak.io",
+		"url" : {
+			"website" : "https://kvak.io/",
+		},
+		"description" : "Kvak is a simple note taking app",
+		"type" : ["notes"],
+		"id" : "0"
+	},
+	{
+		"name" : "HexChat",
+		"url" : {
+			"website" : "https://hexchat.github.io/",
+			"github" : "https://github.com/hexchat",
+			"microsoft-store" : "https://www.microsoft.com/store/apps/9NRRBGTTM4J2",
+		},
+		"description" : "HexChat is an IRC client based on XChat, but unlike XChat it’s completely free for both Windows and Unix-like systems",
+		"type" : ["windows", "social", "irc", "privacy"],
+		"id" : "0"
+	},
+	{
+		"name" : "Atomic",
+		"url" : {
+			"website" : "http://papertape.zaibatsutel.net/Atomic/",
+			"github" : "https://github.com/indrora/Atomic",
+			"f-droid" : "https://f-droid.org/packages/indrora.atomic/",
+		},
+		"description" : "IRC client for Android",
+		"type" : ["android", "social", "irc", "privacy"],
+		"id" : "0"
+	},
+	{
+		"name" : "Rio",
+		"url" : {
+			"website" : "https://raphamorim.io/rio/",
+			"github" : "https://github.com/raphamorim/rio",
+			"product-hunt" : "https://www.producthunt.com/products/rio-terminal",
+		},
+		"description" : "A hardware-accelerated GPU terminal emulator powered by WebGPU, focusing to run in desktops and browsers",
+		"type" : ["windows", "macos", "linux", "command-line"],
+		"id" : "0"
+	},
+	{
+		"name" : "Goguma",
+		"url" : {
+			"website" : "https://git.sr.ht/~emersion/goguma",
+			"f-droid" : "https://f-droid.org/packages/fr.emersion.goguma/",
+		},
+		"description" : "IRC client for Android",
+		"type" : ["android", "social", "irc", "privacy"],
+		"id" : "0"
+	},
+	{
+		"name" : "FeedFlow",
+		"url" : {
+			"website" : "https://www.feedflow.dev/",
+			"github" : "https://github.com/prof18/feed-flow",
+			"google-play" : "https://play.google.com/store/apps/details?id=com.prof18.feedflow",
+			"appstore" : "https://apps.apple.com/us/app/feedflow-rss-reader/id6447210518",
+		},
+		"description" : "Follow your favorite RSS feeds with FeedFlow, a minimalistic and opinionated RSS Reader for Android, iOS, and macOS",
+		"type" : ["android", "ios", "macos", "rss", "reader", "parser"],
+		"id" : "0"
+	},
+	{
+		"name" : "Joe's Own Editor",
+		"url" : {
+			"website" : "https://joe-editor.sourceforge.io/",
+			"sourceforge" : "https://sourceforge.net/projects/joe-editor/files/",
+		},
+		"description" : "JOE is a full featured terminal-based screen editor which is distributed under the GNU General Public License (GPL)",
+		"type" : ["windows", "linux", "macos", "code-editor", "text-editor", "command-line"],
+		"id" : "0"
+	},
+	{
+		"name" : "Xonotic",
+		"url" : {
+			"website" : "https://xonotic.org/",
+			"gitlab" : "https://gitlab.com/xonotic/xonotic/",
+		},
+		"description" : "The Free and Fast Arena Shooter",
+		"type" : ["windows", "linux", "macos", "game"],
+		"id" : "0"
+	},
+	{
+		"name" : "OpenSAGE",
+		"url" : {
+			"website" : "https://opensage.github.io/",
+			"github" : "https://github.com/OpenSAGE/OpenSAGE",
+		},
+		"description" : "Free, open source re-implementation of SAGE, the 3D real time strategy (RTS)",
+		"type" : ["windows", "linux", "macos", "game"],
+		"id" : "0"
+	},
+	{
+		"name" : "Avatartion",
+		"url" : {
+			"website" : "https://www.avatartion.com/",
+			"github" : "https://github.com/wilmerterrero/Avatartion",
+		},
+		"description" : "A simple, open-source Notion-like avatar generator",
+		"type" : ["generator", "design"],
+		"id" : "0"
+	},
+	{
+		"name" : "Krunker.io",
+		"url" : {
+			"website" : "https://krunker.io/",
+		},
+		"description" : "Krunker is a free Multiplayer Online Game",
+		"type" : ["game"],
+		"id" : "0"
+	},
+	{
+		"name" : "Godly",
+		"url" : {
+			"website" : "https://godly.website/",
+		},
+		"description" : "Astronomically good web design inspiration from all over the internet",
+		"type" : ["design", "collection"],
+		"id" : "0"
+	},
+	{
+		"name" : "Organic Maps",
+		"url" : {
+			"website" : "https://organicmaps.app/",
+			"github" : "https://github.com/organicmaps/organicmaps",
+			"f-droid" : "https://f-droid.org/en/packages/app.organicmaps/",
+			"appstore" : "https://apps.apple.com/app/organic-maps/id1567437057",
+			"google-play" : "https://play.google.com/store/apps/details?id=app.organicmaps",
+			"app-gallery" : "https://appgallery.huawei.com/#/app/C104325611",
+		},
+		"description" : "Organic Maps is a free Android & iOS offline maps app for travelers, tourists, hikers, and cyclists based on top of crowd-sourced OpenStreetMap data. It is a privacy-focused, open-source fork of Maps.me",
+		"type" : ["android", "ios", "ipados", "map"],
+		"id" : "0"
+	},
+	{
+		"name" : "WaterMinder",
+		"url" : {
+			"website" : "https://waterminder.com/",
+			"appstore" : "https://apps.apple.com/app/apple-store/id653031147",
+			"google-play" : "https://play.google.com/store/apps/details?id=com.funnmedia.waterminder",
+		},
+		"description" : "Track your daily water intake with WaterMinder",
+		"type" : ["android", "ios", "macos", "tracker", "manager", "social", "analysis", "monitoring"],
+		"id" : "0"
+	},
 ];
 
 
