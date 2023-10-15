@@ -250,7 +250,7 @@ const base = [
 			"appstore" : "https://apps.apple.com/us/app/rainy-mood/id566752651",
 		},
 		"description" : "Rain Sounds for Sleep & Study",
-		"type" : ["sound", "study", "android", "ios", "ipados"],
+		"type" : ["sound", "study", "android", "ios"],
 		"id" : "0"
 	},
 	{
@@ -530,7 +530,7 @@ const base = [
 			"github" : "https://github.com/TablePlus/TablePlus",
 		},
 		"description" : "Modern, native, and friendly GUI tool for relational databases and more",
-		"type" : ["windows", "macos", "ios", "ipados", "linux", "monitoring", "database"],
+		"type" : ["windows", "macos", "ios", "linux", "monitoring", "database"],
 		"id" : "0"
 	},
 	{
@@ -843,7 +843,7 @@ const base = [
 			"appstore" : "https://apps.apple.com/us/app/finamp/id1574922594"
 		},
 		"description" : "A Jellyfin music client for mobile",
-		"type" : ["android", "ios", "ipados", "sound", "music-player"],
+		"type" : ["android", "ios", "sound", "music-player"],
 		"id" : "0"
 	},
 	{
@@ -853,7 +853,7 @@ const base = [
 			"appstore" : "https://apps.apple.com/us/app/zen-tuner/id1550640624"
 		},
 		"description" : "A minimal chromatic tuner for iOS & macOS & iPad",
-		"type" : ["macos", "ios", "ipados", "sound"],
+		"type" : ["macos", "ios", "sound"],
 		"id" : "0"
 	},
 	{
@@ -1131,7 +1131,7 @@ const base = [
 			"github" : "https://github.com/mattrighetti/Ulry",
 		},
 		"description" : "Fast and lightweight read-it-later and link archiver application for iOS",
-		"type" : ["ios", "ipados", "manager", "database"],
+		"type" : ["ios", "manager", "database"],
 		"id" : "0"
 	},
 	{
@@ -1161,7 +1161,7 @@ const base = [
 			"google-play" : "https://play.google.com/store/apps/details?id=com.vdm.fml",
 		},
 		"description" : "Your everyday life stories",
-		"type" : ["ios", "android", "ipados"],
+		"type" : ["ios", "android"],
 		"id" : "0"
 	},
 	{
@@ -1297,7 +1297,7 @@ const base = [
 			"f-droid" : "https://f-droid.org/app/im.vector.app"
 		},
 		"description" : "Secure communication and collaboration",
-		"type" : ["windows", "linux", "macos", "ios", "ipados", "android", "p2p", "privacy", "network"],
+		"type" : ["windows", "linux", "macos", "ios", "android", "p2p", "privacy", "network"],
 		"id" : "0"
 	},
 	{
@@ -1707,7 +1707,7 @@ const base = [
 			"appstore" : "https://apps.apple.com/us/app/hacki/id1602043763",
 		},
 		"description" : "A Hacker News client",
-		"type" : ["android", "ios", "ipados", "news", "social"],
+		"type" : ["android", "ios", "news", "social"],
 		"id" : "0"
 	},
 	{
@@ -1938,7 +1938,7 @@ const base = [
 			"app-gallery" : "https://appgallery.huawei.com/#/app/C104325611",
 		},
 		"description" : "Organic Maps is a free Android & iOS offline maps app for travelers, tourists, hikers, and cyclists based on top of crowd-sourced OpenStreetMap data. It is a privacy-focused, open-source fork of Maps.me",
-		"type" : ["android", "ios", "ipados", "map"],
+		"type" : ["android", "ios", "map"],
 		"id" : "0"
 	},
 	{
@@ -1950,6 +1950,132 @@ const base = [
 		},
 		"description" : "Track your daily water intake with WaterMinder",
 		"type" : ["android", "ios", "macos", "tracker", "manager", "social", "analysis", "monitoring"],
+		"id" : "0"
+	},
+	{
+		"name" : "Joplin",
+		"url" : {
+			"website" : "hhttps://joplinapp.org/",
+			"appstore" : "https://apps.apple.com/us/app/joplin/id1315599797",
+			"google-play" : "https://play.google.com/store/apps/details?id=net.cozic.joplin",
+		},
+		"description" : "Joplin is an open source note-taking app. Capture your thoughts and securely access them from any device",
+		"type" : ["android", "ios", "macos", "windows", "linux", "privacy", "notes", "manager", "database"],
+		"id" : "0"
+	},
+	{
+		"name" : "x64dbg",
+		"url" : {
+			"website" : "https://x64dbg.com/",
+			"github" : "https://github.com/x64dbg/x64dbg",
+		},
+		"description" : "An open-source x64/x32 debugger for Windows",
+		"type" : ["windows", "analysis", "monitoring", "code"],
+		"id" : "0"
+	},
+	{
+		"name" : "Openmoji",
+		"url" : {
+			"website" : "https://openmoji.org/",
+			"github" : "https://github.com/hfg-gmuend/openmoji",
+			"appstore" : "https://itunes.apple.com/us/app/openmoji/id1462636288",
+		},
+		"description" : "Open source emojis for designers, developers and everyone else",
+		"type" : ["design", "collection", "emoji", "symbol"],
+		"id" : "0"
+	},
+	{
+		"name" : "Yazi",
+		"url" : {
+			"github" : "https://github.com/sxyazi/yazi",
+		},
+		"description" : "OBlazing fast terminal file manager written in Rust, based on async I/O",
+		"type" : ["windows", "macos", "linux", "manager", "command-line", "file"],
+		"id" : "0"
+	},
+	{
+		"name" : "GlazeWM",
+		"url" : {
+			"github" : "https://github.com/glazerdesktop/GlazeWM",
+		},
+		"description" : "A tiling window manager for Windows inspired by i3 and Polybar",
+		"type" : ["windows", "manager"],
+		"id" : "0"
+	},
+	{
+		"name" : "fx",
+		"url" : {
+			"website" : "https://fx.wtf/",
+			"github" : "https://github.com/antonmedv/fx",
+		},
+		"description" : "Terminal JSON viewer & processor",
+		"type" : ["windows", "maсos", "linux", "file", "json", "command-line", "viewer"],
+		"id" : "0"
+	},
+	{
+		"name" : "LanguageTool",
+		"url" : {
+			"website" : "https://languagetool.org/",
+			"github" : "https://github.com/languagetool-org/languagetool",
+		},
+		"description" : "A multilingual spelling, style, and grammar checker that helps correct or paraphrase texts",
+		"type" : ["analysis", "maсos"],
+		"id" : "0"
+	},
+	{
+		"name" : "copycolors",
+		"url" : {
+			"github" : "https://github.com/AbdoulMa/copycolors",
+		},
+		"description" : "Command-Line Interface to extract the dominant colors from local or remote images faster",
+		"type" : ["windows", "linux", "command-line", "analysis", "design"],
+		"id" : "0"
+	},
+	{
+		"name" : "bat",
+		"url" : {
+			"github" : "https://github.com/sharkdp/bat",
+		},
+		"description" : "A cat(1) clone with syntax highlighting and Git integration",
+		"type" : ["windows", "linux", "macos", "command-line", "viewer", "file"],
+		"id" : "0"
+	},
+	{
+		"name" : "Emojis",
+		"url" : {
+			"website" : "https://emojis.alexandru.so/",
+			"github" : "https://github.com/pondorasti/emojis",
+		},
+		"description" : "AGenerate your favorite emojis with just one click",
+		"type" : ["emoji", "design", "collection", "symbol", "generator"],
+		"id" : "0"
+	},
+	{
+		"name" : "Vlipsy",
+		"url" : {
+			"website" : "https://vlipsy.com/",
+		},
+		"description" : "Collection of meme videos",
+		"type" : ["collection", "search", "video"],
+		"id" : "0"
+	},
+	{
+		"name" : "FlagID",
+		"url" : {
+			"website" : "https://flagid.org/",
+		},
+		"description" : "Find flags by color of flag fields",
+		"type" : ["collection", "search", "design"],
+		"id" : "0"
+	},
+	{
+		"name" : "nb",
+		"url" : {
+			"website" : "https://xwmx.github.io/nb/",
+			"github" : "https://github.com/xwmx/nb",
+		},
+		"description" : "A command line and local web note‑taking, bookmarking, archiving, and knowledge base application",
+		"type" : ["windows", "macos", "linux", "command-line", "notes", "database", "to-do"],
 		"id" : "0"
 	},
 ];
