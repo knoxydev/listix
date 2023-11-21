@@ -218,7 +218,7 @@ const base = [
 		"name" : "Purelist: Minimal To-Do List",
 		"url" : {
 			"website" : "https://purelist.com/",
-			"appstore" : "https://apps.apple.com/app/id1549367431?ref=purelist",
+			"app-store" : "https://apps.apple.com/app/id1549367431?ref=purelist",
 		},
 		"description" : "The most intuitive and easy to use list app for you. All your Tasks, Notes, and Reminders can be done with this app alone. Simple and minimal interface, no need to learn how to use it",
 		"type" : ["to-do", "ios", "macos"],
@@ -247,7 +247,7 @@ const base = [
 		"url" : {
 			"website" : "https://rainymood.com/",
 			"google-play" : "https://play.google.com/store/apps/details?id=com.TailoredMusic.RainyMood",
-			"appstore" : "https://apps.apple.com/us/app/rainy-mood/id566752651",
+			"app-store" : "https://apps.apple.com/us/app/rainy-mood/id566752651",
 		},
 		"description" : "Rain Sounds for Sleep & Study",
 		"type" : ["sound", "study", "android", "ios"],
@@ -266,7 +266,7 @@ const base = [
 		"name" : "Unit Notes",
 		"url" : {
 			"website" : "https://unit.app/",
-			"appstore" : "https://apps.apple.com/us/app/unit-notes-lists-tasks/id1422480663?platform=iphone"
+			"app-store" : "https://apps.apple.com/us/app/unit-notes-lists-tasks/id1422480663?platform=iphone"
 		},
 		"description" : "Redefining note-taking software",
 		"type" : ["ios", "to-do", "notes"],
@@ -276,7 +276,7 @@ const base = [
 		"name" : "DevUtils",
 		"url" : {
 			"website" : "https://devutils.com/",
-			"appstore" : "https://apps.apple.com/us/app/id1533756032"
+			"app-store" : "https://apps.apple.com/us/app/id1533756032"
 		},
 		"description" : "All-in-one Toolbox for Developers",
 		"type" : ["macos", "programming", "code", "markdown"],
@@ -308,7 +308,7 @@ const base = [
 		"url" : {
 			"website" : "https://bionic-reading.com/",
 			"webapp" : "https://app.bionic-reading.com/",
-			"appstore" : "https://apps.apple.com/app/id1644658030",
+			"app-store" : "https://apps.apple.com/app/id1644658030",
 			"google-play" : "https://play.google.com/store/apps/details?id=com.bionic_reading_app",
 		},
 		"description" : "Faster, better, more focused, reading",
@@ -526,7 +526,7 @@ const base = [
 		"name" : "TablePlus",
 		"url" : {
 			"website" : "https://tableplus.com/",
-			"appstore" : "https://apps.apple.com/app/tableplus-database-tool/id1465448609?ls=1",
+			"app-store" : "https://apps.apple.com/app/tableplus-database-tool/id1465448609?ls=1",
 			"github" : "https://github.com/TablePlus/TablePlus",
 		},
 		"description" : "Modern, native, and friendly GUI tool for relational databases and more",
@@ -619,7 +619,7 @@ const base = [
 		"url" : {
 			"website" : "https://alexandersandberg.com/apps/tiny-weather/",
 			"google-play" : "https://play.google.com/store/apps/details?id=com.alexandersandberg.tinyweather",
-			"appstore" : "https://apps.apple.com/app/id1522059185",
+			"app-store" : "https://apps.apple.com/app/id1522059185",
 		},
 		"description" : "Tiny Weather is a simple weather app free of ads and subscriptions",
 		"type" : ["android", "ios", "monitoring"],
@@ -749,7 +749,7 @@ const base = [
 		"url" : {
 			"website" : "https://anycodewallet.com/",
 			"google-play" : "https://play.google.com/store/apps/details?id=com.samirthapa.anycodewallet",
-			"appstore" : "https://apps.apple.com/us/app/anycode-wallet/id1538232377"
+			"app-store" : "https://apps.apple.com/us/app/anycode-wallet/id1538232377"
 		},
 		"description" : "You can add any barcode to your wallet by simply scanning them. From store cards, to boarding passes, to concert tickets, the possibilities are endless",
 		"type" : ["android", "ios", "barcode", "qrcode"],
@@ -840,7 +840,7 @@ const base = [
 			"github" : "https://github.com/jmshrv/finamp",
 			"f-droid" : "https://f-droid.org/packages/com.unicornsonlsd.finamp/",
 			"google-play" : "https://play.google.com/store/apps/details?id=com.unicornsonlsd.finamp",
-			"appstore" : "https://apps.apple.com/us/app/finamp/id1574922594"
+			"app-store" : "https://apps.apple.com/us/app/finamp/id1574922594"
 		},
 		"description" : "A Jellyfin music client for mobile",
 		"type" : ["android", "ios", "sound", "music-player"],
@@ -850,7 +850,7 @@ const base = [
 		"name" : "Zen Tuner",
 		"url" : {
 			"github" : "https://github.com/jpsim/ZenTuner",
-			"appstore" : "https://apps.apple.com/us/app/zen-tuner/id1550640624"
+			"app-store" : "https://apps.apple.com/us/app/zen-tuner/id1550640624"
 		},
 		"description" : "A minimal chromatic tuner for iOS & macOS & iPad",
 		"type" : ["macos", "ios", "sound"],
@@ -919,7 +919,7 @@ const base = [
 		"name" : "Cosmicast",
 		"url" : {
 			"website" : "https://basicappleguy.com/basicappleblog/cosmicast",
-			"appstore" : "https://apps.apple.com/us/app/cosmicast/id1435195637",
+			"app-store" : "https://apps.apple.com/us/app/cosmicast/id1435195637",
 		},
 		"description" : "Cosmicast is a beautiful podcast player that works & syncs across all your Mac & iOS devices",
 		"type" : ["macos", "ios", "podcast-player", "sound"],
@@ -990,7 +990,7 @@ const base = [
 		"url" : {
 			"website" : "http://radio.garden/",
 			"google-play" : "https://play.google.com/store/apps/details?id=com.jonathanpuckey.radiogarden",
-			"appstore" : "https://itunes.apple.com/nl/app/radio-garden-live/id1339670993",
+			"app-store" : "https://itunes.apple.com/nl/app/radio-garden-live/id1339670993",
 		},
 		"description" : "Radio Garden invites you to tune into thousands of live radio stations across the globe",
 		"type" : ["sound", "social", "radio"],
@@ -1002,7 +1002,7 @@ const base = [
 			"website" : "https://www.focalboard.com/",
 			"github" : "https://github.com/mattermost/focalboard",
 			"microsoft-store" : "https://www.microsoft.com/store/apps/9NLN2T0SX9VF?cid=website",
-			"appstore" : "https://apps.apple.com/app/apple-store/id1556908618?pt=2114704&ct=website&mt=8",
+			"app-store" : "https://apps.apple.com/app/apple-store/id1556908618?pt=2114704&ct=website&mt=8",
 		},
 		"description" : "Focalboard is an open source, self-hosted alternative to Trello, Notion, and Asana",
 		"type" : ["windows", "macos", "linux", "notes", "manager", "database"],
@@ -1127,7 +1127,7 @@ const base = [
 		"name" : "Ulry",
 		"url" : {
 			"website" : "https://ulry.app/",
-			"appstore" : "https://apps.apple.com/it/app/ulry/id1603982621",
+			"app-store" : "https://apps.apple.com/it/app/ulry/id1603982621",
 			"github" : "https://github.com/mattrighetti/Ulry",
 		},
 		"description" : "Fast and lightweight read-it-later and link archiver application for iOS",
@@ -1157,7 +1157,7 @@ const base = [
 		"name" : "FML",
 		"url" : {
 			"website" : "https://www.fmylife.com/",
-			"appstore" : "https://apps.apple.com/app/fml-fmylife/id1596259692",
+			"app-store" : "https://apps.apple.com/app/fml-fmylife/id1596259692",
 			"google-play" : "https://play.google.com/store/apps/details?id=com.vdm.fml",
 		},
 		"description" : "Your everyday life stories",
@@ -1169,7 +1169,7 @@ const base = [
 		"url" : {
 			"website" : "https://logseq.com/",
 			"github" : "https://github.com/logseq/logseq",
-			"appstore" : "https://apps.apple.com/us/app/logseq/id1601013908",
+			"app-store" : "https://apps.apple.com/us/app/logseq/id1601013908",
 		},
 		"description" : "A privacy-first, open-source platform for knowledge management and collaboration",
 		"type" : ["windows", "android", "ios", "linux", "macos", "notes", "manager", "database", "study"],
@@ -1292,7 +1292,7 @@ const base = [
 		"url" : {
 			"website" : "https://element.io/",
 			"github" : "https://github.com/vector-im",
-			"appstore" : "https://itunes.apple.com/us/app/element/id1083446067?mt=8",
+			"app-store" : "https://itunes.apple.com/us/app/element/id1083446067?mt=8",
 			"google-play" : "https://play.google.com/store/apps/details?id=im.vector.app",
 			"f-droid" : "https://f-droid.org/app/im.vector.app"
 		},
@@ -1459,7 +1459,7 @@ const base = [
 			"itch.io" : "https://anuke.itch.io/mindustry",
 			"github" : "https://github.com/Anuken/Mindustry",
 			"google-play" : "https://play.google.com/store/apps/details?id=io.anuke.mindustry",
-			"appstore" : "https://itunes.apple.com/us/app/mindustry/id1385258906?ls=1&mt=8&uo=8&at=1l3vuur"
+			"app-store" : "https://itunes.apple.com/us/app/mindustry/id1385258906?ls=1&mt=8&uo=8&at=1l3vuur"
 		},
 		"description" : "A hybrid tower-defense sandbox factory game",
 		"type" : ["game", "windows", "ios", "macos", "linux", "android"],
@@ -1501,7 +1501,7 @@ const base = [
 			"github" : "https://github.com/terrastruct/d2",
 		},
 		"description" : "A modern language that turns text to diagrams",
-		"type" : ["visualization", "painting", "windows", "macos", "linux"],
+		"type" : ["visualization", "painting", "windows", "macos", "linux", "diagram"],
 		"id" : "0"
 	},
 	{
@@ -1517,7 +1517,7 @@ const base = [
 		"name" : "Mark O'Travel",
 		"url" : {
 			"google-play" : "https://play.google.com/store/apps/details?id=com.radetel.markotravel2&hl=ru",
-			"appstore" : "https://apps.apple.com/us/app/mark-otravel-where-ive-been/id866778149",
+			"app-store" : "https://apps.apple.com/us/app/mark-otravel-where-ive-been/id866778149",
 		},
 		"description" : "The essential tool for a traveler. Create your own travel map marking states and regions where you've been",
 		"type" : ["map"],
@@ -1704,7 +1704,7 @@ const base = [
 			"github" : "https://github.com/Livinglist/Hacki",
 			"google-play" : "https://play.google.com/store/apps/details?id=com.jiaqifeng.hacki",
 			"f-droid" : "https://f-droid.org/en/packages/com.jiaqifeng.hacki/",
-			"appstore" : "https://apps.apple.com/us/app/hacki/id1602043763",
+			"app-store" : "https://apps.apple.com/us/app/hacki/id1602043763",
 		},
 		"description" : "A Hacker News client",
 		"type" : ["android", "ios", "news", "social"],
@@ -1863,7 +1863,7 @@ const base = [
 			"website" : "https://www.feedflow.dev/",
 			"github" : "https://github.com/prof18/feed-flow",
 			"google-play" : "https://play.google.com/store/apps/details?id=com.prof18.feedflow",
-			"appstore" : "https://apps.apple.com/us/app/feedflow-rss-reader/id6447210518",
+			"app-store" : "https://apps.apple.com/us/app/feedflow-rss-reader/id6447210518",
 		},
 		"description" : "Follow your favorite RSS feeds with FeedFlow, a minimalistic and opinionated RSS Reader for Android, iOS, and macOS",
 		"type" : ["android", "ios", "macos", "rss", "reader", "parser"],
@@ -1933,7 +1933,7 @@ const base = [
 			"website" : "https://organicmaps.app/",
 			"github" : "https://github.com/organicmaps/organicmaps",
 			"f-droid" : "https://f-droid.org/en/packages/app.organicmaps/",
-			"appstore" : "https://apps.apple.com/app/organic-maps/id1567437057",
+			"app-store" : "https://apps.apple.com/app/organic-maps/id1567437057",
 			"google-play" : "https://play.google.com/store/apps/details?id=app.organicmaps",
 			"app-gallery" : "https://appgallery.huawei.com/#/app/C104325611",
 		},
@@ -1945,7 +1945,7 @@ const base = [
 		"name" : "WaterMinder",
 		"url" : {
 			"website" : "https://waterminder.com/",
-			"appstore" : "https://apps.apple.com/app/apple-store/id653031147",
+			"app-store" : "https://apps.apple.com/app/apple-store/id653031147",
 			"google-play" : "https://play.google.com/store/apps/details?id=com.funnmedia.waterminder",
 		},
 		"description" : "Track your daily water intake with WaterMinder",
@@ -1956,7 +1956,7 @@ const base = [
 		"name" : "Joplin",
 		"url" : {
 			"website" : "hhttps://joplinapp.org/",
-			"appstore" : "https://apps.apple.com/us/app/joplin/id1315599797",
+			"app-store" : "https://apps.apple.com/us/app/joplin/id1315599797",
 			"google-play" : "https://play.google.com/store/apps/details?id=net.cozic.joplin",
 		},
 		"description" : "Joplin is an open source note-taking app. Capture your thoughts and securely access them from any device",
@@ -1978,7 +1978,7 @@ const base = [
 		"url" : {
 			"website" : "https://openmoji.org/",
 			"github" : "https://github.com/hfg-gmuend/openmoji",
-			"appstore" : "https://itunes.apple.com/us/app/openmoji/id1462636288",
+			"app-store" : "https://itunes.apple.com/us/app/openmoji/id1462636288",
 		},
 		"description" : "Open source emojis for designers, developers and everyone else",
 		"type" : ["design", "collection", "emoji", "symbol"],
@@ -2078,11 +2078,112 @@ const base = [
 		"type" : ["windows", "macos", "linux", "command-line", "notes", "database", "to-do"],
 		"id" : "0"
 	},
+	{
+		"name" : "Capacities",
+		"url" : {
+			"website" : "https://capacities.io/",
+		},
+		"description" : "A studio for your mind",
+		"type" : ["windows", "macos", "notes", "database", "to-do", "text-editor", "manager"],
+		"id" : "0"
+	},
+	{
+		"name" : "dbdiagram",
+		"url" : {
+			"website" : "https://dbdiagram.io/home",
+		},
+		"description" : "A free, simple tool to draw ER diagrams by just writing code",
+		"type" : ["database", "visualization", "editor", "diagram"],
+		"id" : "0"
+	},
+	{
+		"name" : "LocalSend",
+		"url" : {
+			"website" : "https://localsend.org/",
+			"github" : "https://github.com/localsend/localsend",
+			"app-store" : "https://apps.apple.com/us/app/localsend/id1661733229",
+			"google-play" : "https://play.google.com/store/apps/details?id=org.localsend.localsend_app",
+			"f-droid" : "https://f-droid.org/packages/org.localsend.localsend_app",
+			"chocolatey" : "https://community.chocolatey.org/packages/localsend",
+		},
+		"description" : "AShare files to nearby devices. Free, open source, cross-platform",
+		"type" : ["windows", "macos", "ios", "android", "linux", "file"],
+		"id" : "0"
+	},
+	{
+		"name" : "Scribe",
+		"url" : {
+			"website" : "https://scribe.rip/",
+		},
+		"description" : "An alternative frontend to Medium",
+		"type" : ["design", "visualization", "editor", "diagram"],
+		"id" : "0"
+	},
+	{
+		"name" : "tgfeed",
+		"url" : {
+			"website" : "https://tgfeed.com/",
+			"github" : "https://github.com/sshrshnv/tgfeed",
+		},
+		"description" : "Read Telegram channels like a news feed",
+		"type" : ["windows", "macos", "ios", "android", "news", "monitoring", "social", "telegram"],
+		"id" : "0"
+	},
+	{
+		"name" : "time.is",
+		"url" : {
+			"website" : "https://time.is/",
+			"app-store" : "https://apps.apple.com/us/app/time-is/id857189816",
+		},
+		"description" : "Exact time for any time zone",
+		"type" : ["time"],
+		"id" : "0"
+	},
+	{
+		"name" : "haveibeenpwned",
+		"url" : {
+			"website" : "https://haveibeenpwned.com/",
+		},
+		"description" : "Check if your email or phone is in a data breach",
+		"type" : ["privacy", "search"],
+		"id" : "0"
+	},
+	{
+		"name" : "ascii-image-converter",
+		"url" : {
+			"github" : "https://github.com/TheZoraiz/ascii-image-converter/",
+		},
+		"description" : "A cross-platform command-line tool to convert images into ascii art and print them on the console",
+		"type" : ["windows", "linux", "macos", "file", "graphics", "photo-editing"],
+		"id" : "0"
+	},
+	{
+		"name" : "Yaamp",
+		"url" : {
+			"website" : "https://yaamp.ru/",
+			"github" : "https://github.com/umnik1/yaamp",
+		},
+		"description" : "Winamp audio player with integrated Yandex.Music service",
+		"type" : ["windows", "linux", "macos", "music-player", "sound"],
+		"id" : "0"
+	},
+	{
+		"name" : "Awesome-Privacy",
+		"url" : {
+			"website" : "https://pluja.github.io/awesome-privacy/",
+			"github" : "https://github.com/pluja/awesome-privacy",
+		},
+		"description" : "List of free, open source and privacy respecting services and alternatives to privative services",
+		"type" : ["collection", "privacy", "macos", "music-player", "sound"],
+		"id" : "0"
+	},
 ];
 
 
-let shuffle = (array) => {
-  for (let i = array.length - 1; i > 0; i--) {
+let shuffle = (array) =>
+{
+  for (let i = array.length - 1; i > 0; i--)
+  {
     let j = Math.floor(Math.random() * (i + 1));
     [array[i], array[j]] = [array[j], array[i]];
   }
