@@ -361,7 +361,7 @@ const base = [
 			"github" : "https://github.com/creativcoder/headlines",
 		},
 		"description" : "A simple news reading GUI app built in Rust",
-		"type" : ["windows", "linux", "macos", "news"],
+		"type" : ["windows", "linux", "macos", "news", "social"],
 		"id" : "0"
 	},
 	{
@@ -2177,16 +2177,105 @@ const base = [
 		"type" : ["collection", "privacy", "macos", "music-player", "sound"],
 		"id" : "0"
 	},
+	{
+		"name" : "mempool",
+		"url" : {
+			"website" : "https://mempool.space/",
+			"github" : "https://github.com/mempool/mempool",
+		},
+		"description" : "Displays the current situation in the BTC network: commissions, blocks, incoming transactions, memory usage, etc",
+		"type" : ["monitoring", "diagram", "network", "visualization", "cryptocurrency"],
+		"id" : "0"
+	},
+	{
+		"name" : "localmonero",
+		"url" : {
+			"website" : "https://localmonero.co/blocks/",
+		},
+		"description" : "Displays the current situation in the Monero network",
+		"type" : ["monitoring", "diagram", "network", "visualization", "cryptocurrency"],
+		"id" : "0"
+	},
+	{
+		"name" : "Lucas Chess",
+		"url" : {
+			"website" : "http://lucaschess.pythonanywhere.com/home",
+			"github" : "https://github.com/lukasmonk/lucaschess",
+		},
+		"description" : "An easy way to play and train chess on your PC",
+		"type" : ["game", "windows", "linux"],
+		"id" : "0"
+	},
+	{
+		"name" : "Artifact",
+		"url" : {
+			"website" : "https://artifact.news/",
+			"google-play" : "https://play.google.com/store/apps/details?id=ai.nokto.wire",
+			"app-store" : "https://apps.apple.com/us/app/artifact-feed-your-curiosity/id1572927568",
+		},
+		"description" : "Discover personalized news, links, and posts powered by AI",
+		"type" : ["android", "ios", "social", "news"],
+		"id" : "0"
+	},
+	{
+		"name" : "Helm",
+		"url" : {
+			"website" : "https://tytel.org/helm/",
+			"github" : "https://github.com/mtytel/helm",
+		},
+		"description" : "a free polyphonic synth with lots of modulation",
+		"type" : ["windows", "macos", "linux", "sound"],
+		"id" : "0"
+	},
+	{
+		"name" : "Music-Map",
+		"url" : {
+			"website" : "https://www.music-map.com/",
+		},
+		"description" : "Find similar music",
+		"type" : ["sound", "visualization", "map"],
+		"id" : "0"
+	},
+	{
+		"name" : "TSDiagram",
+		"url" : {
+			"website" : "https://tsdiagram.com/",
+			"github" : "https://github.com/3rd/tsdiagram",
+		},
+		"description" : "Create diagrams and plan your code with TypeScript",
+		"type" : ["diagram", "visualization", "database", "editor"],
+		"id" : "0"
+	},
+	{
+		"name" : "Jsteg",
+		"url" : {
+			"github" : "https://github.com/lukechampine/jsteg",
+		},
+		"description" : "JPEG steganography",
+		"type" : ["privacy", "file", "windows", "linux"],
+		"id" : "0"
+	},
+	{
+		"name" : "Anytype",
+		"url" : {
+			"website" : "https://anytype.io/",
+			"github" : "https://github.com/anyproto",
+			"app-store" : "https://apps.apple.com/us/app/anytype-private-notes/id6449487029",
+		},
+		"description" : "Anytype is an object-based note-taking productivity tool that offers a new approach to note-taking, project management, and information organisation",
+		"type" : ["windows", "linux", "macos", "ios", "android", "notes", "manager", "database", "privacy", "visualization", "editor"],
+		"id" : "0"
+	},
 ];
 
 
 let shuffle = (array) =>
 {
-  for (let i = array.length - 1; i > 0; i--)
-  {
-    let j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
+	for (let i = array.length - 1; i > 0; i--)
+	{
+		let j = Math.floor(Math.random() * (i + 1));
+		[array[i], array[j]] = [array[j], array[i]];
+	}
 }
 shuffle(base);
 
