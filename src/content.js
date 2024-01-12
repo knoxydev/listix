@@ -2043,11 +2043,12 @@ const base = [
 	{
 		"name" : "Emojis",
 		"url" : {
-			"website" : "https://emojis.alexandru.so/",
+			"website" : "https://emojis.sh/",
 			"github" : "https://github.com/pondorasti/emojis",
+			"app-store" : "https://apps.apple.com/us/app/ai-emojis-generator/id6468916301",
 		},
-		"description" : "AGenerate your favorite emojis with just one click",
-		"type" : ["emoji", "design", "collection", "symbol", "generator"],
+		"description" : "Generate your favorite emojis with just one click",
+		"type" : ["ios", "emoji", "design", "collection", "symbol", "generator", "ai"],
 		"id" : "0"
 	},
 	{
@@ -2174,7 +2175,7 @@ const base = [
 			"github" : "https://github.com/pluja/awesome-privacy",
 		},
 		"description" : "List of free, open source and privacy respecting services and alternatives to privative services",
-		"type" : ["collection", "privacy", "macos", "music-player", "sound"],
+		"type" : ["collection", "privacy"],
 		"id" : "0"
 	},
 	{
@@ -2264,6 +2265,216 @@ const base = [
 		},
 		"description" : "Anytype is an object-based note-taking productivity tool that offers a new approach to note-taking, project management, and information organisation",
 		"type" : ["windows", "linux", "macos", "ios", "android", "notes", "manager", "database", "privacy", "visualization", "editor"],
+		"id" : "0"
+	},
+	{
+		"name" : "OpenBio",
+		"url" : {
+			"website" : "https://openbio.app/",
+			"github" : "https://openbio.app/github",
+		},
+		"description" : "Create beautiful link in bio pages for free",
+		"type" : ["social"],
+		"id" : "0"
+	},
+	{
+		"name" : "Terminal Trove",
+		"url" : {
+			"website" : "https://terminaltrove.com/",
+		},
+		"description" : "Terminal Trove curates and showcases all things in the terminal such as command line interface tools and text mode interface tools",
+		"type" : ["command-line", "collection"],
+		"id" : "0"
+	},
+	{
+		"name" : "ExcaliDraw",
+		"url" : {
+			"website" : "https://excalidraw.com/",
+			"github" : "https://github.com/excalidraw/excalidraw",
+		},
+		"description" : "An open source virtual hand-drawn style whiteboard. Collaborative and end-to-end encrypted",
+		"type" : ["diagram", "visualization", "editor", "privacy"],
+		"id" : "0"
+	},
+	{
+		"name" : "Plane",
+		"url" : {
+			"website" : "https://plane.so/",
+			"github" : "https://github.com/makeplane/plane",
+		},
+		"description" : "Flexible, extensible open-source project management",
+		"type" : ["notes", "to-do", "editor", "manager"],
+		"id" : "0"
+	},
+	{
+		"name" : "Fibratus",
+		"url" : {
+			"website" : "https://www.fibratus.io/",
+			"github" : "https://github.com/rabbitstack/fibratus",
+		},
+		"description" : "A modern tool for Windows kernel exploration and observability with a focus on security",
+		"type" : ["windows", "analysis", "monitoring"],
+		"id" : "0"
+	},
+	{
+		"name" : "Openlib",
+		"url" : {
+			"github" : "https://github.com/dstark5/Openlib",
+			"izzy-on-droid" : "https://android.izzysoft.de/repo/apk/com.app.openlib",
+		},
+		"description" : "An Open source app to download and read books from shadow library (Anna’s Archive)",
+		"type" : ["android", "books"],
+		"id" : "0"
+	},
+	{
+		"name" : "Wave",
+		"url" : {
+			"website" : "https://www.waveterm.dev/",
+			"github" : "https://github.com/wavetermdev/waveterm",
+		},
+		"description" : "An open-source, cross-platform terminal for seamless workflows",
+		"type" : ["macos", "linux", "command-line"],
+		"id" : "0"
+	},
+	{
+		"name" : "ASCIIFlow",
+		"url" : {
+			"website" : "https://asciiflow.com/",
+			"github" : "https://github.com/lewish/asciiflow",
+		},
+		"description" : "ASCIIFlow is a client-side only web based application for drawing ASCII diagrams",
+		"type" : ["diagram", "builder", "editor", "symbol"],
+		"id" : "0"
+	},
+	{
+		"name" : "QOwnNotes",
+		"url" : {
+			"website" : "https://www.qownnotes.org/",
+			"github" : "https://github.com/pbek/QOwnNotes",
+		},
+		"description" : "Free open source plain-text file markdown note-taking",
+		"type" : ["windows", "macos", "linux", "editor", "text-editor", "markdown", "notes", "database"],
+		"id" : "0"
+	},
+	{
+		"name" : "FreeDictionary",
+		"url" : {
+			"github" : "https://github.com/yamin8000/freeDictionaryApp",
+			"f-droid" : "https://f-droid.org/packages/io.github.yamin8000.owl",
+			"izzy-on-droid" : "https://apt.izzysoft.de/fdroid/index/apk/io.github.yamin8000.owl",
+		},
+		"description" : "freeDictionary is a simple android application for freeDictionaryAPI",
+		"type" : ["android", "database"],
+		"id" : "0"
+	},
+	{
+		"name" : "OsmApp",
+		"url" : {
+			"website" : "https://osmapp.org/",
+			"github" : "https://github.com/zbycz/osmapp",
+		},
+		"description" : "Lets create a universal OpenStreetMap app for broad public",
+		"type" : ["map", "analysis", "monitoring", "osint"],
+		"id" : "0"
+	},
+	{
+		"name" : "Overmorrow",
+		"url" : {
+			"github" : "https://github.com/bmaroti9/Overmorrow",
+			"google-play" : "https://play.google.com/store/apps/details?id=com.marotidev.Overmorrow",
+		},
+		"description" : "Beautiful minimalist weather app",
+		"type" : ["android", "weather"],
+		"id" : "0"
+	},
+	{
+		"name" : "Amnezia",
+		"url" : {
+			"website" : "https://amnezia.org/",
+			"github" : "https://github.com/amnezia-vpn",
+			"google-play" : "https://play.google.com/store/apps/details?id=org.amnezia.vpn",
+			"app-store" : "https://apps.apple.com/us/app/amneziavpn/id1600529900",
+		},
+		"description" : "Simple and free app to run a self-hosted VPN with high privacy requirements",
+		"type" : ["windows", "macos", "ios", "android", "linux", "vpn", "privacy", "network"],
+		"id" : "0"
+	},
+	{
+		"name" : "Hextris",
+		"url" : {
+			"website" : "https://hextris.io/",
+		},
+		"description" : "The goal of Hextris is to stop blocks from leaving the inside of the outer gray hexagon",
+		"type" : ["game"],
+		"id" : "0"
+	},
+	{
+		"name" : "Vitetris",
+		"url" : {
+			"website" : "https://www.victornils.net/tetris/",
+			"github" : "https://github.com/vicgeralds/vitetris",
+		},
+		"description" : "vitetris is a terminal-based Tetris clone",
+		"type" : ["game"],
+		"id" : "0"
+	},
+	{
+		"name" : "awesome-ttygames",
+		"url" : {
+			"github" : "https://github.com/ligurio/awesome-ttygames",
+		},
+		"description" : " Unix ASCII games",
+		"type" : ["game", "collection"],
+		"id" : "0"
+	},
+	{
+		"name" : "Craft",
+		"url" : {
+			"website" : "https://www.michaelfogleman.com/projects/craft/",
+			"github" : "https://github.com/fogleman/Craft",
+		},
+		"description" : "Minecraft clone for Windows, Mac and Linux",
+		"type" : ["windows", "macos", "linux", "game"],
+		"id" : "0"
+	},
+	{
+		"name" : "OpenTTD",
+		"url" : {
+			"website" : "https://www.openttd.org/",
+			"github" : "https://github.com/OpenTTD/OpenTTD",
+		},
+		"description" : "OpenTTD is an open source simulation game based upon Transport Tycoon Deluxe",
+		"type" : ["windows", "macos", "linux", "game"],
+		"id" : "0"
+	},
+	{
+		"name" : "Unknown Horizons",
+		"url" : {
+			"website" : "https://unknown-horizons.org/",
+			"github" : "https://github.com/unknown-horizons/unknown-horizons",
+		},
+		"description" : "Unknown Horizons is a 2D real time strategy simulation with an emphasis on economy and city building",
+		"type" : ["windows", "macos", "linux", "game"],
+		"id" : "0"
+	},
+	{
+		"name" : "Pile",
+		"url" : {
+			"website" : "https://udara.io/pile/",
+			"github" : "https://github.com/UdaraJay/Pile",
+		},
+		"description" : "Desktop app for reflective journaling. It's private, integrates with AI, and free",
+		"type" : ["windows", "macos", "notes", "ai", "privacy"],
+		"id" : "0"
+	},
+	{
+		"name" : "Bundled Notes",
+		"url" : {
+			"website" : "https://bundlednotes.com/",
+			"google-play" : "https://play.google.com/store/apps/details?id=com.xaviertobin.noted",
+		},
+		"description" : "Completely modern organisation & notetaking",
+		"type" : ["android", "notes", "to-do", "manager"],
 		"id" : "0"
 	},
 ];
