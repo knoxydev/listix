@@ -2477,6 +2477,159 @@ const base = [
 		"type" : ["android", "notes", "to-do", "manager"],
 		"id" : "0"
 	},
+	{
+		"name" : "when",
+		"url" : {
+			"website" : "https://mitsuhiko.github.io/when/",
+			"github" : "https://github.com/mitsuhiko/when",
+		},
+		"description" : "when is a small utility which tells you what time it is somewhere or what some time is somewhere. You can use it from the command line or uses it online from the browser",
+		"type" : ["windows", "macos", "linux", "time"],
+		"id" : "0"
+	},
+	{
+		"name" : "PimEyes",
+		"url" : {
+			"website" : "https://pimeyes.com/",
+		},
+		"description" : "PimEyes is an online face search engine that goes through the internet to find pictures containing given faces",
+		"type" : ["search", "analysis", "monitoring", "osint"],
+		"id" : "0"
+	},
+	{
+		"name" : "Gerb",
+		"url" : {
+			"github" : "https://github.com/epilys/gerb",
+		},
+		"description" : "Graphical font editor",
+		"type" : ["editor", "fonts", "linux", "macos"],
+		"id" : "0"
+	},
+	{
+		"name" : "10x",
+		"url" : {
+			"website" : "https://10xeditor.com/",
+		},
+		"description" : "A High-Performance C++ Editor",
+		"type" : ["windows", "editor", "code-editor"],
+		"id" : "0"
+	},
+	{
+		"name" : "Atlas",
+		"url" : {
+			"website" : "https://atlas.co/",
+		},
+		"description" : "Maps & GIS in the browser",
+		"type" : ["map", "analysis", "database"],
+		"id" : "0"
+	},
+	{
+		"name" : "Awesome Modern C++",
+		"url" : {
+			"github" : "https://github.com/rigtorp/awesome-modern-cpp",
+		},
+		"description" : "A collection of resources on modern C++",
+		"type" : ["tutorial", "documentation", "programming"],
+		"id" : "0"
+	},
+	{
+		"name" : "Logisim Evolution",
+		"url" : {
+			"github" : "https://github.com/logisim-evolution/logisim-evolution",
+		},
+		"description" : "Digital logic design tool and simulator",
+		"type" : ["windows", "macos", "linux", "builder", "editor"],
+		"id" : "0"
+	},
+	{
+		"name" : "startup funding simulator",
+		"url" : {
+			"website" : "https://fundingsimulator.com/",
+			"github" : "https://github.com/dabateam/funding-simulator",
+		},
+		"description" : "Startup Funding Simulator",
+		"type" : ["game"],
+		"id" : "0"
+	},
+	{
+		"name" : "Twine",
+		"url" : {
+			"github" : "https://github.com/msasikanth/twine",
+			"google-play" : "https://play.google.com/store/apps/details?id=dev.sasikanth.rss.reader",
+			"app-store" : "https://apps.apple.com/us/app/twine-rss-reader/id6465694958",
+		},
+		"description" : "A multiplatform RSS reader built using Kotlin and Compose",
+		"type" : ["android", "ios", "rss"],
+		"id" : "0"
+	},
+	{
+		"name" : "30 seconds of code",
+		"url" : {
+			"website" : "https://www.30secondsofcode.org/",
+			"github" : "https://github.com/Chalarangelo/30-seconds-of-code",
+		},
+		"description" : "Discover short code snippets for all your development needs",
+		"type" : ["collection", "programming", "tutorial"],
+		"id" : "0"
+	},
+	{
+		"name" : "Desmos",
+		"url" : {
+			"website" : "https://www.desmos.com/",
+		},
+		"description" : "Discover short code snippets for all your development needs",
+		"type" : ["graphics", "visualization", "painting"],
+		"id" : "0"
+	},
+	{
+		"name" : "Modern Font Stack",
+		"url" : {
+			"website" : "https://modernfontstacks.com/",
+			"github" : "https://github.com/system-fonts/modern-font-stacks",
+		},
+		"description" : "System font stack CSS organized by typeface classification for every modern OS",
+		"type" : ["collection", "fonts"],
+		"id" : "0"
+	},
+	{
+		"name" : "StihTok",
+		"url" : {
+			"website" : "https://stihtok.ru/",
+			"github" : "https://github.com/stihtok",
+		},
+		"description" : "SIt's like TikTok but with poetry",
+		"type" : ["social"],
+		"id" : "0"
+	},
+	{
+		"name" : "MathOverflow",
+		"url" : {
+			"website" : "https://mathoverflow.net/",
+		},
+		"description" : "Unsolved problems on MathOverflow",
+		"type" : ["math"],
+		"id" : "0"
+	},
+	{
+		"name" : "Waterfox",
+		"url" : {
+			"website" : "https://www.waterfox.net/",
+			"github" : "https://github.com/WaterfoxCo/Waterfox",
+		},
+		"description" : "The Open-Source Waterfox Browser Delivers a Balance of Privacy and Usability",
+		"type" : ["browser"],
+		"id" : "0"
+	},
+	{
+		"name" : "web-check",
+		"url" : {
+			"website" : "https://web-check.xyz/",
+			"github" : "https://github.com/Lissy93/web-check",
+		},
+		"description" : "All-in-one OSINT tool for analysing any website",
+		"type" : ["osint", "analysis", "network", "monitoring"],
+		"id" : "0"
+	},
 ];
 
 
@@ -2489,6 +2642,7 @@ let shuffle = (array) =>
 	}
 }
 shuffle(base);
+
 
 let postNumbering = (x = 0) => base.forEach((item) => item['id'] = x += 1);
 postNumbering();
