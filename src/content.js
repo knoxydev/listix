@@ -123,7 +123,7 @@ const base = [
 			"website" : "https://helix-editor.com/",
 		},
 		"description" : "A post-modern text editor",
-		"type" : ["code-editor", "text-editor", "programming", "windows", "macos", "linux"],
+		"type" : ["windows", "macos", "linux", "code-editor", "text-editor", "code", "programming"],
 		"id" : "0"
 	},
 	{
@@ -211,7 +211,7 @@ const base = [
 			"github" : "https://github.com/rxi/lite",
 		},
 		"description" : "Lite is a lightweight text editor written mostly in Lua - it aims to provide something practical, pretty, small and fast, implemented as simply as possible; easy to modify and extend, or to use without doing either",
-		"type" : ["code-editor", "code", "programming", "windows", "linux"],
+		"type" : ["windows", "linux", "code-editor", "code", "programming"],
 		"id" : "0"
 	},
 	{
@@ -2628,6 +2628,94 @@ const base = [
 		},
 		"description" : "All-in-one OSINT tool for analysing any website",
 		"type" : ["osint", "analysis", "network", "monitoring"],
+		"id" : "0"
+	},
+	{
+		"name" : "Explorer++",
+		"url" : {
+			"website" : "https://explorerplusplus.com/",
+			"github" : "https://github.com/derceg/explorerplusplus",
+		},
+		"description" : "Explorer++ is a lightweight and fast file manager for Windows",
+		"type" : ["windows", "file", "manager", "browser"],
+		"id" : "0"
+	},
+	{
+		"name" : "Natron",
+		"url" : {
+			"website" : "https://natrongithub.github.io/",
+			"github" : "https://github.com/NatronGitHub/Natron",
+		},
+		"description" : "Open Source Compositing Software For VFX and Motion Graphics",
+		"type" : ["windows", "macos", "linux", "editor", "graphics", "video", "design"],
+		"id" : "0"
+	},
+	{
+		"name" : "OpenAlternative",
+		"url" : {
+			"website" : "https://openalternative.co/",
+		},
+		"description" : "Discover Open Source Alternatives to Popular Software",
+		"type" : ["collections"],
+		"id" : "0"
+	},
+	{
+		"name" : "dub",
+		"url" : {
+			"website" : "https://dub.co/",
+			"github" : "https://github.com/dubinc/dub",
+		},
+		"description" : "Dub.co is the open-source link management infrastructure for modern marketing teams",
+		"type" : ["manager"],
+		"id" : "0"
+	},
+	{
+		"name" : "doks",
+		"url" : {
+			"website" : "https://getdoks.org/",
+			"github" : "https://github.com/gethyas/doks",
+		},
+		"description" : "Build a Docs Site",
+		"type" : ["documentation"],
+		"id" : "0"
+	},
+	{
+		"name" : "KiCad",
+		"url" : {
+			"website" : "https://www.kicad.org/",
+			"gitlab" : "https://gitlab.com/KiCad",
+		},
+		"description" : "A Cross Platform and Open Source Electronics Design Automation Suite",
+		"type" : ["windows", "macos", "linux", "builder", "editor"],
+		"id" : "0"
+	},
+	{
+		"name" : "Ryujinx",
+		"url" : {
+			"website" : "https://www.ryujinx.org/",
+			"github" : "https://github.com/Ryujinx/Ryujinx",
+		},
+		"description" : "A simple, experimental Nintendo Switch emulator",
+		"type" : ["windows", "macos", "linux", "emulator", "game"],
+		"id" : "0"
+	},
+	{
+		"name" : "GriddyCode",
+		"url" : {
+			"github" : "https://github.com/face-hh/griddycode",
+		},
+		"description" : "Code editor has never been more lit",
+		"type" : ["windows", "linux", "editor", "code-editor", "text-editor", "code", "programming"],
+		"id" : "0"
+	},
+	{
+		"name" : "ImHex",
+		"url" : {
+			"website" : "https://imhex.werwolv.net/",
+			"github" : "https://github.com/WerWolv/ImHex",
+		},
+		"description" : "A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM",
+		"type" : ["windows", "linux", "macos", "editor", "code", "programming", "viewer"],
 		"id" : "0"
 	},
 ];
