@@ -642,7 +642,7 @@ const base = [
 			"github" : "https://github.com/Feodor2/mypal",
 		},
 		"description" : "Mypal is a current and maintained browser for Windows XP",
-		"type" : ["browser", "windows", "network"],
+		"type" : ["windows", "browser", "network"],
 		"id" : "0"
 	},
 	{
@@ -2718,6 +2718,141 @@ const base = [
 		"type" : ["windows", "linux", "macos", "editor", "code", "programming", "viewer"],
 		"id" : "0"
 	},
+	{
+		"name" : "Windows 98 Icon Viewer",
+		"url" : {
+			"website" : "https://win98icons.alexmeub.com/",
+		},
+		"description" : "Viewer for icons from Windows 98",
+		"type" : ["design", "viewer", "collection"],
+		"id" : "0"
+	},
+	{
+		"name" : "drawdb",
+		"url" : {
+			"website" : "https://drawdb.vercel.app/",
+			"github" : "https://github.com/drawdb-io/drawdb",
+		},
+		"description" : "Free, simple, and intuitive online database design tool and SQL generator",
+		"type" : ["database", "visualization", "editor", "diagram"],
+		"id" : "0"
+	},
+	{
+		"name" : "Ardour",
+		"url" : {
+			"website" : "https://ardour.org/",
+			"github" : "http://github.com/Ardour/ardour",
+		},
+		"description" : "Record, Edit, and Mix",
+		"type" : ["windows", "linux", "macos", "editor", "sound"],
+		"id" : "0"
+	},
+	{
+		"name" : "Phanpy",
+		"url" : {
+			"website" : "https://phanpy.social/",
+			"github" : "https://github.com/cheeaun/phanpy",
+		},
+		"description" : "A minimalistic opinionated Mastodon web client",
+		"type" : ["social", "network", "privacy"],
+		"id" : "0"
+	},
+	{
+		"name" : "MarkdownDown",
+		"url" : {
+			"website" : "https://markdowndown.vercel.app/",
+		},
+		"description" : "Convert any webpage to a clean markdown w/ images downloaded",
+		"type" : ["markdown", "network", "privacy"],
+		"id" : "0"
+	},
+	{
+		"name" : "Quill",
+		"url" : {
+			"website" : "https://quilljs.com/",
+			"github" : "https://github.com/quilljs/quill",
+		},
+		"description" : "Your powerful rich text editor",
+		"type" : ["editor", "text-editor", "privacy"],
+		"id" : "0"
+	},
+	{
+		"name" : "Robonotes",
+		"url" : {
+			"website" : "https://therealrinku.github.io/robonotes/website/index.html",
+			"github" : "https://github.com/therealrinku/robonotes",
+		},
+		"description" : "Minimal, no nonsense privacy focused local only note taking application",
+		"type" : ["windows", "linux", "editor", "text-editor", "privacy"],
+		"id" : "0"
+	},
+	{
+		"name" : "Notes",
+		"url" : {
+			"website" : "https://www.get-notes.com/",
+			"github" : "https://github.com/nuttyartist/notes",
+		},
+		"description" : "A place for great ideas. Notes is designed for whatever’s on your mind. Write down your thoughts",
+		"type" : ["windows", "linux", "macos", "editor", "text-editor", "privacy", "markdown"],
+		"id" : "0"
+	},
+	{
+		"name" : "Logic Circuit",
+		"url" : {
+			"website" : "https://www.logiccircuit.org/",
+		},
+		"description" : "Educational software for designing and simulating digital logic circuits",
+		"type" : ["windows", "editor", "builder"],
+		"id" : "0"
+	},
+  {
+		"name" : "WizTree",
+		"url" : {
+			"website" : "https://www.diskanalyzer.com/",
+		},
+		"description" : "The FASTEST Disk Space Analyzer",
+		"type" : ["windows", "file", "analysis", "search", "visualization"],
+		"id" : "0"
+	},
+	{
+		"name" : "Komorebi",
+		"url" : {
+			"website" : "https://lgug2z.github.io/komorebi/",
+			"github" : "https://github.com/LGUG2Z/komorebi",
+		},
+		"description" : "A tiling window manager for Windows",
+		"type" : ["windows", "manager", "graphics", "visual"],
+		"id" : "0"
+	},
+	{
+		"name" : "Photopea",
+		"url" : {
+			"website" : "https://www.photopea.com/",
+		},
+		"description" : "Online photo editing",
+		"type" : ["editor", "file", "graphics", "visual", "design", "photo-editing"],
+		"id" : "0"
+	},
+  {
+    "name" : "Brows",
+    "url" : {
+      "website" : "https://brows.app/",
+      "github" : "https://github.com/brows-app/brows",
+    },
+    "description" : "Brows is a Windows file manager for power users",
+    "type" : ["windows", "file", "browser"],
+    "id" : "0"
+  },
+  {
+    "name" : "WinDirStat",
+    "url" : {
+      "website" : "https://windirstat.net/",
+      "github" : "https://github.com/shundhammer/qdirstat",
+    },
+    "description" : "WinDirStat is a disk usage statistics viewer and cleanup tool for various versions of Microsoft Windows",
+    "type" : ["windows", "file", "visualization"],
+    "id" : "0"
+  },
 ];
 
 
