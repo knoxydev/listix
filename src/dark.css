@@ -12,7 +12,7 @@
     border-radius: var(--search-input-border-radius);
   }
 
-  #main-header-block > div:nth-of-type(1) { color: var(--dark-medium-purple); }
+  #main-header-block > div:nth-of-type(1) { color: var(--light-purple); }
 
   #app-title { color: var(--light-purple); }
   #app-title::selection { background-color: white; color: var(--medium-dark-purple); }
@@ -28,18 +28,18 @@
   #main-content-block > div > p { color: #757575; }
 
 
-  #tags-block > div,
+  #tags-block > button,
   #main-content-block > div > ul > li,
   #apps-quantity, #tags-quantity {
     border: 2px solid var(--medium-dark-purple);
     background-color: var(--medium-dark-purple);
     color: #c0c0c0;
   }
-  #tags-block > div:hover,
+  #tags-block > button:hover,
   #main-content-block > div > ul > li:hover,
   #apps-quantity:hover, #tags-quantity:hover {
-    border: 2px solid var(--light-purple);
-    background-color: var(--light-purple);
-    color: var(--medium-dark-purple);
+    border: 2px solid var(--light-purple) !important;
+    background-color: var(--light-purple) !important;
+    color: var(--medium-dark-purple) !important;
   }
 }
