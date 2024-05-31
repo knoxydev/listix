@@ -2853,6 +2853,16 @@ const base = [
     "type" : ["windows", "file", "visualization"],
     "id" : "0"
   },
+  {
+    "name" : "Cheats.rs",
+    "url" : {
+      "website" : "https://cheats.rs/",
+      "github" : "https://github.com/ralfbiedert/cheats.rs/",
+    },
+    "description" : "Rust Language Cheat Sheet",
+    "type" : ["documentation", "programming", "rustlang"],
+    "id" : "0"
+  },
 ];
 
 

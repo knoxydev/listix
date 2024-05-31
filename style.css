@@ -87,9 +87,6 @@ ul, li {padding: 0;margin: 0;list-style: none;}
 	padding-left: 8px;
 	padding-right: 8px;
 
-	/* border: 2px solid var(--medium-dark-purple);
-	background-color: var(--medium-dark-purple);*/
-
 	border: 2px solid var(--lightest-purple);
 	background-color: var(--lightest-purple);
 	color: var(--medium-dark-purple);
@@ -97,7 +94,6 @@ ul, li {padding: 0;margin: 0;list-style: none;}
 
 	text-decoration: none;
 	letter-spacing: 1px;
-
   transition: all 0.2s ease-in-out;
 }
 #tags-block > button:hover
@@ -203,4 +199,34 @@ ul, li {padding: 0;margin: 0;list-style: none;}
 	border: 2px solid var(--medium-dark-purple) !important;
 	background-color: var(--medium-dark-purple) !important;
 	color: white !important;
+}
+
+
+#load_more {
+  font-size: 14pt;
+	margin-right: 10px;
+	margin-bottom: 60px;
+	padding: 4px;
+	padding-left: 8px;
+	padding-right: 8px;
+
+	border: 2px solid var(--lightest-purple);
+	background-color: var(--lightest-purple);
+	color: var(--medium-dark-purple);
+  border-radius: var(--main-radius);
+
+	text-decoration: none;
+	letter-spacing: 1px;
+  transition: all 0.2s ease-in-out;
+}
+#load_more:hover
+{
+  border: 2px solid var(--medium-dark-purple) !important;
+  background-color: var(--medium-dark-purple) !important;
+  color: white !important;
+}
+#load_more:active
+{
+  border: 2px solid var(--medium-dark-purple) !important;
+  background-color: var(--lightest-purple) !important;
 }
