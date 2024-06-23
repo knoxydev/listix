@@ -87,7 +87,7 @@ const base = [
 			"website" : "https://javascript.info/",
 		},
 		"description" : "Here is a tutorial on JavaScript, starting with the basics, which includes many subtleties and features of JavaScript/DOM",
-		"type" : ["tutorial", "javascript", "documentation", "programming"],
+		"type" : ["tutorial", "javascript", "documentation", "programming", "study"],
 		"id" : "0"
 	},
 	{
@@ -982,7 +982,7 @@ const base = [
 			"website" : "https://google.github.io/comprehensive-rust/",
 		},
 		"description" : "A This is a four day Rust course developed by the Android team",
-		"type" : ["documentation", "rustlang"],
+		"type" : ["documentation", "rustlang", "study", "tutorial"],
 		"id" : "0"
 	},
 	{
@@ -2529,7 +2529,7 @@ const base = [
 			"github" : "https://github.com/rigtorp/awesome-modern-cpp",
 		},
 		"description" : "A collection of resources on modern C++",
-		"type" : ["tutorial", "documentation", "programming"],
+		"type" : ["tutorial", "documentation", "programming", "study"],
 		"id" : "0"
 	},
 	{
@@ -2860,7 +2860,111 @@ const base = [
       "github" : "https://github.com/ralfbiedert/cheats.rs/",
     },
     "description" : "Rust Language Cheat Sheet",
-    "type" : ["documentation", "programming", "rustlang"],
+    "type" : ["documentation", "programming", "rustlang", "study", "tutorial"],
+    "id" : "0"
+  },
+	{
+    "name" : "Email.ml",
+    "url" : {
+      "website" : "https://email.ml/",
+    },
+    "description" : "Minimalist temporary Email",
+    "type" : ["privacy"],
+    "id" : "0"
+  },
+	{
+    "name" : "Lightcube",
+    "url" : {
+      "website" : "https://www.lightcube.art/",
+    },
+    "description" : "Pixel Art Editor",
+    "type" : ["editor", "graphics", "visual", "visualization"],
+    "id" : "0"
+  },
+	{
+    "name" : "MarineTraffic",
+    "url" : {
+      "website" : "https://www.marinetraffic.com/en/ais/home/1",
+    },
+    "description" : "Global Ship Tracking Intelligence",
+    "type" : ["map", "osint", "visualization"],
+    "id" : "0"
+  },
+	{
+    "name" : "108",
+    "url" : {
+      "website" : "https://martinwecke.de/108/",
+			"github" : "https://github.com/hatsumatsu/108",
+    },
+    "description" : "A Minimal beat machine in the browser",
+    "type" : ["editor", "builder", "sound"],
+    "id" : "0"
+  },
+	{
+    "name" : "OSINT Framework",
+    "url" : {
+      "website" : "https://osintframework.com/",
+			"github" : "https://github.com/lockfale/osint-framework",
+    },
+    "description" : "OSINT framework focused on gathering information from free tools or resources",
+    "type" : ["osint", "collection", "analysis", "search", "privacy", "visualization", "browser"],
+    "id" : "0"
+  },
+	{
+    "name" : "Oculante",
+    "url" : {
+      "github" : "https://github.com/woelper/oculante",
+    },
+    "description" : "A fast and simple image viewer",
+    "type" : ["windows", "macos", "linux", "viewer", "file", "graphics"],
+    "id" : "0"
+  },
+  {
+    "name" : "Dufs",
+    "url" : {
+      "github" : "https://github.com/sigoden/dufs",
+    },
+    "description" : "A file server that supports static serving, uploading, searching, accessing control",
+    "type" : ["windows", "macos", "linux", "file", "browser", "monitoring", "search"],
+    "id" : "0"
+  },
+	{
+    "name" : "World Population Density",
+    "url" : {
+      "website" : "https://luminocity3d.org/WorldPopDen/",
+    },
+    "description" : "This interactive map shows population density in 2020, measured in residents per square kilometre",
+    "type" : ["map", "visualization", "collection", "study"],
+    "id" : "0"
+  },
+	{
+    "name" : "SpeedSheet | Rust",
+    "url" : {
+      "website" : "https://speedsheet.io/s/rust",
+    },
+    "description" : "Simple, fast, interactive cheat sheet for Rust programmers",
+    "type" : ["documentation", "programming", "tutorial", "study", "rustlang"],
+    "id" : "0"
+  },
+	{
+    "name" : "Retro",
+    "url" : {
+      "website" : "https://retromusic.co/",
+			"github" : "https://github.com/retromp3/retro",
+			"app-store" : "https://testflight.apple.com/join/1BHkrtFP",
+    },
+    "description" : "iPod classic for iOS/Android, built with Flutter",
+    "type" : ["ios", "android", "sound", "music-player"],
+    "id" : "0"
+  },
+	{
+    "name" : "Festival",
+    "url" : {
+      "website" : "https://festival.pm/",
+			"github" : "https://github.com/hinto-janai/festival",
+    },
+    "description" : "Festival, a music player for local album collections",
+    "type" : ["windows", "macos", "linux", "sound", "music-player"],
     "id" : "0"
   },
 ];
