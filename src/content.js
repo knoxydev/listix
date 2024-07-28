@@ -2967,6 +2967,72 @@ const base = [
     "type" : ["windows", "macos", "linux", "sound", "music-player"],
     "id" : "0"
   },
+	{
+    "name" : "Moodist",
+    "url" : {
+      "website" : "https://moodist.app/",
+			"github" : "https://github.com/remvze/moodist",
+    },
+    "description" : "Ambient sounds for focus and calm",
+    "type" : ["study", "sound", "generator"],
+    "id" : "0"
+  },
+	{
+    "name" : "dep-tree",
+    "url" : {
+			"github" : "https://github.com/gabotechs/dep-tree",
+    },
+    "description" : "Tool for helping developers keep their code bases clean and decoupled. It allows visualising a code base complexity using a 3d force-directed graph of files and the dependencies between them",
+    "type" : ["visualization", "analysis", "code", "graphics"],
+    "id" : "0"
+  },
+	{
+    "name" : "Calculating Empires",
+    "url" : {
+			"website" : "https://calculatingempires.net/",
+    },
+    "description" : "A Genealogy of Technology and Power Since 1500",
+    "type" : ["visualization", "analysis", "graphics"],
+    "id" : "0"
+  },
+	{
+    "name" : "Tegon",
+    "url" : {
+			"website" : "https://www.tegon.ai/",
+			"github" : "https://github.com/tegonhq/tegon",
+    },
+    "description" : "The AI-first Issue Tracking Tool",
+    "type" : ["windows", "macos", "linux", "manager", "to-do", "tracker", "ai"],
+    "id" : "0"
+  },
+	{
+    "name" : "mtab",
+    "url" : {
+			"github" : "https://github.com/maxhu08/mtab",
+    },
+    "description" : "simple new tab page extension for chromium based browsers and firefox",
+    "type" : ["browser", "design", "visual"],
+    "id" : "0"
+  },
+	{
+    "name" : "typing.works",
+    "url" : {
+			"website" : "https://typing.works/",
+    },
+    "description" : "Analyzes the speed of your typing on the keyboard",
+    "type" : ["analysis", "speed"],
+    "id" : "0"
+  },
+	{
+    "name" : "Bokeh",
+    "url" : {
+			"website" : "https://bokeh.org/",
+			"github" : "https://github.com/bokeh/bokeh",
+    },
+    "description" : "Interactive Data Visualization in the browser, from Python",
+    "type" : ["visual", "visualization", "graphics", "design", "diagram"],
+    "id" : "0"
+  },
 ];
 
 
