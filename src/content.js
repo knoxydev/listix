@@ -3033,6 +3033,35 @@ const base = [
     "type" : ["visual", "visualization", "graphics", "design", "diagram"],
     "id" : "0"
   },
+	{
+    "name" : "NetAlertX",
+    "url" : {
+      "github" : "https://github.com/jokob-sk/NetAlertX",
+    },
+    "description" : "WIFI / LAN intruder detector. Scans for devices connected to your network and alerts you if new and unknown devices are found",
+    "type" : ["network", "analysis", "search"],
+    "id" : "0",
+	},
+	{
+    "name" : "Zen Browser",
+    "url" : {
+      "website" : "https://www.zen-browser.app/",
+      "github" : "https://github.com/zen-browser",
+    },
+    "description" : "Beautifully designed, privacy-focused, and packed with features. We care about your experience, not your data",
+    "type" : ["browser", "windows", "macos", "linux"],
+    "id" : "0",
+	},
+	{
+    "name" : "Stipple Effect",
+    "url" : {
+      "website" : "https://flinkerflitzer.itch.io/stipple-effect",
+      "github" : "https://github.com/jbunke/stipple-effect",
+    },
+    "description" : "Stipple Effect is a pixel art editor that supports animation and scripting",
+    "type" : ["windows", "macos", "linux", "painting", "editor", "design", "graphics"],
+    "id" : "0",
+	},
 ];
 
 
