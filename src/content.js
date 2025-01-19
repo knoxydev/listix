@@ -3062,6 +3062,56 @@ const base = [
     "type" : ["windows", "macos", "linux", "painting", "editor", "design", "graphics"],
     "id" : "0",
 	},
+	{
+    "name" : "DevDocs",
+    "url" : {
+      "website" : "https://devdocs.io/",
+      "github" : "https://github.com/freeCodeCamp/devdocs",
+    },
+    "description" : "Combines multiple API documentations in a fast, organized, and searchable interface",
+    "type" : ["documentation", "programming", "study", "tutorial"],
+    "id" : "0",
+	},
+	{
+    "name" : "Gallery",
+    "url" : {
+      "github" : "https://github.com/IacobIonut01/Gallery",
+			"google-play" : "https://play.google.com/store/apps/details?id=com.dot.gallery.gplay",
+      "f-droid" : "https://f-droid.org/packages/com.dot.gallery",
+    },
+    "description" : "Light-weight Media Gallery app for Android made with Jetpack Compose",
+    "type" : ["android"],
+    "id" : "0",
+	},
+	{
+    "name" : "City Roads",
+    "url" : {
+			"website" : "https://anvaka.github.io/city-roads/",
+      "github" : "https://github.com/anvaka/city-roads",
+    },
+    "description" : "Light-weight Media Gallery app for Android made with Jetpack Compose",
+    "type" : ["android"],
+    "id" : "0",
+	},
+	{
+    "name" : "OnChain Industries",
+    "url" : {
+			"website" : "https://www.onchain.industries/",
+    },
+    "description" : "OSINT tool for researching cryptocurrencies and Web3",
+    "type" : ["osint", "analysis", "cryptocurrency", "monitoring", "search"],
+    "id" : "0",
+	},
+	{
+    "name" : "Postiz",
+    "url" : {
+			"website" : "https://postiz.com/",
+			"github" : "https://github.com/gitroomhq/postiz-app",
+    },
+    "description" : "The ultimate social media scheduling tool, with a bunch of AI",
+    "type" : ["social", "time", "tracker", "monitoring", "manager", "ai"],
+    "id" : "0",
+	},
 ];
 
 
