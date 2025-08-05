@@ -3112,6 +3112,124 @@ const base = [
     "type" : ["social", "time", "tracker", "monitoring", "manager", "ai"],
     "id" : "0",
 	},
+	{
+    "name" : "Maybe Finance",
+    "url" : {
+			"website" : "https://maybefinance.com/",
+			"github" : "https://github.com/maybe-finance/maybe",
+    },
+    "description" : "The OS for your personal finances",
+    "type" : ["social", "tracker", "monitoring", "manager", "money"],
+    "id" : "0",
+	},
+	{
+    "name" : "superfile",
+    "url" : {
+			"website" : "https://superfile.netlify.app/",
+			"github" : "https://github.com/yorukot/superfile",
+    },
+    "description" : "Perfect Terminal-based file manager",
+    "type" : ["file", "monitoring", "manager"],
+    "id" : "0",
+	},
+  {
+    "name" : "FilePhish",
+    "url" : {
+			"website" : "https://neonpangolin.github.io/FilePhish/",
+    },
+    "description" : "A simple OSINT Google query builder for fast and easy document and file discovery",
+    "type" : ["file", "osint", "search", "analysis"],
+    "id" : "0",
+	},
+  {
+    "name" : "Mathcha.io",
+    "url" : {
+			"website" : "https://www.mathcha.io/",
+    },
+    "description" : "Online Mathematics Editor a fast way to write and share mathematics",
+    "type" : ["editor", "math", "notes"],
+    "id" : "0",
+	},
+	{
+    "name" : "x86-64 Playground",
+    "url" : {
+			"website" : "https://x64.halb.it/",
+			"github" : "https://github.com/robalb/x86-64-playground",
+    },
+    "description" : "An online assembly editor and GDB-like debugger",
+    "type" : ["code", "programming"],
+    "id" : "0",
+	},
+	{
+    "name" : "Mox",
+    "url" : {
+			"website" : "https://www.xmox.nl/",
+			"github" : "https://github.com/mjl-/mox",
+    },
+    "description" : "Modern, secure, all-in-one email server",
+    "type" : ["social"],
+    "id" : "0",
+	},
+  {
+    "name" : "Lunch Money",
+    "url" : {
+			"website" : "https://lunchmoney.app/",
+			"product-hunt" : "https://www.producthunt.com/products/lunch-money",
+    },
+    "description" : "Delightfully simple personal finance & budgeting",
+    "type" : ["money", "management", "monitoring", "analysis"],
+    "id" : "0",
+	},
+  {
+    "name" : "Memos",
+    "url" : {
+			"website" : "https://www.usememos.com/",
+			"github" : "https://github.com/usememos/memos",
+    },
+    "description" : "Open Source, Self-hosted, Your Notes, Your Way",
+    "type" : ["notes", "social"],
+    "id" : "0",
+	},
+  {
+    "name" : "Fusion",
+    "url" : {
+			"github" : "https://github.com/0x2E/fusion?tab=readme-ov-file",
+    },
+    "description" : "A lightweight, self-hosted friendly RSS reader",
+    "type" : ["rss", "social", "windows", "linux"],
+    "id" : "0",
+	},
+  {
+    "name" : "Kan",
+    "url" : {
+      "website" : "https://kan.bn/",
+			"github" : "https://github.com/kanbn/kan",
+    },
+    "description" : "The open source Trello alternative",
+    "type" : ["notes", "manager", "database"],
+    "id" : "0",
+	}
+	{
+    "name" : "novelWriter",
+    "url" : {
+      "website" : "https://novelwriter.io/",
+			"github" : "https://github.com/vkbo/novelWriter",
+    },
+    "description" : "The open source plain text editor designed for writing novels",
+    "type" : ["notes", "markdown", "text-editor", "editor", "windows", "macos", "linux"],
+    "id" : "0",
+	},
+	{
+    "name" : "Tablecruncher",
+    "url" : {
+      "website" : "https://tablecruncher.com/",
+			"github" : "https://github.com/Tablecruncher/tablecruncher",
+    },
+    "description" : "A lightweight, powerful CSV editor for macOS, Windows and Linux - with built-in JavaScript macros",
+    "type" : ["editor", "reader", "windows", "macos", "linux"],
+    "id" : "0",
+	}
+	
 ];
 
 
